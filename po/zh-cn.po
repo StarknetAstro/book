@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Building Autonomous Worlds with Dojo\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-09-15 14:40+0900\n"
+"PO-Revision-Date: 2023-09-15 22:53+0800\n"
 "Last-Translator: y-bi <cryptonerdcn@gmail.com>\n"
 "Language-Team: Language zh-cn\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 msgid "Foreword"
 msgstr "前言"
 
-#: src/SUMMARY.md:4
+#: src/SUMMARY.md:4 src/theory/what-is-dojo.md:1
 msgid "What is Dojo?"
 msgstr "## Dojo 是什么？"
 
@@ -28,15 +28,15 @@ msgstr "AW 理论"
 msgid "Cairo Ecosystem"
 msgstr "Cairo生态系统"
 
-#: src/SUMMARY.md:7
+#: src/SUMMARY.md:7 src/theory/faqs.md:1
 msgid "FAQs"
 msgstr "常见问题"
 
-#: src/SUMMARY.md:9
+#: src/SUMMARY.md:9 src/client/npm/core.md:10 src/misc/contributors.md:12
 msgid "Getting Started"
 msgstr "入门"
 
-#: src/SUMMARY.md:11
+#: src/SUMMARY.md:11 src/getting-started/quick-start.md:1
 msgid "Quick Start"
 msgstr "快速入门"
 
@@ -44,7 +44,7 @@ msgstr "快速入门"
 msgid "Manual Install"
 msgstr "手动安装"
 
-#: src/SUMMARY.md:13
+#: src/SUMMARY.md:13 src/getting-started/setup.md:1
 msgid "Development Setup"
 msgstr "开发设置"
 
@@ -56,7 +56,7 @@ msgstr "贡献"
 msgid "Community"
 msgstr "社区"
 
-#: src/SUMMARY.md:18
+#: src/SUMMARY.md:18 src/community/get-started.md:1
 msgid "Get Started"
 msgstr "开始使用"
 
@@ -64,11 +64,11 @@ msgstr "开始使用"
 msgid "Architecture"
 msgstr "结构"
 
-#: src/SUMMARY.md:22
+#: src/SUMMARY.md:22 src/cairo/hello-dojo.md:1
 msgid "Hello Dojo"
 msgstr "Hello Dojo"
 
-#: src/SUMMARY.md:23
+#: src/SUMMARY.md:23 src/cairo/config.md:1
 msgid "Config"
 msgstr "配置"
 
@@ -76,39 +76,39 @@ msgstr "配置"
 msgid "World"
 msgstr "世界"
 
-#: src/SUMMARY.md:25
+#: src/SUMMARY.md:25 src/cairo/components.md:1
 msgid "Components"
 msgstr "组件"
 
-#: src/SUMMARY.md:26
+#: src/SUMMARY.md:26 src/cairo/systems.md:1
 msgid "Systems"
 msgstr "系统"
 
-#: src/SUMMARY.md:27
+#: src/SUMMARY.md:27 src/cairo/entities.md:1
 msgid "Entities"
 msgstr "实体"
 
-#: src/SUMMARY.md:28
+#: src/SUMMARY.md:28 src/cairo/authorization.md:1
 msgid "Authorization"
 msgstr "授权"
 
-#: src/SUMMARY.md:29
+#: src/SUMMARY.md:29 src/cairo/commands.md:1
 msgid "Commands"
 msgstr "命令"
 
-#: src/SUMMARY.md:30
+#: src/SUMMARY.md:30 src/cairo/events.md:1
 msgid "Events"
 msgstr "活动"
 
-#: src/SUMMARY.md:31
+#: src/SUMMARY.md:31 src/cairo/testing.md:1
 msgid "Testing"
 msgstr "测试"
 
-#: src/SUMMARY.md:32
+#: src/SUMMARY.md:32 src/cairo/modules.md:1
 msgid "Dojo Modules"
 msgstr "Dojo的模块"
 
-#: src/SUMMARY.md:33
+#: src/SUMMARY.md:33 src/cairo/modules/erc20.md:1
 msgid "ERC20"
 msgstr "ERC20"
 
@@ -128,7 +128,7 @@ msgstr "DeFi"
 msgid "Client SDKs"
 msgstr "客户端 SDK"
 
-#: src/SUMMARY.md:40
+#: src/SUMMARY.md:40 src/client/overview.md:1
 msgid "Overview"
 msgstr "概述"
 
@@ -148,7 +148,7 @@ msgstr "工具链"
 msgid "Dojoup"
 msgstr "Dojoup"
 
-#: src/SUMMARY.md:47
+#: src/SUMMARY.md:47 src/toolchain/sozo/overview.md:1
 msgid "Sozo"
 msgstr "Sozo"
 
@@ -196,7 +196,7 @@ msgstr "活动"
 msgid "auth"
 msgstr "认证"
 
-#: src/SUMMARY.md:59
+#: src/SUMMARY.md:59 src/toolchain/katana/overview.md:1
 msgid "Katana"
 msgstr "Katana"
 
@@ -224,7 +224,7 @@ msgstr "教程"
 msgid "Onchain Chess"
 msgstr "链上国际象棋"
 
-#: src/SUMMARY.md:72
+#: src/SUMMARY.md:72 src/tutorial/onchain-chess/0-setup.md:1
 msgid "0. Setup"
 msgstr "0.设置"
 
@@ -236,7 +236,7 @@ msgstr "1.启动"
 msgid "2. Move"
 msgstr "2.移动"
 
-#: src/SUMMARY.md:75
+#: src/SUMMARY.md:75 src/tutorial/onchain-chess/3-legal.md:1
 msgid "3. Check Legal Move"
 msgstr "3.检查合法移动"
 
@@ -249,12 +249,13 @@ msgid "Contributors"
 msgstr "贡献者"
 
 #: src/index.md:1
-msgid "Dojo"
-msgstr "Dojo"
+msgid "![Dojo](images/dojo-mark-full-dark.svg)"
+msgstr ""
 
 #: src/index.md:3
+#, fuzzy
 msgid ""
-"> Dojo is an open-source project, currently in its early development phase, "
+"Dojo is an open-source project, currently in its early development phase, "
 "and warmly welcomes contributors. For additional resources, join the "
 "community on [Discord](https://discord.gg/vUN4Xq9Qv6) and check out the "
 "[contribution guide](./misc/contributors.md)."
@@ -263,7 +264,8 @@ msgstr ""
 "源，请在 [Github](https://github.com/dojoengine/book) 上查找。"
 
 #: src/index.md:7
-msgid "## Dojo: The Provable Game Engine"
+#, fuzzy
+msgid "Dojo: The Provable Game Engine"
 msgstr "## Dojo：可证明游戏引擎"
 
 #: src/index.md:9
@@ -288,17 +290,23 @@ msgstr ""
 "theory/autonomous-worlds.md)专节阐明了自主世界和 可证明游戏这一新兴概念。"
 
 #: src/index.md:13
-msgid ""
-"- [Quickstart](./getting-started/quick-start.md)\n"
-"- [What is Dojo? ](./theory/what-is-dojo.md)\n"
-"- [Explore the Architecture](./cairo/hello-dojo.md)"
+#, fuzzy
+msgid "[Quickstart](./getting-started/quick-start.md)"
 msgstr ""
-"- [快速入门](./getting-started/quick-start.md)\n"
-"- [什么是 Dojo？](./theory/what-is-dojo.md)\n"
-"- [探索架构](./cairo/hello-dojo.md)"
+"`katana`二进制文件可通过 [`dojoup`]（../../getting-started/installation."
+"md#using-dojoup）获取。"
+
+#: src/index.md:14
+msgid "[What is Dojo? ](./theory/what-is-dojo.md)"
+msgstr ""
+
+#: src/index.md:15
+msgid "[Explore the Architecture](./cairo/hello-dojo.md)"
+msgstr ""
 
 #: src/index.md:18
-msgid "### Explainer"
+#, fuzzy
+msgid "Explainer"
 msgstr "### 解释器"
 
 #: src/index.md:20
@@ -311,28 +319,9 @@ msgstr ""
 "tarrenceva) 在 2023 年[Autonomous Anonymous Summit](https://twitter.com/"
 "pet3rpan_/status/1666764726427353091) 上解释 Dojo 如何工作的视频："
 
-#: src/index.md:22
-msgid ""
-"<video controls poster=\"https://"
-"gf326cjag4w6pdpc42qp22enfhxsywmq6sgs7mkxbn6el7aioyxa.arweave.net/"
-"MXevCSA3LeeN4uag_WiNKe8sWZD0jS-xVwt8RfwIdi4\">\n"
-"  <source src=\"https://sfx25btazqz62pajxecorlp4exskwgokakub44rxmpnsosep5iqa."
-"arweave.net/kW-uhmDMM-08CbkE6K38JeSrGcoCqB5yN2PbJ0iP6iA\" type=\"video/"
-"mp4\">\n"
-"  Your browser does not support the video tag.\n"
-"</video>"
-msgstr ""
-"<video controls poster=\"https://"
-"gf326cjag4w6pdpc42qp22enfhxsywmq6sgs7mkxbn6el7aioyxa.arweave.net/"
-"MXevCSA3LeeN4uag_WiNKe8sWZD0jS-xVwt8RfwIdi4\">\n"
-"  <source src=\"https://sfx25btazqz62pajxecorlp4exskwgokakub44rxmpnsosep5iqa."
-"arweave.net/kW-uhmDMM-08CbkE6K38JeSrGcoCqB5yN2PbJ0iP6iA\" type=\"video/"
-"mp4\">\n"
-"  您的浏览器不支持视频标记。\n"
-"</video>"
-
 #: src/index.md:30
-msgid "### Organizational Structure"
+#, fuzzy
+msgid "Organizational Structure"
 msgstr "### 组织结构"
 
 #: src/index.md:31
@@ -349,7 +338,8 @@ msgstr ""
 "(https://github.com/orgs/dojoengine/people)牵头。"
 
 #: src/index.md:33
-msgid "### How do I get involved?"
+#, fuzzy
+msgid "How do I get involved?"
 msgstr "### 我该如何参与？"
 
 #: src/index.md:35
@@ -361,10 +351,6 @@ msgstr ""
 "查看我们的 [Github](https://github.com/dojoengine)、[Twitter](https://"
 "twitter.com/dojostarknet)、[Discord](https://discord.gg/vUN4Xq9Qv6) 和 [贡献"
 "指南](https://book.dojoengine.org/misc/contributors.html!)"
-
-#: src/theory/what-is-dojo.md:1
-msgid "# What is Dojo?"
-msgstr "# Dojo 是什么？"
 
 #: src/theory/what-is-dojo.md:3
 msgid ""
@@ -391,7 +377,8 @@ msgstr ""
 "Dojo 立志成为构建可证明游戏的首选工具。它完全开源，欢迎所有形式的贡献。"
 
 #: src/theory/what-is-dojo.md:9
-msgid "## Stop building infrastructure; start building games"
+#, fuzzy
+msgid "Stop building infrastructure; start building games"
 msgstr "## 停止做基础设施，开始做游戏"
 
 #: src/theory/what-is-dojo.md:11
@@ -401,7 +388,8 @@ msgid ""
 msgstr "Dojo 的工具套件消除了构建链上游戏的基础设施复杂性。它包括："
 
 #: src/theory/what-is-dojo.md:13
-msgid "### Entity Component System (ECS)"
+#, fuzzy
+msgid "Entity Component System (ECS)"
 msgstr "### 实体组件系统（ECS）"
 
 #: src/theory/what-is-dojo.md:15
@@ -434,7 +422,8 @@ msgid "Read detailed information about the [Dojo ECS](../cairo/overview.md)."
 msgstr "阅读有关 [Dojo ECS](../cairo/overview.md) 的详细信息。"
 
 #: src/theory/what-is-dojo.md:21
-msgid "### [Torii](/crates/torii/README.md) - Starknet Indexer"
+#, fuzzy
+msgid "[Torii](/crates/torii/README.md) - Starknet Indexer"
 msgstr "### [Torii](/crates/torii/README.md) - Starknet索引器"
 
 #: src/theory/what-is-dojo.md:23
@@ -462,8 +451,8 @@ msgstr ""
 "需要，而手动创建索引器可能是一个乏味且容易出错的过程。"
 
 #: src/theory/what-is-dojo.md:27
-msgid ""
-"### [Katana](/crates/katana/README.md) - Blazingly fast development network"
+#, fuzzy
+msgid "[Katana](/crates/katana/README.md) - Blazingly fast development network"
 msgstr "### [Katana](/crates/katana/README.md) - 如闪电般快速的开发网"
 
 #: src/theory/what-is-dojo.md:29
@@ -474,7 +463,8 @@ msgstr ""
 "Katana 是一个可定制的 StarkNet 开发网。它速度极快，可让您迅速迭代游戏逻辑。"
 
 #: src/theory/what-is-dojo.md:31
-msgid "### [Sozo CLI](/crates/sozo/README.md) - CLI Management Tool"
+#, fuzzy
+msgid "[Sozo CLI](/crates/sozo/README.md) - CLI Management Tool"
 msgstr "### [Sozo CLI](/crates/sozo/README.md) - CLI 管理工具"
 
 #: src/theory/what-is-dojo.md:33
@@ -489,20 +479,23 @@ msgstr ""
 "新的组件和系统，并将它们注册到您的世界中。"
 
 #: src/theory/what-is-dojo.md:35
-msgid "### What Dojo doesn't give you"
+#, fuzzy
+msgid "What Dojo doesn't give you"
 msgstr "### Dojo 不提供的东西"
 
 #: src/theory/what-is-dojo.md:37
+#, fuzzy
 msgid ""
-"1. Visual graphics - While Dojo provides networking and contracts, it "
-"doesn't offer graphical engines. You can bring your graphics of choice! "
-"Integrate your Dojo world with Unreal, Godot, or Unity."
+"Visual graphics - While Dojo provides networking and contracts, it doesn't "
+"offer graphical engines. You can bring your graphics of choice! Integrate "
+"your Dojo world with Unreal, Godot, or Unity."
 msgstr ""
 "1. 可视化图形 - Dojo 提供网络访问和合约，但不提供图形引擎。您可以自行选择图形"
 "引擎！将您的 Dojo 世界与虚幻、Godot 或 Unity 整合。"
 
 #: src/theory/what-is-dojo.md:39
-msgid "## Understanding the Dojo Workflow: A Visual Guide"
+#, fuzzy
+msgid "Understanding the Dojo Workflow: A Visual Guide"
 msgstr "## 理解 Dojo的工作流程：一份可视化指南"
 
 #: src/theory/what-is-dojo.md:41
@@ -524,18 +517,19 @@ msgstr ""
 "戏的过程。"
 
 #: src/theory/what-is-dojo.md:45
-msgid "Dojo Sozo Workflow"
-msgstr "Dojo Sozo 工作流程"
+msgid "![Dojo Sozo Workflow](../images/dojo-sozo-workflow.jpg)"
+msgstr ""
 
 #: src/theory/autonomous-worlds.md:1
-msgid "## Autonomous Worlds"
+#, fuzzy
+msgid "Autonomous Worlds"
 msgstr "## 自主世界"
 
 #: src/theory/autonomous-worlds.md:3
+#, fuzzy
 msgid ""
-"> \"Autonomous worlds represent persistent, permissionless, and "
-"decentralized open environments that users can freely interact with and "
-"contribute to.\""
+"\"Autonomous worlds represent persistent, permissionless, and decentralized "
+"open environments that users can freely interact with and contribute to.\""
 msgstr ""
 "> \"自主世界代表着持久、无许可和分散的开放环境，用户可以自由地与之互动并做出"
 "贡献\"。"
@@ -572,16 +566,27 @@ msgstr ""
 "义，但我们认为游戏必须至少具备以下两个基本特征才能被视为自主世界："
 
 #: src/theory/autonomous-worlds.md:9
+#, fuzzy
 msgid ""
-"1. Decentralized data availability layer: While the state execution may "
-"reside on a centralized layer, it is crucial that the state can be "
-"reconstructed if the execution layer ceases to exist. Rollups offer a "
-"solution, providing increased capacity execution layers while ensuring data "
-"is permanently settled on Ethereum. This guarantees the world's perpetual "
-"persistence.\n"
+"Decentralized data availability layer: While the state execution may reside "
+"on a centralized layer, it is crucial that the state can be reconstructed if "
+"the execution layer ceases to exist. Rollups offer a solution, providing "
+"increased capacity execution layers while ensuring data is permanently "
+"settled on Ethereum. This guarantees the world's perpetual persistence."
+msgstr ""
+"1. 分散数据可用层：虽然状态执行可能位于中心化层，但如果执行层不复存在，状态能"
+"否重建至关重要。卷积提供了一种解决方案，在确保数据永久沉淀在以太坊上的同时，"
+"提供了容量更大的执行层。这保证了世界的永久持久性。\n"
 "\n"
-"2. Permissionless entry point for expanding the world: The World contract "
-"must be capable of accepting new systems and components without requiring "
+"2. 用于扩展世界的无需权限入口：世界合约必须能够接受新的系统和组件，而无需获得"
+"许可。虽然这并不意味着每个组件和系统都会被利用，但它们必须遵守这一模式，确保"
+"开放和不受限制地访问潜在的增强功能。"
+
+#: src/theory/autonomous-worlds.md:11
+#, fuzzy
+msgid ""
+"Permissionless entry point for expanding the world: The World contract must "
+"be capable of accepting new systems and components without requiring "
 "permission. While this doesn't imply that every component and system will be "
 "utilized, they must adhere to this pattern, ensuring open and unrestricted "
 "access for potential enhancements."
@@ -609,45 +614,59 @@ msgstr ""
 "疑。"
 
 #: src/theory/autonomous-worlds.md:15
-msgid "### Homework"
+#, fuzzy
+msgid "Homework"
 msgstr "### 作业"
 
 #: src/theory/autonomous-worlds.md:16
 msgid ""
-"- [Wired - Autonomous Worlds Primer](https://www.wired.com/story/autonomous-"
-"worlds-aim-to-free-online-games-from-corporate-control/)\n"
-"- [0xParc - Autonomous Worlds (Part 1)](https://0xparc.org/blog/autonomous-"
-"worlds)\n"
-"- [Gubsheep - The Strongest Crypto Gaming Thesis](https://gubsheep.substack."
-"com/p/the-strongest-crypto-gaming-thesis)\n"
-"- [Lattice - MUD: An engine for Autonomous Worlds](https://lattice.xyz/blog/"
-"mud-an-engine-for-autonomous-worlds)\n"
-"- [Guiltygyoza - Game 2.0](https://www.guiltygyoza.xyz/2022/07/game2)\n"
-"- [Guiltygyoza - Composable Engineering](https://www.guiltygyoza.xyz/2023/05/"
-"composable-engineering)\n"
-"- [Jay Springett - Wind-up Worlds](https://www.thejaymo.net/2022/05/06/wind-"
-"up-worlds/)\n"
-"- [Are.na collection on Autonomous Worlds](https://www.are.na/sylve-chevet/"
-"on-chain-realities-and-autonomous-worlds)"
+"[Wired - Autonomous Worlds Primer](https://www.wired.com/story/autonomous-"
+"worlds-aim-to-free-online-games-from-corporate-control/)"
 msgstr ""
-"- [Wired - 自主世界入门](https://www.wired.com/story/autonomous-worlds-aim-"
-"to-free-online-games-from-corporate-control/)\n"
-"- [0xParc - 自主世界（第一部分）](https://0xparc.org/blog/autonomous-"
-"worlds)\n"
-"- [Gubsheep - 最强大的加密游戏论文](https://gubsheep.substack.com/p/the-"
-"strongest-crypto-gaming-thesis)\n"
-"- [Lattice - MUD：自主世界的引擎](https://lattice.xyz/blog/mud-an-engine-for-"
-"autonomous-worlds)\n"
-"- [Guiltygyoza - 游戏 2.0](https://www.guiltygyoza.xyz/2022/07/game2)\n"
-"- [Guiltygyoza - 可组合工程](https://www.guiltygyoza.xyz/2023/05/composable-"
-"engineering)\n"
-"- [Jay Springett - 发条世界](https://www.thejaymo.net/2022/05/06/wind-up-"
-"worlds/)\n"
-"- [Are.na 自主世界文集](https://www.are.na/sylve-chevet/on-chain-realities-"
-"and-autonomous-worlds)"
+
+#: src/theory/autonomous-worlds.md:17
+msgid ""
+"[0xParc - Autonomous Worlds (Part 1)](https://0xparc.org/blog/autonomous-"
+"worlds)"
+msgstr ""
+
+#: src/theory/autonomous-worlds.md:18
+msgid ""
+"[Gubsheep - The Strongest Crypto Gaming Thesis](https://gubsheep.substack."
+"com/p/the-strongest-crypto-gaming-thesis)"
+msgstr ""
+
+#: src/theory/autonomous-worlds.md:19
+msgid ""
+"[Lattice - MUD: An engine for Autonomous Worlds](https://lattice.xyz/blog/"
+"mud-an-engine-for-autonomous-worlds)"
+msgstr ""
+
+#: src/theory/autonomous-worlds.md:20
+msgid "[Guiltygyoza - Game 2.0](https://www.guiltygyoza.xyz/2022/07/game2)"
+msgstr ""
+
+#: src/theory/autonomous-worlds.md:21
+msgid ""
+"[Guiltygyoza - Composable Engineering](https://www.guiltygyoza.xyz/2023/05/"
+"composable-engineering)"
+msgstr ""
+
+#: src/theory/autonomous-worlds.md:22
+msgid ""
+"[Jay Springett - Wind-up Worlds](https://www.thejaymo.net/2022/05/06/wind-up-"
+"worlds/)"
+msgstr ""
+
+#: src/theory/autonomous-worlds.md:23
+msgid ""
+"[Are.na collection on Autonomous Worlds](https://www.are.na/sylve-chevet/on-"
+"chain-realities-and-autonomous-worlds)"
+msgstr ""
 
 #: src/theory/cairo.md:1
-msgid "# Provable games"
+#, fuzzy
+msgid "Provable games"
 msgstr "# 可证明的游戏"
 
 #: src/theory/cairo.md:3
@@ -692,8 +711,9 @@ msgstr ""
 "有关Starknet、Cairo及其技术栈的更多信息，请查阅 [Starknet & Cairo book]"
 "(https://book.starknet.io/)。"
 
-#: src/theory/cairo.md:11
-msgid "## Cairo"
+#: src/theory/cairo.md:11 src/getting-started/setup.md:8
+#, fuzzy
+msgid "Cairo"
 msgstr "## Cairo"
 
 #: src/theory/cairo.md:13
@@ -738,21 +758,26 @@ msgstr ""
 "开发人员可以在系统中自由编写命令，而 Cairo 编译器则负责内嵌相应的函数。 "
 
 #: src/theory/cairo.md:21
-msgid "#### Essential Reading"
+#, fuzzy
+msgid "Essential Reading"
 msgstr "#### 必读"
 
 #: src/theory/cairo.md:22
-msgid ""
-"- [Cairo book](https://cairo-book.github.io/)\n"
-"- [Awesome Cairo](https://github.com/auditless/awesome-cairo)\n"
-"- [Starknet Book](https://book.starknet.io/)"
+msgid "[Cairo book](https://cairo-book.github.io/)"
 msgstr ""
-"- [Cairo book](https://cairo-book.github.io/)\n"
-"- [Awesome Cairo](https://github.com/auditless/awesome-cairo)\n"
-"- [Starknet Book](https://book.starknet.io/)"
+
+#: src/theory/cairo.md:23
+#, fuzzy
+msgid "[Awesome Cairo](https://github.com/auditless/awesome-cairo)"
+msgstr "[Reopsitory](https://github.com/dojoengine/create-burner)"
+
+#: src/theory/cairo.md:24
+msgid "[Starknet Book](https://book.starknet.io/)"
+msgstr ""
 
 #: src/theory/cairo.md:26
-msgid "### Starknet as an L2"
+#, fuzzy
+msgid "Starknet as an L2"
 msgstr "### 作为 L2的Starknet"
 
 #: src/theory/cairo.md:28
@@ -785,7 +810,8 @@ msgstr ""
 "一。"
 
 #: src/theory/cairo.md:32
-msgid "### Starknet as an Appchain"
+#, fuzzy
+msgid "Starknet as an Appchain"
 msgstr "### 作为应用程序链的Starknet"
 
 #: src/theory/cairo.md:34
@@ -803,12 +829,9 @@ msgstr ""
 "(https://github.com/keep-starknet-strange/madara) 团队紧密合作，使 Starknet "
 "应用程序链能够无缝运行 Dojo 世界。"
 
-#: src/theory/faqs.md:1
-msgid "# FAQs"
-msgstr "# 常见问题"
-
 #: src/theory/faqs.md:3
-msgid "#### Who owns Dojo?"
+#, fuzzy
+msgid "Who owns Dojo?"
 msgstr "#### Dojo 的所有者是谁？"
 
 #: src/theory/faqs.md:5
@@ -820,7 +843,8 @@ msgstr ""
 "何人都可以为项目做出贡献。"
 
 #: src/theory/faqs.md:7
-msgid "#### Why Dojo?"
+#, fuzzy
+msgid "Why Dojo?"
 msgstr "#### 为何选择Dojo？"
 
 #: src/theory/faqs.md:9
@@ -833,7 +857,8 @@ msgstr ""
 "程，并提供了一整套工具，使其变得更加容易。"
 
 #: src/theory/faqs.md:11
-msgid "#### What is the Dojo roadmap?"
+#, fuzzy
+msgid "What is the Dojo roadmap?"
 msgstr "#### Dojo 路线图是怎样的？"
 
 #: src/theory/faqs.md:13
@@ -848,7 +873,8 @@ msgstr ""
 "vUN4Xq9Qv6) 参与其中。如果您对项目有想法，请打开一个issue。"
 
 #: src/theory/faqs.md:15
-msgid "#### What is an onchain game?"
+#, fuzzy
+msgid "What is an onchain game?"
 msgstr "#### 什么是链上游戏？"
 
 #: src/theory/faqs.md:17
@@ -862,7 +888,8 @@ msgstr ""
 "（如网络浏览器）并不存在于链上，而是纯粹为了与链上状态进行交互和解释而存在。"
 
 #: src/theory/faqs.md:19
-msgid "#### What is an autonomous world?"
+#, fuzzy
+msgid "What is an autonomous world?"
 msgstr "#### 什么是自主世界？"
 
 #: src/theory/faqs.md:21
@@ -877,7 +904,8 @@ msgstr ""
 "autonomous-worlds.md)。"
 
 #: src/theory/faqs.md:23
-msgid "#### What is Cairo?"
+#, fuzzy
+msgid "What is Cairo?"
 msgstr "#### Cairo是什么？"
 
 #: src/theory/faqs.md:25
@@ -892,7 +920,8 @@ msgstr ""
 "(.../theory/cairo.md)。"
 
 #: src/theory/faqs.md:27
-msgid "#### What is a provable game?"
+#, fuzzy
+msgid "What is a provable game?"
 msgstr "#### 什么是可证明的游戏？"
 
 #: src/theory/faqs.md:29
@@ -922,21 +951,19 @@ msgstr ""
 "性。最后，可以向区块链提交 zk 证明，以确认游戏的公平性。这就构成了一个可证明"
 "的游戏。"
 
-#: src/getting-started/quick-start.md:1
-msgid "## Quick Start"
-msgstr "## 快速启动"
-
 #: src/getting-started/quick-start.md:3
+#, fuzzy
 msgid ""
-"> It is worth reading [theory](../theory/autonomous-worlds.md) to "
-"familiarize yourself with the concept of Autonomous Worlds (AWs) and the "
-"[Cairo ecosystem](../theory/cairo.md) before diving into the code."
+"It is worth reading [theory](../theory/autonomous-worlds.md) to familiarize "
+"yourself with the concept of Autonomous Worlds (AWs) and the [Cairo "
+"ecosystem](../theory/cairo.md) before diving into the code."
 msgstr ""
 "> 在深入研究代码之前，值得你阅读的一下 [理论](../theory/autonomous-worlds."
 "md) 来熟悉自主世界（AWs）的概念和[Cairo生态系统](../theory/cairo.md) 。"
 
 #: src/getting-started/quick-start.md:6
-msgid "### Install Dojoup"
+#, fuzzy
+msgid "Install Dojoup"
 msgstr "### 安装 Dojoup"
 
 #: src/getting-started/quick-start.md:8
@@ -961,8 +988,9 @@ msgstr ""
 "```"
 
 #: src/getting-started/quick-start.md:14
+#, fuzzy
 msgid ""
-"This will install Dojoup, then simply follow the instructions on-screen,\n"
+"This will install Dojoup, then simply follow the instructions on-screen, "
 "which will make the `dojoup` command available in your CLI."
 msgstr ""
 "这将安装 Dojoup，然后只需按照屏幕上的说明操作、\n"
@@ -986,53 +1014,61 @@ msgstr ""
 "有关 `dojoup` 的完整参考和调试，请参阅 [Dojoup](../toolchain/dojoup.md)。"
 
 #: src/getting-started/quick-start.md:23
-msgid "### Next steps"
+#, fuzzy
+msgid "Next steps"
 msgstr "### 下一步"
 
 #: src/getting-started/quick-start.md:25
+#, fuzzy
 msgid ""
-"> Head to [Hello Dojo](../cairo/hello-dojo.md) to get create your first Dojo "
+"Head to [Hello Dojo](../cairo/hello-dojo.md) to get create your first Dojo "
 "world."
 msgstr ""
 "> 前往  [Hello Dojo](../cairo/hello-dojo.md) ，创建你的第一个 Dojo 世界。"
 
 #: src/getting-started/from-source.md:1
-msgid "## Building from source"
+#, fuzzy
+msgid "Building from source"
 msgstr "## 从源码构建"
 
 #: src/getting-started/from-source.md:3
+#, fuzzy
 msgid ""
-"> If you are just wanting to play with the toolchain, we strongly suggest "
+"If you are just wanting to play with the toolchain, we strongly suggest "
 "following the [Quick Start](./quick-start.md) guide."
 msgstr ""
 "> 如果您只是想试试工具链，我们强烈建议您参考 [快速入门](./quick-start.md) 指"
 "南。"
 
-#: src/getting-started/from-source.md:5
-msgid "#### Prerequisites"
-msgstr "#### 先决条件"
+#: src/getting-started/from-source.md:5 src/getting-started/setup.md:5
+#, fuzzy
+msgid "Prerequisites"
+msgstr "## 先决条件"
 
 #: src/getting-started/from-source.md:7
+#, fuzzy
 msgid ""
 "You will need the [Rust](https://rust-lang.org) compiler and Cargo, the Rust "
-"package manager.\n"
-"The easiest way to install both is with [`rustup.rs`](https://rustup.rs/)."
+"package manager. The easiest way to install both is with [`rustup.rs`]"
+"(https://rustup.rs/)."
 msgstr ""
 "您需要 [Rust](https://rust-lang.org) 编译器和 Rust 软件包管理器 Cargo。\n"
 "安装这两种工具的最简单方法是使用 [`rustup.rs`](https://rustup.rs/)。"
 
 #: src/getting-started/from-source.md:10
+#, fuzzy
 msgid ""
 "On Windows, you will also need a recent version of [Visual Studio](https://"
-"visualstudio.microsoft.com/downloads/),\n"
-"installed with the \"Desktop Development With C++\" Workloads option."
+"visualstudio.microsoft.com/downloads/), installed with the \"Desktop "
+"Development With C++\" Workloads option."
 msgstr ""
 "在 Windows 系统中，您还需要已经安装了 \"使用 C++ 进行桌面开发 \"工作负载选项"
 "的、\n"
 "最新版本的 [Visual Studio](https://visualstudio.microsoft.com/downloads/)"
 
 #: src/getting-started/from-source.md:13
-msgid "#### Building"
+#, fuzzy
+msgid "Building"
 msgstr "#### 构建"
 
 #: src/getting-started/from-source.md:15
@@ -1101,38 +1137,29 @@ msgstr ""
 "cargo install --path ./crates/torii --force\n"
 "```"
 
-#: src/getting-started/setup.md:1
-msgid "# Development Setup"
-msgstr "# 开发设置"
-
 #: src/getting-started/setup.md:3
+#, fuzzy
 msgid ""
-"> This article is a guide to setting up a development environment for Dojo. "
-"It is not suggested to follow this guide if you are just wanting to play "
-"with the toolchain. We strongly suggest following the [Quick Start](../"
-"getting-started/quick-start.md) guide."
+"This article is a guide to setting up a development environment for Dojo. It "
+"is not suggested to follow this guide if you are just wanting to play with "
+"the toolchain. We strongly suggest following the [Quick Start](../getting-"
+"started/quick-start.md) guide."
 msgstr ""
 "> 本文是为 Dojo 设置开发环境的指南。如果您只是想试试工具链，则不建议遵循本指"
 "南。我们强烈建议您阅读 [快速入门]（.../getting-started/quick-start.md）指南。"
 
-#: src/getting-started/setup.md:5
-msgid "### Prerequisites"
-msgstr "### 先决条件"
-
 #: src/getting-started/setup.md:7
-msgid ""
-"- Rust\n"
-"- Cairo"
+msgid "Rust"
 msgstr ""
-"- Rust\n"
-"- Cairo"
 
 #: src/getting-started/setup.md:12
-msgid "## Guide"
+#, fuzzy
+msgid "Guide"
 msgstr "## 指引"
 
 #: src/getting-started/setup.md:14
-msgid "### Clone"
+#, fuzzy
+msgid "Clone"
 msgstr "### Clone"
 
 #: src/getting-started/setup.md:16
@@ -1146,11 +1173,13 @@ msgstr ""
 "```"
 
 #: src/getting-started/setup.md:20
-msgid "### Linux & Mac"
+#, fuzzy
+msgid "Linux & Mac"
 msgstr "### Linux & Mac"
 
 #: src/getting-started/setup.md:22
-msgid "#### 1. Install Rust and Dependencies"
+#, fuzzy
+msgid "1. Install Rust and Dependencies"
 msgstr "#### 1.安装 Rust 和依赖"
 
 #: src/getting-started/setup.md:24
@@ -1169,8 +1198,9 @@ msgstr ""
 "```"
 
 #: src/getting-started/setup.md:30
+#, fuzzy
 msgid ""
-"> Note: Depending on your Linux distribution, you may need to install "
+"Note: Depending on your Linux distribution, you may need to install "
 "additional dependencies. Make sure to install any suggested or missing "
 "dependencies that arise during the setup process."
 msgstr ""
@@ -1178,7 +1208,8 @@ msgstr ""
 "过程中出现的任何建议的或缺失的依赖项。"
 
 #: src/getting-started/setup.md:32
-msgid "#### 2. Install Scarb Package Manager"
+#, fuzzy
+msgid "2. Install Scarb Package Manager"
 msgstr "#### 2.安装 Scarb 软件包管理器"
 
 #: src/getting-started/setup.md:34
@@ -1202,7 +1233,8 @@ msgstr ""
 "```"
 
 #: src/getting-started/setup.md:40
-msgid "#### 3. Add the Cairo 1.0 VSCode Extension"
+#, fuzzy
+msgid "3. Add the Cairo 1.0 VSCode Extension"
 msgstr "#### 3.添加 Cairo 1.0 VSCode 扩展"
 
 #: src/getting-started/setup.md:42
@@ -1214,7 +1246,8 @@ msgstr ""
 "items?itemName=starkware.cairo1) 扩展。"
 
 #: src/getting-started/setup.md:45
-msgid "### Windows"
+#, fuzzy
+msgid "Windows"
 msgstr "### 窗口"
 
 #: src/getting-started/setup.md:47 src/getting-started/setup.md:51
@@ -1222,11 +1255,13 @@ msgid "_Coming soon_"
 msgstr "即将推出"
 
 #: src/getting-started/setup.md:49
-msgid "### Container"
+#, fuzzy
+msgid "Container"
 msgstr "### 容器"
 
 #: src/getting-started/contributing.md:1
-msgid "# Contributing to the Core"
+#, fuzzy
+msgid "Contributing to the Core"
 msgstr "# 为核心做出贡献"
 
 #: src/getting-started/contributing.md:3
@@ -1236,7 +1271,8 @@ msgid ""
 msgstr "> Dojo 是一个开源项目，目前处于早期开发阶段并热忱的欢迎贡献者们。"
 
 #: src/getting-started/contributing.md:5
-msgid "## How to Contribute"
+#, fuzzy
+msgid "How to Contribute"
 msgstr "## 如何贡献"
 
 #: src/getting-started/contributing.md:7
@@ -1250,17 +1286,11 @@ msgstr ""
 "issue，如果你看到一个未分配的issue，请在评论中申请将它分配给你。如果你有关于"
 "新功能的想法，请创建一个带有 `enhancement` 标签的issue。"
 
-#: src/community/get-started.md:1
-msgid "## Get Started"
-msgstr "## 开始"
-
 #: src/community/get-started.md:3
+#, fuzzy
 msgid ""
-"-   [Community Hub](https://dojoengine.notion.site/Dojo-Engine-Community-Hub-"
-"d316194b998941c48ddf771a4dd5ff08#bcd6a32db1b2406cb6c325f3b700d45a)\n"
-"-   [Discord](https://discord.gg/KG9w9BmDrV)\n"
-"-   [Twitter](https://twitter.com/dojostarknet)\n"
-"-   [Awesome Dojo](https://github.com/dojoengine/awesome-dojo)"
+"[Community Hub](https://dojoengine.notion.site/Dojo-Engine-Community-Hub-"
+"d316194b998941c48ddf771a4dd5ff08#bcd6a32db1b2406cb6c325f3b700d45a)"
 msgstr ""
 "-   [Community Hub](https://dojoengine.notion.site/Dojo-Engine-Community-Hub-"
 "d316194b998941c48ddf771a4dd5ff08#bcd6a32db1b2406cb6c325f3b700d45a)\n"
@@ -1268,21 +1298,33 @@ msgstr ""
 "-   [Twitter](https://twitter.com/dojostarknet)\n"
 "-   [Awesome Dojo](https://github.com/dojoengine/awesome-dojo)"
 
-#: src/cairo/hello-dojo.md:1
-msgid "# Hello Dojo"
-msgstr "# 你好，Dojo"
+#: src/community/get-started.md:4
+msgid "[Discord](https://discord.gg/KG9w9BmDrV)"
+msgstr ""
+
+#: src/community/get-started.md:5
+#, fuzzy
+msgid "[Twitter](https://twitter.com/dojostarknet)"
+msgstr "[Reopsitory](https://github.com/dojoengine/create-burner)"
+
+#: src/community/get-started.md:6
+#, fuzzy
+msgid "[Awesome Dojo](https://github.com/dojoengine/awesome-dojo)"
+msgstr "[Reopsitory](https://github.com/dojoengine/create-burner)"
 
 #: src/cairo/hello-dojo.md:3
+#, fuzzy
 msgid ""
-"> This section assumes that you have already installed the Dojo toolchain "
-"and are familiar with Cairo. If not, please refer to the [Getting Started]"
-"(../getting-started/quick-start.md) section."
+"This section assumes that you have already installed the Dojo toolchain and "
+"are familiar with Cairo. If not, please refer to the [Getting Started](../"
+"getting-started/quick-start.md) section."
 msgstr ""
 "> 本节假定您已安装 Dojo 工具链并熟悉 Cairo。如果没有，请参阅 [快速入门]（.../"
 "getting-started/quick-start.md）部分。"
 
 #: src/cairo/hello-dojo.md:5
-msgid "## Dojo in 15 Minutes"
+#, fuzzy
+msgid "Dojo in 15 Minutes"
 msgstr "## 十五分钟进dojo"
 
 #: src/cairo/hello-dojo.md:7
@@ -1334,7 +1376,8 @@ msgstr ""
 "starter` 项目。它是新项目的理想起点，为您提供了开始项目所需的一切。"
 
 #: src/cairo/hello-dojo.md:19
-msgid "#### Anatomy of a Dojo Project"
+#, fuzzy
+msgid "Anatomy of a Dojo Project"
 msgstr "#### Dojo项目剖析"
 
 #: src/cairo/hello-dojo.md:21
@@ -1416,9 +1459,10 @@ msgstr ""
 "```"
 
 #: src/cairo/hello-dojo.md:54
+#, fuzzy
 msgid ""
 "Notice the `#[derive(Component, Copy, Drop, Serde, SerdeLen)]` attributes. "
-"For a component to be recognized, we *must* include `Component`. This "
+"For a component to be recognized, we _must_ include `Component`. This "
 "signals to the Dojo compiler that this struct should be treated as a "
 "component."
 msgstr ""
@@ -1653,22 +1697,33 @@ msgid "We covered a lot here in a short time. Let's recap:"
 msgstr "在很短的时间内，我们在这里做了很多事情。让我们来回顾一下："
 
 #: src/cairo/hello-dojo.md:142
+#, fuzzy
+msgid "Explained the anatomy of a Dojo project"
+msgstr "#### Dojo项目剖析"
+
+#: src/cairo/hello-dojo.md:143
 msgid ""
-"-   Explained the anatomy of a Dojo project\n"
-"-   Explained the importace of the `#[derive(Component)]` and `#[system]` "
-"attribute\n"
-"-   Explained the `execute` function\n"
-"-   Explained the `Context` struct\n"
-"-   Touched on the `get!` and `set!` commands"
+"Explained the importace of the `#[derive(Component)]` and `#[system]` "
+"attribute"
 msgstr ""
-"-   解释了 Dojo 项目的解剖结构\n"
-"-   解释 `#[derive(Component)]`和 `#[system]`属性的含义\n"
-"-   解释了 `execute` 函数\n"
-"-   解释了 `Context` 结构\n"
-"-   介绍了 `get!` 和 `set!` 命令"
+
+#: src/cairo/hello-dojo.md:144
+#, fuzzy
+msgid "Explained the `execute` function"
+msgstr "#### 执行函数"
+
+#: src/cairo/hello-dojo.md:145
+msgid "Explained the `Context` struct"
+msgstr ""
+
+#: src/cairo/hello-dojo.md:146
+#, fuzzy
+msgid "Touched on the `get!` and `set!` commands"
+msgstr "> 注意：请阅读 [Commands](./commands.md) 中的 `get!` 和 `set!` 宏。"
 
 #: src/cairo/hello-dojo.md:149
-msgid "### Run it locally!"
+#, fuzzy
+msgid "Run it locally!"
 msgstr "#### 在本地运行！"
 
 #: src/cairo/hello-dojo.md:151
@@ -1872,7 +1927,8 @@ msgid ""
 msgstr "这样就激活了产卵系统。现在你有了一个可以互动的本地世界。"
 
 #: src/cairo/hello-dojo.md:221
-msgid "### Indexing"
+#, fuzzy
+msgid "Indexing"
 msgstr "### 索引"
 
 #: src/cairo/hello-dojo.md:223
@@ -1908,19 +1964,25 @@ msgid "We've covered quite a bit! Here's a recap:"
 msgstr "我们已经讲了很多！下面我们来回顾一下："
 
 #: src/cairo/hello-dojo.md:233
-msgid ""
-"-   Built a Dojo world\n"
-"-   Deployed the project to Katana\n"
-"-   Ran the spawn system locally\n"
-"-   Indexed the world with Torii"
+msgid "Built a Dojo world"
 msgstr ""
-"-   构建一个 Dojo 世界\n"
-"-   将项目部署到 Katana\n"
-"-   在本地运行生成系统\n"
-"-   用 Torii 索引世界"
+
+#: src/cairo/hello-dojo.md:234
+#, fuzzy
+msgid "Deployed the project to Katana"
+msgstr "要将项目部署到 Katana，请运行"
+
+#: src/cairo/hello-dojo.md:235
+msgid "Ran the spawn system locally"
+msgstr ""
+
+#: src/cairo/hello-dojo.md:236
+msgid "Indexed the world with Torii"
+msgstr ""
 
 #: src/cairo/hello-dojo.md:238
-msgid "### Next Steps"
+#, fuzzy
+msgid "Next Steps"
 msgstr "### 接下来的步骤"
 
 #: src/cairo/hello-dojo.md:240
@@ -1932,10 +1994,6 @@ msgid ""
 msgstr ""
 "本概述提供了对 Dojo 端到端的快速了解。然而，这些世界的潜力是巨大的！Dojo 设计"
 "用于管理数百个系统和组件，可发挥无限的创造力。那么，您下一步将制作什么呢？"
-
-#: src/cairo/config.md:1
-msgid "# Config"
-msgstr "# 配置"
 
 #: src/cairo/config.md:3
 msgid ""
@@ -2019,7 +2077,8 @@ msgstr ""
 "```"
 
 #: src/cairo/world.md:1
-msgid "## World Contract"
+#, fuzzy
+msgid "World Contract"
 msgstr "## 世界合约"
 
 #: src/cairo/world.md:3
@@ -2045,8 +2104,9 @@ msgstr ""
 "进行修改。但是，了解它的工作原理以及它与系统其他部分的交互方式非常重要。"
 
 #: src/cairo/world.md:8
+#, fuzzy
 msgid ""
-"> **To think about:** Consider Autonomous Worlds as sovereign blockchains "
+"**To think about:** Consider Autonomous Worlds as sovereign blockchains "
 "residing within another blockchain - a nested blockchain, so to speak. Just "
 "as you can deploy contracts onto Ethereum to enhance its functionality, you "
 "can similarly introduce systems into the World contract to enrich its "
@@ -2060,7 +2120,8 @@ msgstr ""
 "交互需要授权。有一个专门的主题会讨论授权。"
 
 #: src/cairo/world.md:11
-msgid "### Context"
+#, fuzzy
+msgid "Context"
 msgstr "### Context（上下文）"
 
 #: src/cairo/world.md:13
@@ -2095,7 +2156,8 @@ msgstr ""
 "```"
 
 #: src/cairo/world.md:25
-msgid "### The `uuid()` command"
+#, fuzzy
+msgid "The `uuid()` command"
 msgstr "### `uuid()`命令"
 
 #: src/cairo/world.md:27
@@ -2120,7 +2182,8 @@ msgstr ""
 "```"
 
 #: src/cairo/world.md:36
-msgid "### Full World API"
+#, fuzzy
+msgid "Full World API"
 msgstr "### 完整的世界API"
 
 #: src/cairo/world.md:38
@@ -2210,12 +2273,9 @@ msgstr ""
 "}\n"
 "```"
 
-#: src/cairo/components.md:1
-msgid "## Components"
-msgstr "## 组件"
-
 #: src/cairo/components.md:3
-msgid "> Components = Data"
+#, fuzzy
+msgid "Components = Data"
 msgstr "> 组件 = 数据"
 
 #: src/cairo/components.md:5
@@ -2232,7 +2292,8 @@ msgstr ""
 "在设计一个世界中的组件时，必须仔细考虑所创建的抽象概念，并始终牢记可组合性。"
 
 #: src/cairo/components.md:10
-msgid "### Components are Structs"
+#, fuzzy
+msgid "Components are Structs"
 msgstr "### 组件是结构体"
 
 #: src/cairo/components.md:12
@@ -2267,7 +2328,8 @@ msgstr ""
 "```"
 
 #: src/cairo/components.md:23
-msgid "#### The #[key] attribute"
+#, fuzzy
+msgid "The #\\[key\\] attribute"
 msgstr "#### #[key]属性"
 
 #: src/cairo/components.md:25
@@ -2340,7 +2402,8 @@ msgstr ""
 "```"
 
 #: src/cairo/components.md:53
-msgid "#### Implementing Traits"
+#, fuzzy
+msgid "Implementing Traits"
 msgstr "#### 实现Trait"
 
 #: src/cairo/components.md:55
@@ -2398,7 +2461,8 @@ msgstr ""
 "```"
 
 #: src/cairo/components.md:77
-msgid "#### Custom Setting Components"
+#, fuzzy
+msgid "Custom Setting Components"
 msgstr "#### 自定义设置的组件"
 
 #: src/cairo/components.md:79
@@ -2425,6 +2489,7 @@ msgstr ""
 "一个常量标识符，如 GAME_SETTINGS_ID。"
 
 #: src/cairo/components.md:83
+#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "const GAME_SETTINGS_ID: u32 = 9999999999999;\n"
@@ -2435,7 +2500,7 @@ msgid ""
 "    game_settings_id: u32,\n"
 "    combat_cool_down: u32,\n"
 "}\n"
-"``` "
+"```"
 msgstr ""
 "```rust,ignore\n"
 "const GAME_SETTINGS_ID: u32 = 9999999999999;\n"
@@ -2449,7 +2514,8 @@ msgstr ""
 "``` "
 
 #: src/cairo/components.md:94
-msgid "#### Types"
+#, fuzzy
+msgid "Types"
 msgstr "#### 类型"
 
 #: src/cairo/components.md:96
@@ -2457,29 +2523,40 @@ msgid "Support Component types:"
 msgstr "支持的组件类型："
 
 #: src/cairo/components.md:98
-msgid ""
-"-   `u8`\n"
-"-   `u16`\n"
-"-   `u32`\n"
-"-   `u64`\n"
-"-   `u128`\n"
-"-   `u256`\n"
-"-   `ContractAddress`"
+msgid "`u8`"
 msgstr ""
-"-   `u8`\n"
-"-   `u16`\n"
-"-   `u32`\n"
-"-   `u64`\n"
-"-   `u128`\n"
-"-   `u256`\n"
-"-   `ContractAddress`"
+
+#: src/cairo/components.md:99
+msgid "`u16`"
+msgstr ""
+
+#: src/cairo/components.md:100
+msgid "`u32`"
+msgstr ""
+
+#: src/cairo/components.md:101
+msgid "`u64`"
+msgstr ""
+
+#: src/cairo/components.md:102
+msgid "`u128`"
+msgstr ""
+
+#: src/cairo/components.md:103
+msgid "`u256`"
+msgstr ""
+
+#: src/cairo/components.md:104
+msgid "`ContractAddress`"
+msgstr ""
 
 #: src/cairo/components.md:106
 msgid "It is currently not possible to use Arrays."
 msgstr "目前无法使用数组。"
 
 #: src/cairo/components.md:109
-msgid "### In practice with modularity in mind"
+#, fuzzy
+msgid "In practice with modularity in mind"
 msgstr "#### 在实践中考虑模块性"
 
 #: src/cairo/components.md:111
@@ -2723,18 +2800,16 @@ msgstr ""
 "```"
 
 #: src/cairo/components.md:218
+#, fuzzy
 msgid ""
-"> A complete example can be found in the [Dojo Starter](https://github.com/"
+"A complete example can be found in the [Dojo Starter](https://github.com/"
 "dojoengine/dojo-starter)"
 msgstr ""
 "> 完整示例见 [Dojo Starter](https://github.com/dojoengine/dojo-starter)"
 
-#: src/cairo/systems.md:1
-msgid "## Systems"
-msgstr "## 系统"
-
 #: src/cairo/systems.md:3
-msgid "> Systems = Logic"
+#, fuzzy
+msgid "Systems = Logic"
 msgstr "> 系统 = 逻辑"
 
 #: src/cairo/systems.md:5
@@ -2798,7 +2873,8 @@ msgstr ""
 "```"
 
 #: src/cairo/systems.md:31
-msgid "### The Execute function"
+#, fuzzy
+msgid "The Execute function"
 msgstr "#### 执行函数"
 
 #: src/cairo/systems.md:33
@@ -2810,7 +2886,8 @@ msgstr ""
 "参阅 [Context](./world.md)。"
 
 #: src/cairo/systems.md:35
-msgid "### Other functions in a System"
+#, fuzzy
+msgid "Other functions in a System"
 msgstr "#### 系统中的其他函数"
 
 #: src/cairo/systems.md:37
@@ -2823,7 +2900,8 @@ msgstr ""
 "辑分割成小块非常有用。"
 
 #: src/cairo/systems.md:39
-msgid "### Using View Functions"
+#, fuzzy
+msgid "Using View Functions"
 msgstr "### 使用视图函数"
 
 #: src/cairo/systems.md:41
@@ -2934,12 +3012,22 @@ msgid "**How to Invoke View Functions?**"
 msgstr "**如何调用视图函数？**"
 
 #: src/cairo/systems.md:80
+#, fuzzy
 msgid ""
-"- **Using Dojo Core**: If you are working within the [Dojo Core](../client/"
-"npm/core.md), utilize the `call` function. \n"
+"**Using Dojo Core**: If you are working within the [Dojo Core](../client/npm/"
+"core.md), utilize the `call` function. "
+msgstr ""
+"- ** 使用 Dojo Core**：如果您在 [Dojo Core](../client/npm/core.md) 中开发，请"
+"使用 `call` 函数。\n"
 "  \n"
-"- **For Rust Users**: The [Starkli](https://book.starkli.rs/) library "
-"provides a handy method to invoke view functions in Rust."
+"- **适用于 Rust 用户**：[Starkli](https://book.starkli.rs/) 库提供了在 Rust "
+"中调用视图函数的便捷方法。"
+
+#: src/cairo/systems.md:82
+#, fuzzy
+msgid ""
+"**For Rust Users**: The [Starkli](https://book.starkli.rs/) library provides "
+"a handy method to invoke view functions in Rust."
 msgstr ""
 "- ** 使用 Dojo Core**：如果您在 [Dojo Core](../client/npm/core.md) 中开发，请"
 "使用 `call` 函数。\n"
@@ -2954,7 +3042,8 @@ msgid ""
 msgstr "我希望修订后的版本能使您想要传达的信息更加清晰流畅！"
 
 #: src/cairo/systems.md:86
-msgid "### System Authentication"
+#, fuzzy
+msgid "System Authentication"
 msgstr "### 系统验证"
 
 #: src/cairo/systems.md:88
@@ -2986,14 +3075,11 @@ msgstr "在这里，我们授权 `Spawn` 系统写入`Moves` 组件。 "
 msgid "Read more in the [sozo](../toolchain/sozo/overview.md) docs."
 msgstr "阅读 [sozo](../toolchain/sozo/overview.md) 文档中的更多内容。"
 
-#: src/cairo/entities.md:1
-msgid "## Entities"
-msgstr "## 实体"
-
 #: src/cairo/entities.md:3
+#, fuzzy
 msgid ""
-"> Entities are the primary key value within the world, to which components "
-"can be attached."
+"Entities are the primary key value within the world, to which components can "
+"be attached."
 msgstr "> 实体是世界中的主要关键值，组件可以附加到实体上。"
 
 #: src/cairo/entities.md:5
@@ -3129,21 +3215,19 @@ msgstr ""
 "```"
 
 #: src/cairo/entities.md:58
+#, fuzzy
 msgid ""
-"> ECS Theory: Plenty has been written on ECS systems, to go deeper read [ECS-"
+"ECS Theory: Plenty has been written on ECS systems, to go deeper read [ECS-"
 "FAQ](https://github.com/SanderMertens/ecs-faq)"
 msgstr ""
 "> ECS 理论：关于 ECS 系统的文章很多，如需深入了解，请阅读 [ECS-FAQ](https://"
 "github.com/SanderMertens/ecs-faq)"
 
-#: src/cairo/authorization.md:1
-msgid "## Authorization"
-msgstr "## 授权"
-
 #: src/cairo/authorization.md:3
+#, fuzzy
 msgid ""
-"> Authorization is crucial to a world, just like how authorization is "
-"crucial to any smart contract."
+"Authorization is crucial to a world, just like how authorization is crucial "
+"to any smart contract."
 msgstr "> 授权对一个世界至关重要，就像授权对任何智能合约都至关重要一样。"
 
 #: src/cairo/authorization.md:5
@@ -3162,7 +3246,8 @@ msgstr ""
 "态进行交互需要获得组件所有者的适当授权。"
 
 #: src/cairo/authorization.md:7
-msgid "### Auth Architecture"
+#, fuzzy
+msgid "Auth Architecture"
 msgstr "### 验证架构"
 
 #: src/cairo/authorization.md:9
@@ -3176,16 +3261,19 @@ msgstr ""
 "权。只有当`System`拥有必要的授权时，`set!`才会被执行。下图说明了授权架构。"
 
 #: src/cairo/authorization.md:11
-msgid "Authorization Architecture"
+#, fuzzy
+msgid "![Authorization Architecture](../images/dojo-auth.png)"
 msgstr "授权架构"
 
 #: src/cairo/authorization.md:13
-msgid "### Providing Authorization"
+#, fuzzy
+msgid "Providing Authorization"
 msgstr "### 提供授权"
 
 #: src/cairo/authorization.md:15
+#, fuzzy
 msgid ""
-"> The deployer of the Component is its initial owner. A Component owner is "
+"The deployer of the Component is its initial owner. A Component owner is "
 "able to grant the `owner` and `writer` roles. Only owners can grant a System "
 "the `writer` role which allows it to update the Component."
 msgstr ""
@@ -3212,10 +3300,6 @@ msgid ""
 "to update the `Moves` component."
 msgstr "该命令将为 `spawn` 系统生成一个 `writer` 授权，以更新 `Moves` 组件。"
 
-#: src/cairo/commands.md:1
-msgid "## Commands"
-msgstr "## 命令"
-
 #: src/cairo/commands.md:3
 msgid ""
 "Understanding commands is key to understanding Dojo. You will leverage them "
@@ -3236,7 +3320,8 @@ msgstr ""
 "过利用这些命令，开发人员可以简化系统实现并提高代码的可读性。"
 
 #: src/cairo/commands.md:8
-msgid "### Using commands"
+#, fuzzy
+msgid "Using commands"
 msgstr "### 使用命令"
 
 #: src/cairo/commands.md:10
@@ -3256,7 +3341,8 @@ msgstr ""
 "```"
 
 #: src/cairo/commands.md:16
-msgid "### The `get!` command"
+#, fuzzy
+msgid "The `get!` command"
 msgstr "###`get!` 命令"
 
 #: src/cairo/commands.md:18
@@ -3279,7 +3365,8 @@ msgid ""
 msgstr "然后，您可以像使用其他 Cairo 结构体一样使用 `position` 和 `moves`。"
 
 #: src/cairo/commands.md:30
-msgid "### The `set!` command"
+#, fuzzy
+msgid "The `set!` command"
 msgstr "### `set！`命令"
 
 #: src/cairo/commands.md:32
@@ -3325,7 +3412,8 @@ msgstr ""
 "`Position` 组件。"
 
 #: src/cairo/commands.md:52
-msgid "### The `emit!` command"
+#, fuzzy
+msgid "The `emit!` command"
 msgstr "### `emit！`命令"
 
 #: src/cairo/commands.md:54
@@ -3342,10 +3430,6 @@ msgstr ""
 "emit !(ctx.world, Moved { address: ctx.origin, direction });\n"
 "```"
 
-#: src/cairo/events.md:1
-msgid "## Events"
-msgstr "## 事件"
-
 #: src/cairo/events.md:3
 msgid ""
 "Events play a pivotal role in decoding the dynamics of a Dojo world. Every "
@@ -3361,7 +3445,8 @@ msgstr ""
 "事件都被无缝地索引起来，确保了轻松高效的查询。"
 
 #: src/cairo/events.md:6
-msgid "### Component Events"
+#, fuzzy
+msgid "Component Events"
 msgstr "### 组件事件"
 
 #: src/cairo/events.md:8
@@ -3450,7 +3535,8 @@ msgstr ""
 "```"
 
 #: src/cairo/events.md:43
-msgid "### World Events"
+#, fuzzy
+msgid "World Events"
 msgstr "### 世界事件"
 
 #: src/cairo/events.md:45
@@ -3525,7 +3611,8 @@ msgstr ""
 "询。"
 
 #: src/cairo/events.md:74
-msgid "### Custom Events"
+#, fuzzy
+msgid "Custom Events"
 msgstr "### 自定义事件"
 
 #: src/cairo/events.md:76
@@ -3596,13 +3683,10 @@ msgstr ""
 "```"
 
 #: src/cairo/events.md:107
+#, fuzzy
 msgid ""
-"> Note: Read about the `get!` and `set!` macros in [Commands](./commands.md)."
+"Note: Read about the `get!` and `set!` macros in [Commands](./commands.md)."
 msgstr "> 注意：请阅读 [Commands](./commands.md) 中的 `get!` 和 `set!` 宏。"
-
-#: src/cairo/testing.md:1
-msgid "## Testing"
-msgstr "## 测试"
 
 #: src/cairo/testing.md:3
 msgid ""
@@ -3634,7 +3718,8 @@ msgid "This will search for all tests within your project and run them."
 msgstr "这将搜索项目中的所有测试并运行它们。"
 
 #: src/cairo/testing.md:14
-msgid "### Writing Unit Tests"
+#, fuzzy
+msgid "Writing Unit Tests"
 msgstr "### 编写单元测试"
 
 #: src/cairo/testing.md:16
@@ -3727,7 +3812,8 @@ msgstr ""
 "件的所有函数是一种很好的实践。"
 
 #: src/cairo/testing.md:52
-msgid "### Writing Integration Tests"
+#, fuzzy
+msgid "Writing Integration Tests"
 msgstr "### 编写集成测试"
 
 #: src/cairo/testing.md:54
@@ -3865,7 +3951,8 @@ msgstr ""
 "```"
 
 #: src/cairo/testing.md:113
-msgid "#### Useful Dojo Test Functions"
+#, fuzzy
+msgid "Useful Dojo Test Functions"
 msgstr "#### 有用的 Dojo 测试函数"
 
 #: src/cairo/testing.md:115
@@ -3877,10 +3964,6 @@ msgstr ""
 "`spawn_test_world(components, systems)` - 这个函数将用你传入的组件和系统创建"
 "一个测试世界。它还将部署该世界并注册组件和系统。"
 
-#: src/cairo/modules.md:1
-msgid "## Dojo Modules"
-msgstr "## Dojo 模块"
-
 #: src/cairo/modules.md:3
 msgid ""
 "With standardization of Systems and Components we can create a module "
@@ -3891,7 +3974,8 @@ msgstr ""
 "建可在任何 Dojo 世界中使用的可重用模块。"
 
 #: src/cairo/modules.md:5
-msgid "### Module Architecture"
+#, fuzzy
+msgid "Module Architecture"
 msgstr "### 模块架构"
 
 #: src/cairo/modules.md:7
@@ -3905,10 +3989,6 @@ msgstr ""
 "Dojo 世界的系统和组件的集合。Dojo 遵循 ERC 模式，并已经为 ERC20、ERC721 和 "
 "ERC1155 定义了模块。"
 
-#: src/cairo/modules/erc20.md:1
-msgid "## ERC20"
-msgstr "## ERC20"
-
 #: src/cairo/modules/erc20.md:3
 msgid ""
 "Dojo's ERC20 module is a standard implementation of the ERC20 token "
@@ -3920,7 +4000,8 @@ msgstr ""
 "这使我们能够利用 ERC20 标准的出色特性，并在 Dojo 环境中使用它。"
 
 #: src/cairo/modules/erc20.md:5
-msgid "### Integration into Your World"
+#, fuzzy
+msgid "Integration into Your World"
 msgstr "### 集成到你的世界"
 
 #: src/cairo/modules/erc20.md:7
@@ -3931,10 +4012,6 @@ msgid ""
 msgstr ""
 "要将 ERC20 模块集成到您的世界中，您必须首先部署 ERC20 Dojo 合约。然后，将系统"
 "和组件安装到您的世界中。"
-
-#: src/client/overview.md:1
-msgid "# Overview"
-msgstr "# 概览"
 
 #: src/client/overview.md:3
 msgid ""
@@ -3947,38 +4024,46 @@ msgid "Reference clients are available for the following platforms:"
 msgstr "参考客户端可在以下平台获取："
 
 #: src/client/overview.md:7
-msgid "- [npm](./npm.md)"
+#, fuzzy
+msgid "[npm](./npm.md)"
 msgstr "- [npm](./npm.md)"
 
 #: src/client/npm.md:1
-msgid "# Javascript Libraries"
+#, fuzzy
+msgid "Javascript Libraries"
 msgstr "# Javascript 库"
 
 #: src/client/npm.md:3
+#, fuzzy
 msgid ""
-"> Javascript is a great way to get started with Dojo. It's easy to use, and "
+"Javascript is a great way to get started with Dojo. It's easy to use, and "
 "you can get started in minutes."
 msgstr "> Javascript 是入门 Dojo 的好方法。它简单易用，几分钟就能上手。"
 
 #: src/client/npm.md:5
-msgid "### Examples using these:"
+#, fuzzy
+msgid "Examples using these:"
 msgstr "### 使用的例子："
 
 #: src/client/npm.md:7
 #, fuzzy
 msgid ""
-"- [Dojo-create-react-app](https://github.com/dojoengine/dojo-starter-react-"
-"app)\n"
-"- [Dojo-starter-phaser](https://github.com/dojoengine/dojo-starter-phaser)"
+"[Dojo-create-react-app](https://github.com/dojoengine/dojo-starter-react-app)"
 msgstr ""
-"- [Dojo-create-react-app](https://github.com/dojoengine/dojo-starter-react-"
-"app)\n"
-"- [Dojo-starter-phaser](https://github.com/dojoengine/dojo-starter-phaser)"
+"本例来自 [Dojo React App](https://github.com/dojoengine/dojo-starter-react-"
+"app)。"
 
-#: src/client/npm.md:10
+#: src/client/npm.md:8
 #, fuzzy
-msgid "### @dojoengine/core"
-msgstr "### 容器"
+msgid ""
+"[Dojo-starter-phaser](https://github.com/dojoengine/dojo-starter-phaser)"
+msgstr ""
+"这是来自 [dojo-starter](https://github.com/dojoengine/dojo-starter): 的示例："
+
+#: src/client/npm.md:10 src/client/npm/core.md:1
+#, fuzzy
+msgid "@dojoengine/core"
+msgstr "## @dojoengine/core"
 
 #: src/client/npm.md:12
 #, fuzzy
@@ -4009,7 +4094,7 @@ msgstr ""
 
 #: src/client/npm.md:20
 #, fuzzy
-msgid "### @dojoengine/react"
+msgid "@dojoengine/react"
 msgstr "### @dojoengine/react"
 
 #: src/client/npm.md:22
@@ -4046,7 +4131,7 @@ msgstr ""
 
 #: src/client/npm.md:33
 #, fuzzy
-msgid "### @dojoengine/create-burner"
+msgid "@dojoengine/create-burner"
 msgstr "### @dojoengine/create-burner"
 
 #: src/client/npm.md:35
@@ -4072,11 +4157,6 @@ msgstr ""
 "yarn add @dojoengine/create-burner\n"
 "```"
 
-#: src/client/npm/core.md:1
-#, fuzzy
-msgid "## @dojoengine/core"
-msgstr "## @dojoengine/core"
-
 #: src/client/npm/core.md:3
 #, fuzzy
 msgid ""
@@ -4088,26 +4168,24 @@ msgstr ""
 "我们更倾向于使用该库。"
 
 #: src/client/npm/core.md:5
-#, fuzzy
-msgid ""
-"- World explorers\n"
-"- World deployers\n"
-"- Games\n"
-"- Anaylitics"
+msgid "World explorers"
 msgstr ""
-"- 世界探索者\n"
-"- 世界部署者\n"
-"- 游戏\n"
-"- 文学"
 
-#: src/client/npm/core.md:10
-#, fuzzy
-msgid "### Getting Started"
-msgstr "# 入门"
+#: src/client/npm/core.md:6
+msgid "World deployers"
+msgstr ""
+
+#: src/client/npm/core.md:7
+msgid "Games"
+msgstr ""
+
+#: src/client/npm/core.md:8
+msgid "Anaylitics"
+msgstr ""
 
 #: src/client/npm/core.md:16
 #, fuzzy
-msgid "### Example Usage"
+msgid "Example Usage"
 msgstr "### 使用方法"
 
 #: src/client/npm/core.md:18
@@ -4191,7 +4269,7 @@ msgstr ""
 
 #: src/toolchain/dojoup.md:1
 #, fuzzy
-msgid "# `dojoup`"
+msgid "`dojoup`"
 msgstr "### 使用 Dojoup"
 
 #: src/toolchain/dojoup.md:3
@@ -4201,12 +4279,12 @@ msgstr "轻松更新或还原到特定的 Dojo 分支。"
 
 #: src/toolchain/dojoup.md:5
 #, fuzzy
-msgid "## Installing"
+msgid "Installing"
 msgstr "# 附录 F：安装Cairo二进制文件"
 
-#: src/toolchain/dojoup.md:11
+#: src/toolchain/dojoup.md:11 src/toolchain/katana/overview.md:22
 #, fuzzy
-msgid "## Usage"
+msgid "Usage"
 msgstr "### 使用方法"
 
 #: src/toolchain/dojoup.md:13
@@ -4217,7 +4295,7 @@ msgstr "安装最新的**稳定**版本："
 #: src/toolchain/dojoup.md:18
 #, fuzzy
 msgid ""
-"> Note: You may have to install `jq` to use `dojoup`. You can do so with the "
+"Note: You may have to install `jq` to use `dojoup`. You can do so with the "
 "following commands:"
 msgstr ""
 "> 注意：您可能需要安装 `jq` 才能使用 `dojoup`。您可以使用以下命令进行安装："
@@ -4225,7 +4303,7 @@ msgstr ""
 #: src/toolchain/dojoup.md:20
 #, fuzzy
 msgid ""
-"```sh   \n"
+"```sh\n"
 "# Debian\n"
 "sudo apt-get install jq\n"
 "\n"
@@ -4359,7 +4437,7 @@ msgstr ""
 #: src/toolchain/dojoup.md:66
 #, fuzzy
 msgid ""
-"##### Note: --branch, --repo, and --version flags are ignored during local "
+"Note: --branch, --repo, and --version flags are ignored during local "
 "installations."
 msgstr "##### 注意：本地安装时，--branch、--repo 和--version 标志将被忽略。"
 
@@ -4384,28 +4462,32 @@ msgstr ""
 "**提示**：所有标志都有对应的单字符速记！您可以使用 `-v` 代替 `--version` 等。"
 
 #: src/toolchain/dojoup.md:78
-msgid "### Precompiled binaries"
+#, fuzzy
+msgid "Precompiled binaries"
 msgstr "### 预编译的二进制文件"
 
 #: src/toolchain/dojoup.md:80
+#, fuzzy
 msgid ""
 "Precompiled binaries are available from the [GitHub releases page](https://"
-"github.com/dojoengine/dojo/releases).\n"
-"These are better managed by using [Dojoup](#using-dojoup)."
+"github.com/dojoengine/dojo/releases). These are better managed by using "
+"[Dojoup](#using-dojoup)."
 msgstr ""
 "预编译的二进制文件可从[GitHub上的发行页面](https://github.com/dojoengine/"
 "dojo/releases)获取。\n"
 "使用[Dojoup](#using-dojoup)可以更好地管理这些二进制文件。"
 
 #: src/toolchain/dojoup.md:84
+msgid "ℹ️ **Note**"
+msgstr ""
+
+#: src/toolchain/dojoup.md:86
+#, fuzzy
 msgid ""
-"> ℹ️ **Note**\n"
-">\n"
-"> If you're on Windows, you will need to install and use [Git BASH](https://"
+"If you're on Windows, you will need to install and use [Git BASH](https://"
 "gitforwindows.org/) or [WSL](https://learn.microsoft.com/en-us/windows/wsl/"
-"install),\n"
-"> as your terminal, since Dojoup currently does not support Powershell or "
-"Cmd."
+"install), as your terminal, since Dojoup currently does not support "
+"Powershell or Cmd."
 msgstr ""
 "> ℹ️ **注**\n"
 ">\n"
@@ -4413,11 +4495,6 @@ msgstr ""
 "gitforwindows.org/) 或 [WSL](https://learn.microsoft.com/en-us/windows/wsl/"
 "install)、\n"
 "> 因为 Dojoup 目前不支持 Powershell 或 Cmd。"
-
-#: src/toolchain/sozo/overview.md:1
-#, fuzzy
-msgid "## Sozo"
-msgstr "# Sozo"
 
 #: src/toolchain/sozo/overview.md:3
 #, fuzzy
@@ -4434,13 +4511,15 @@ msgstr ""
 "简化 AW 的更新和部署。它提供了一个强大的二进制命令行界面（CLI），可简化世界管"
 "理任务，使您能够专注于世界构建的创意方面。未来版本将提供图形用户界面。"
 
-#: src/toolchain/sozo/overview.md:5
-msgid "## Features"
+#: src/toolchain/sozo/overview.md:5 src/toolchain/katana/overview.md:5
+#, fuzzy
+msgid "Features"
 msgstr "## 功能"
 
 #: src/toolchain/sozo/overview.md:7
+#, fuzzy
 msgid ""
-"-   **Binary CLI**: Sozo provides an intuitive binary CLI, ensuring easy "
+"**Binary CLI**: Sozo provides an intuitive binary CLI, ensuring easy "
 "management of your Worlds, whether you're updating existing ones or "
 "deploying new ones."
 msgstr ""
@@ -4449,8 +4528,8 @@ msgstr ""
 
 #: src/toolchain/sozo/overview.md:9 src/toolchain/katana/overview.md:10
 #: src/toolchain/torii/overview.md:14
-msgid "## Installation"
-msgstr "## 安装"
+msgid "Installation"
+msgstr "安装"
 
 #: src/toolchain/sozo/overview.md:11
 #, fuzzy
@@ -4462,7 +4541,8 @@ msgstr ""
 "installation.md#using-dojoup）安装 `sozo` 二进制文件。"
 
 #: src/toolchain/sozo/overview.md:13 src/toolchain/torii/overview.md:18
-msgid "### Installing from Source"
+#, fuzzy
+msgid "Installing from Source"
 msgstr "### 从源码安装"
 
 #: src/toolchain/sozo/overview.md:15
@@ -4485,12 +4565,16 @@ msgid ""
 "This will install Sozo and the required dependencies on your local system."
 msgstr "这将在本地系统中安装 Sozo 和所需的依赖项。"
 
-#: src/toolchain/sozo/overview.md:23
+#: src/toolchain/sozo/overview.md:23 src/toolchain/katana/overview.md:60
+#: src/toolchain/torii/overview.md:28
+#, fuzzy
+msgid "📚 **Reference**"
+msgstr "参考"
+
+#: src/toolchain/sozo/overview.md:25
 #, fuzzy
 msgid ""
-"> 📚 **Reference**\n"
-">\n"
-"> See the [`sozo` Reference](./reference.md) for a complete overview of all "
+"See the [`sozo` Reference](./reference.md) for a complete overview of all "
 "the available subcommands."
 msgstr ""
 "> 📚 **参考资料**\n"
@@ -4500,52 +4584,60 @@ msgstr ""
 
 #: src/toolchain/sozo/reference.md:1
 #, fuzzy
-msgid "## sozo reference"
+msgid "sozo reference"
 msgstr "## 参考文献"
 
 #: src/toolchain/sozo/reference.md:3
-#, fuzzy
-msgid "### Project Commands"
-msgstr "## 项目命令"
+msgid "Project Commands"
+msgstr "项目命令"
 
 #: src/toolchain/sozo/reference.md:5
-#, fuzzy
-msgid ""
-"-   [init](./project-commands/init.md)\n"
-"-   [build](./project-commands/build.md)\n"
-"-   [test](./project-commands/test.md)\n"
-"-   [migrate](./project-commands/migrate.md)"
+msgid "[init](./project-commands/init.md)"
 msgstr ""
-"-   [init](./project-commands/init.md)\n"
-"-   [build](./project-commands/build.md)\n"
-"-   [测试](./project-commands/test.md)\n"
-"-   [迁移](./project-commands/migrate.md)"
+
+#: src/toolchain/sozo/reference.md:6
+msgid "[build](./project-commands/build.md)"
+msgstr ""
+
+#: src/toolchain/sozo/reference.md:7
+msgid "[test](./project-commands/test.md)"
+msgstr ""
+
+#: src/toolchain/sozo/reference.md:8
+msgid "[migrate](./project-commands/migrate.md)"
+msgstr ""
 
 #: src/toolchain/sozo/reference.md:10
-#, fuzzy
-msgid "### World Commands"
-msgstr "## 世界命令"
+msgid "World Commands"
+msgstr "世界命令"
 
 #: src/toolchain/sozo/reference.md:12
-#, fuzzy
-msgid ""
-"-   [execute](./world-commands/execute.md)\n"
-"-   [register](./world-commands/register.md)\n"
-"-   [system](./world-commands/system.md)\n"
-"-   [component](./world-commands/component.md)\n"
-"-   [events](./world-commands/events.md)\n"
-"-   [auth](./world-commands/auth.md)"
+msgid "[execute](./world-commands/execute.md)"
 msgstr ""
-"-   [execute](./world-commands/execute.md)\n"
-"-   [register](./world-commands/register.md)\n"
-"-   [系统](./world-commands/system.md)\n"
-"-   [组件](./world-commands/component.md)\n"
-"-   [events](./world-commands/events.md)\n"
-"-   [auth](./world-commands/auth.md)"
+
+#: src/toolchain/sozo/reference.md:13
+msgid "[register](./world-commands/register.md)"
+msgstr ""
+
+#: src/toolchain/sozo/reference.md:14
+msgid "[system](./world-commands/system.md)"
+msgstr ""
+
+#: src/toolchain/sozo/reference.md:15
+msgid "[component](./world-commands/component.md)"
+msgstr ""
+
+#: src/toolchain/sozo/reference.md:16
+msgid "[events](./world-commands/events.md)"
+msgstr ""
+
+#: src/toolchain/sozo/reference.md:17
+msgid "[auth](./world-commands/auth.md)"
+msgstr ""
 
 #: src/toolchain/sozo/project-commands/init.md:1
 #, fuzzy
-msgid "## sozo init"
+msgid "sozo init"
 msgstr "## sozo中的命令"
 
 #: src/toolchain/sozo/project-commands/init.md:3
@@ -4572,7 +4664,7 @@ msgstr ""
 
 #: src/toolchain/sozo/project-commands/build.md:1
 #, fuzzy
-msgid "## sozo build"
+msgid "sozo build"
 msgstr "## sozo中的命令"
 
 #: src/toolchain/sozo/project-commands/build.md:3
@@ -4596,7 +4688,7 @@ msgstr ""
 
 #: src/toolchain/sozo/project-commands/test.md:1
 #, fuzzy
-msgid "## sozo test"
+msgid "sozo test"
 msgstr "## sozo中的命令"
 
 #: src/toolchain/sozo/project-commands/test.md:3
@@ -4619,7 +4711,7 @@ msgstr ""
 
 #: src/toolchain/sozo/project-commands/migrate.md:1
 #, fuzzy
-msgid "## sozo migrate"
+msgid "sozo migrate"
 msgstr "## sozo中的命令"
 
 #: src/toolchain/sozo/project-commands/migrate.md:3
@@ -4651,7 +4743,7 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/component.md:5
 #: src/toolchain/katana/reference.md:7 src/toolchain/torii/reference.md:7
 #, fuzzy
-msgid "### USAGE"
+msgid "USAGE"
 msgstr "### 使用方法"
 
 #: src/toolchain/sozo/project-commands/migrate.md:9
@@ -4670,23 +4762,25 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/system.md:43
 #: src/toolchain/sozo/world-commands/component.md:61
 #: src/toolchain/katana/reference.md:105 src/toolchain/torii/reference.md:33
-msgid "### OPTIONS"
+#, fuzzy
+msgid "OPTIONS"
 msgstr "### 选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:15
 #: src/toolchain/sozo/world-commands/execute.md:15
 #: src/toolchain/katana/reference.md:107 src/toolchain/torii/reference.md:35
-msgid "#### General Options"
+#, fuzzy
+msgid "General Options"
 msgstr "#### 常规选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:17
 #, fuzzy
 msgid ""
 "`--name` _NAME_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;Name of the World. At the moment, the only usage for "
-"this option is to be used as a salt when deploying the World contract to "
-"avoid address conflicts. This option is **required** when performing the "
-"initial migration of the World."
+"    Name of the World. At the moment, the only usage for this option is to "
+"be used as a salt when deploying the World contract to avoid address "
+"conflicts. This option is **required** when performing the initial migration "
+"of the World."
 msgstr ""
 "`--name` _NAME_\n"
 "    世界的名称。目前，该选项的唯一用途是在部署 \"世界 \"合约时用作 \"盐\"，以"
@@ -4697,7 +4791,7 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/system.md:45
 #: src/toolchain/sozo/world-commands/component.md:63
 #, fuzzy
-msgid "#### World Options"
+msgid "World Options"
 msgstr "#### 常规选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:22
@@ -4707,8 +4801,8 @@ msgstr "#### 常规选项"
 #, fuzzy
 msgid ""
 "`--world` _WORLD_ADDRESS_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The address of the World contract.  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;ENV: `DOJO_WORLD_ADDRESS`"
+"    The address of the World contract.  \n"
+"    ENV: `DOJO_WORLD_ADDRESS`"
 msgstr ""
 "`--world` _WORLD_ADDRESS_\n"
 "    世界合约的地址。  \n"
@@ -4719,7 +4813,8 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/system.md:51
 #: src/toolchain/sozo/world-commands/component.md:69
 #: src/toolchain/katana/reference.md:139
-msgid "#### Starknet Options"
+#, fuzzy
+msgid "Starknet Options"
 msgstr "#### Starknet选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:28
@@ -4729,9 +4824,8 @@ msgstr "#### Starknet选项"
 #, fuzzy
 msgid ""
 "`--rpc-url` _URL_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The Starknet RPC endpoint. [default: http://"
-"localhost:5050]  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;ENV: `STARKNET_RPC_URL`"
+"    The Starknet RPC endpoint. \\[default: http://localhost:5050\\]  \n"
+"    ENV: `STARKNET_RPC_URL`"
 msgstr ""
 "`--rpc-url` _URL_\n"
 "    星网 RPC 端点。[默认值: http://localhost:5050]\n"
@@ -4740,7 +4834,7 @@ msgstr ""
 #: src/toolchain/sozo/project-commands/migrate.md:32
 #: src/toolchain/sozo/world-commands/execute.md:33
 #, fuzzy
-msgid "#### Account Options"
+msgid "Account Options"
 msgstr "#### Starknet选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:34
@@ -4748,8 +4842,8 @@ msgstr "#### Starknet选项"
 #, fuzzy
 msgid ""
 "`--account-address` _ACCOUNT_ADDRESS_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The Starknet account address.  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;ENV: `DOJO_ACCOUNT_ADDRESS`"
+"    The Starknet account address.  \n"
+"    ENV: `DOJO_ACCOUNT_ADDRESS`"
 msgstr ""
 "帐户地址 _ACCOUNT_ADDRESS_\n"
 "    星际网络账户地址。  \n"
@@ -4758,7 +4852,7 @@ msgstr ""
 #: src/toolchain/sozo/project-commands/migrate.md:38
 #: src/toolchain/sozo/world-commands/execute.md:39
 #, fuzzy
-msgid "#### Signer Options - Raw"
+msgid "Signer Options - Raw"
 msgstr "#### 服务器选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:40
@@ -4766,9 +4860,8 @@ msgstr "#### 服务器选项"
 #, fuzzy
 msgid ""
 "`--private-key` _PRIVATE_KEY_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The raw private key associated with the account "
-"contract.  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;ENV: `DOJO_PRIVATE_KEY`"
+"    The raw private key associated with the account contract.  \n"
+"    ENV: `DOJO_PRIVATE_KEY`"
 msgstr ""
 "私钥 _PRIVATE_KEY_\n"
 "    与账户合同相关的原始私钥。  \n"
@@ -4777,7 +4870,7 @@ msgstr ""
 #: src/toolchain/sozo/project-commands/migrate.md:44
 #: src/toolchain/sozo/world-commands/execute.md:45
 #, fuzzy
-msgid "#### Signer Options - Keystore"
+msgid "Signer Options - Keystore"
 msgstr "#### 服务器选项"
 
 #: src/toolchain/sozo/project-commands/migrate.md:46
@@ -4785,7 +4878,7 @@ msgstr "#### 服务器选项"
 #, fuzzy
 msgid ""
 "`--keystore` _PATH_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;Use the keystore in the given folder or file."
+"    Use the keystore in the given folder or file."
 msgstr ""
 "`-V, --version`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 打印版本信息"
@@ -4795,8 +4888,8 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--password` _PASSWORD_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The keystore password. Used with --keystore.  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;ENV: `DOJO_KEYSTORE_PASSWORD`"
+"    The keystore password. Used with --keystore.  \n"
+"    ENV: `DOJO_KEYSTORE_PASSWORD`"
 msgstr ""
 "`--password` _PASSWORD_\n"
 "    密钥存储密码。与 --keystore 一起使用。  \n"
@@ -4805,13 +4898,14 @@ msgstr ""
 #: src/toolchain/sozo/project-commands/migrate.md:53
 #: src/toolchain/sozo/world-commands/execute.md:54
 #: src/toolchain/sozo/world-commands/system.md:57
-#: src/toolchain/katana/reference.md:186
-msgid "### EXAMPLES"
+#: src/toolchain/katana/reference.md:178 src/toolchain/katana/reference.md:186
+#, fuzzy
+msgid "EXAMPLES"
 msgstr "#### 示例"
 
 #: src/toolchain/sozo/project-commands/migrate.md:55
 #, fuzzy
-msgid "1. Deploying your World for the first time to a local Katana node"
+msgid "Deploying your World for the first time to a local Katana node"
 msgstr "1.首次在本地 Katana 节点上部署你的世界"
 
 #: src/toolchain/sozo/project-commands/migrate.md:57
@@ -4827,7 +4921,7 @@ msgstr ""
 
 #: src/toolchain/sozo/project-commands/migrate.md:61
 #, fuzzy
-msgid "2. Updating a remote World after making some changes"
+msgid "Updating a remote World after making some changes"
 msgstr "2.更改后更新远程世界"
 
 #: src/toolchain/sozo/project-commands/migrate.md:63
@@ -4843,7 +4937,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/execute.md:1
 #, fuzzy
-msgid "## sozo execute"
+msgid "sozo execute"
 msgstr "执行"
 
 #: src/toolchain/sozo/world-commands/execute.md:3
@@ -4876,9 +4970,8 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--calldata` _CALLDATA_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The calldata to be passed to the system that you "
-"want to execute.  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;Comma seperated values e.g., 0x12345,0x69420."
+"    The calldata to be passed to the system that you want to execute.  \n"
+"    Comma seperated values e.g., 0x12345,0x69420."
 msgstr ""
 "`--calldata` _CALLDATA_\n"
 "    要传给系统执行的 calldata。  \n"
@@ -4887,8 +4980,8 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/execute.md:56
 #, fuzzy
 msgid ""
-"1. Executing the _position_ system which takes two values (_x_: 0x77 and "
-"_y_: 0x44)"
+"Executing the _position_ system which takes two values (_x_: 0x77 and _y_: "
+"0x44)"
 msgstr "1.执行_position_系统，该系统取两个值（_x_: 0x77 和 _y_: 0x44）"
 
 #: src/toolchain/sozo/world-commands/execute.md:58
@@ -4904,7 +4997,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/register.md:1
 #, fuzzy
-msgid "## sozo register"
+msgid "sozo register"
 msgstr "注册"
 
 #: src/toolchain/sozo/world-commands/register.md:3
@@ -4965,7 +5058,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/system.md:1
 #, fuzzy
-msgid "## sozo system"
+msgid "sozo system"
 msgstr "## 系统"
 
 #: src/toolchain/sozo/world-commands/system.md:3
@@ -4997,13 +5090,13 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/system.md:15
 #: src/toolchain/sozo/world-commands/component.md:16
 #, fuzzy
-msgid "### SUBCOMMANDS"
+msgid "SUBCOMMANDS"
 msgstr "#### 子命令"
 
 #: src/toolchain/sozo/world-commands/system.md:17
 #: src/toolchain/sozo/world-commands/component.md:18
 #, fuzzy
-msgid "#### `get`"
+msgid "`get`"
 msgstr ""
 "`katana_predeployedAccounts`  \n"
 "获取所有预部署账户的信息"
@@ -5030,7 +5123,7 @@ msgstr ""
 #: src/toolchain/sozo/world-commands/component.md:39
 #: src/toolchain/sozo/world-commands/component.md:52
 #, fuzzy
-msgid "##### Arguments"
+msgid "Arguments"
 msgstr ""
 "以下命令将部署投票合约，并将 voter_0、voter_1 和 voter_2 注册为合格投票人。这"
 "些是构造函数参数，因此请添加一个以后可以用来投票的选民账户。"
@@ -5040,14 +5133,14 @@ msgstr ""
 #, fuzzy
 msgid ""
 "_`NAME`_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The name of the system"
+"    The name of the system"
 msgstr ""
 "`--host <HOST>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 服务器监听的 IP 地址"
 
 #: src/toolchain/sozo/world-commands/system.md:30
 #, fuzzy
-msgid "#### `dependency`"
+msgid "`dependency`"
 msgstr ""
 "Scarb 支持Starknet的智能合约开发。要启用此功能，你需要在你的 `Scarb.toml` 文"
 "件中进行一些配置。\n"
@@ -5072,7 +5165,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/system.md:59
 #, fuzzy
-msgid "1. Get the class hash of the _spawn_ system"
+msgid "Get the class hash of the _spawn_ system"
 msgstr "1.获取_spawn_系统的类别哈希值"
 
 #: src/toolchain/sozo/world-commands/system.md:61
@@ -5088,7 +5181,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/system.md:65
 #, fuzzy
-msgid "2. Get the component dependencies of the _spawn_ system"
+msgid "Get the component dependencies of the _spawn_ system"
 msgstr "2.获取_spawn_系统的组件依赖关系"
 
 #: src/toolchain/sozo/world-commands/system.md:67
@@ -5104,7 +5197,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/component.md:1
 #, fuzzy
-msgid "## sozo component"
+msgid "sozo component"
 msgstr "## 组件"
 
 #: src/toolchain/sozo/world-commands/component.md:3
@@ -5153,17 +5246,18 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/component.md:28
 #: src/toolchain/sozo/world-commands/component.md:41
+#: src/toolchain/sozo/world-commands/component.md:54
 #, fuzzy
 msgid ""
 "_`NAME`_  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp;The name of the component"
+"    The name of the component"
 msgstr ""
 "`--gas-price <GAS_PRICE>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; Gas价格"
 
 #: src/toolchain/sozo/world-commands/component.md:31
 #, fuzzy
-msgid "#### `schema`"
+msgid "`schema`"
 msgstr "#### `schema`"
 
 #: src/toolchain/sozo/world-commands/component.md:33
@@ -5184,7 +5278,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/component.md:44
 #, fuzzy
-msgid "#### `entity`"
+msgid "`entity`"
 msgstr ""
 "现在，让我们为角色创建一个 `SpawnSystem`（再生系统）。需要注意的是，我们没有"
 "在任何地方明确定义实体。相反，系统会在执行该系统时为实体分配一个主键 ID。"
@@ -5205,21 +5299,12 @@ msgstr ""
 "sozo component entity<NAME> [KEYS]...\n"
 "```"
 
-#: src/toolchain/sozo/world-commands/component.md:54
-#, fuzzy
-msgid ""
-"_`NAME`_  \n"
-" &nbsp;&nbsp;&nbsp;&nbsp;The name of the component"
-msgstr ""
-"`--gas-price <GAS_PRICE>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Gas价格"
-
 #: src/toolchain/sozo/world-commands/component.md:57
 #, fuzzy
 msgid ""
 "_`KEYS`_  \n"
-" &nbsp;&nbsp;&nbsp;&nbsp;The keys of the entity that you want to query.  \n"
-" &nbsp;&nbsp;&nbsp;&nbsp;Comma seperated values e.g., 0x12345,0x69420,..."
+"    The keys of the entity that you want to query.  \n"
+"    Comma seperated values e.g., 0x12345,0x69420,..."
 msgstr ""
 "_`KEYS`_\n"
 "     要查询的实体的键值。  \n"
@@ -5227,7 +5312,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/events.md:1
 #, fuzzy
-msgid "## sozo events"
+msgid "sozo events"
 msgstr "## sozo中的命令"
 
 #: src/toolchain/sozo/world-commands/events.md:3
@@ -5248,7 +5333,7 @@ msgstr ""
 
 #: src/toolchain/sozo/world-commands/auth.md:1
 #, fuzzy
-msgid "## sozo auth"
+msgid "sozo auth"
 msgstr "## sozo中的命令"
 
 #: src/toolchain/sozo/world-commands/auth.md:3
@@ -5298,10 +5383,6 @@ msgstr ""
 "sozo auth writer Position spawn\n"
 "```"
 
-#: src/toolchain/katana/overview.md:1
-msgid "## Katana"
-msgstr "## Katana"
-
 #: src/toolchain/katana/overview.md:3
 msgid ""
 "`katana` is a _blazingly fast_ local Starknet node, designed to support "
@@ -5310,19 +5391,18 @@ msgstr ""
 "`katana` （译者注：katana是日文“刀”的罗马字）是一个速度惊人的本地星网节点，旨"
 "在支持使用 Dojo 进行本地开发。"
 
-#: src/toolchain/katana/overview.md:5
-msgid "### Features"
-msgstr "### 功能"
-
 #: src/toolchain/katana/overview.md:7
 #, fuzzy
 msgid ""
-"-   [Starknet JSON-RPC v0.3.0](https://github.com/starkware-libs/starknet-"
-"specs/tree/v0.3.0) support\n"
-"-   Custom methods for manipulating the blockchain states"
+"[Starknet JSON-RPC v0.3.0](https://github.com/starkware-libs/starknet-specs/"
+"tree/v0.3.0) support"
 msgstr ""
 "-   支持[Starknet JSON-RPC v0.3.0](https://github.com/starkware-libs/"
 "starknet-specs/tree/v0.3.0)"
+
+#: src/toolchain/katana/overview.md:8
+msgid "Custom methods for manipulating the blockchain states"
+msgstr ""
 
 #: src/toolchain/katana/overview.md:12
 #, fuzzy
@@ -5334,7 +5414,8 @@ msgstr ""
 "md#using-dojoup）获取。"
 
 #: src/toolchain/katana/overview.md:14
-msgid "### Installing from source"
+#, fuzzy
+msgid "Installing from source"
 msgstr "### 从源码安装"
 
 #: src/toolchain/katana/overview.md:16
@@ -5351,10 +5432,6 @@ msgstr ""
 "cd dojo\n"
 "cargo install --path ./crates/katana --locked --force\n"
 "```"
-
-#: src/toolchain/katana/overview.md:22
-msgid "### Usage"
-msgstr "### 使用方法"
 
 #: src/toolchain/katana/overview.md:24
 #, fuzzy
@@ -5438,12 +5515,10 @@ msgstr ""
 "\n"
 "```"
 
-#: src/toolchain/katana/overview.md:60
+#: src/toolchain/katana/overview.md:62
 #, fuzzy
 msgid ""
-"> 📚 **Reference**\n"
-">\n"
-"> See the [`katana` Reference](./reference.md) for an in depth reference and "
+"See the [`katana` Reference](./reference.md) for an in depth reference and "
 "documentation on Katana."
 msgstr ""
 "> 📚 **参考资料**\n"
@@ -5453,11 +5528,12 @@ msgstr ""
 
 #: src/toolchain/katana/reference.md:1
 #, fuzzy
-msgid "## katana reference"
+msgid "katana reference"
 msgstr "katana参考资料"
 
 #: src/toolchain/katana/reference.md:3
-msgid "### NAME"
+#, fuzzy
+msgid "NAME"
 msgstr "### 名称"
 
 #: src/toolchain/katana/reference.md:5
@@ -5478,7 +5554,8 @@ msgstr ""
 "```"
 
 #: src/toolchain/katana/reference.md:13 src/toolchain/torii/reference.md:13
-msgid "### DESCRIPTION"
+#, fuzzy
+msgid "DESCRIPTION"
 msgstr "### 描述"
 
 #: src/toolchain/katana/reference.md:15
@@ -5501,7 +5578,8 @@ msgstr ""
 "以同时运行多个标志符。"
 
 #: src/toolchain/katana/reference.md:19
-msgid "#### Mining Modes"
+#, fuzzy
+msgid "Mining Modes"
 msgstr "#### 挖矿模式"
 
 #: src/toolchain/katana/reference.md:21
@@ -5538,7 +5616,8 @@ msgstr ""
 "```"
 
 #: src/toolchain/katana/reference.md:30
-msgid "#### Supported Transport Layers"
+#, fuzzy
+msgid "Supported Transport Layers"
 msgstr "#### 支持的传输层"
 
 #: src/toolchain/katana/reference.md:32
@@ -5560,33 +5639,51 @@ msgstr ""
 "```"
 
 #: src/toolchain/katana/reference.md:38
-msgid "#### Starknet Feature Compatibility"
+#, fuzzy
+msgid "Starknet Feature Compatibility"
 msgstr "#### Starknet功能兼容性"
 
 #: src/toolchain/katana/reference.md:40
-msgid "##### Supported Transaction Type"
+#, fuzzy
+msgid "Supported Transaction Type"
 msgstr "##### 支持的交易类型"
 
 #: src/toolchain/katana/reference.md:42
-msgid ""
-"| Type           | Version |\n"
-"| -------------- | ------- |\n"
-"| INVOKE         | 1       |\n"
-"| DECLARE        | 1, 2    |\n"
-"| DEPLOY_ACCOUNT |         |"
+msgid "Type"
 msgstr ""
-"| Type           | Version |\n"
-"| -------------- | ------- |\n"
-"| INVOKE         | 1       |\n"
-"| DECLARE        | 1, 2    |\n"
-"| DEPLOY_ACCOUNT |         |"
+
+#: src/toolchain/katana/reference.md:42
+msgid "Version"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:44
+msgid "INVOKE"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:44
+msgid "1"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:45
+msgid "DECLARE"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:45
+msgid "1, 2"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:46
+msgid "DEPLOY_ACCOUNT"
+msgstr ""
 
 #: src/toolchain/katana/reference.md:48
-msgid "#### Supported RPC Methods"
+#, fuzzy
+msgid "Supported RPC Methods"
 msgstr "#### 支持的 RPC 方法"
 
 #: src/toolchain/katana/reference.md:50
-msgid "##### Starknet Methods"
+#, fuzzy
+msgid "Starknet Methods"
 msgstr "##### Starknet方法"
 
 #: src/toolchain/katana/reference.md:52
@@ -5599,67 +5696,100 @@ msgstr ""
 "github.com/starkware-libs/starknet-specs/tree/v0.3.0) 的参考文献。"
 
 #: src/toolchain/katana/reference.md:54
-msgid ""
-"-   `starknet_blockNumber`\n"
-"-   `starknet_blockHashAndNumber`\n"
-"-   `starknet_getBlockWithTxs`\n"
-"-   `starknet_getBlockWithTxHashes`\n"
-"-   `starknet_getBlockTransactionCount`\n"
-"-   `starknet_getTransactionByHash`\n"
-"-   `starknet_getTransactionByBlockIdAndIndex`\n"
-"-   `starknet_getTransactionReceipt`\n"
-"-   `starknet_pendingTransactions`\n"
-"-   `starknet_getStateUpdate`\n"
-"\n"
-"-   `starknet_call`\n"
-"-   `starknet_estimateFee`\n"
-"\n"
-"-   `starknet_chainId`\n"
-"\n"
-"-   `starknet_getNonce`\n"
-"-   `starknet_getEvents`\n"
-"-   `starknet_getStorageAt`\n"
-"-   `starknet_getClassHashAt`\n"
-"-   `starknet_getClass`\n"
-"-   `starknet_getClassAt`\n"
-"\n"
-"-   `starknet_syncing`\n"
-"\n"
-"-   `starknet_addInvokeTransaction`\n"
-"-   `starknet_addDeclareTransaction`\n"
-"-   `starknet_addDeployAccountTransaction`"
+msgid "`starknet_blockNumber`"
 msgstr ""
-"-   `starknet_blockNumber`\n"
-"-   `starknet_blockHashAndNumber`\n"
-"-   `starknet_getBlockWithTxs`\n"
-"-   `starknet_getBlockWithTxHashes`\n"
-"-   `starknet_getBlockTransactionCount`\n"
-"-   `starknet_getTransactionByHash`\n"
-"-   `starknet_getTransactionByBlockIdAndIndex`\n"
-"-   `starknet_getTransactionReceipt`\n"
-"-   `starknet_pendingTransactions`\n"
-"-   `starknet_getStateUpdate`\n"
-"\n"
-"-   `starknet_call`\n"
-"-   `starknet_estimateFee`\n"
-"\n"
-"-   `starknet_chainId`\n"
-"\n"
-"-   `starknet_getNonce`\n"
-"-   `starknet_getEvents`\n"
-"-   `starknet_getStorageAt`\n"
-"-   `starknet_getClassHashAt`\n"
-"-   `starknet_getClass`\n"
-"-   `starknet_getClassAt`\n"
-"\n"
-"-   `starknet_syncing`\n"
-"\n"
-"-   `starknet_addInvokeTransaction`\n"
-"-   `starknet_addDeclareTransaction`\n"
-"-   `starknet_addDeployAccountTransaction`"
+
+#: src/toolchain/katana/reference.md:55
+msgid "`starknet_blockHashAndNumber`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:56
+msgid "`starknet_getBlockWithTxs`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:57
+msgid "`starknet_getBlockWithTxHashes`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:58
+msgid "`starknet_getBlockTransactionCount`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:59
+msgid "`starknet_getTransactionByHash`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:60
+msgid "`starknet_getTransactionByBlockIdAndIndex`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:61
+msgid "`starknet_getTransactionReceipt`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:62
+msgid "`starknet_pendingTransactions`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:63
+msgid "`starknet_getStateUpdate`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:65
+msgid "`starknet_call`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:66
+msgid "`starknet_estimateFee`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:68
+msgid "`starknet_chainId`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:70
+msgid "`starknet_getNonce`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:71
+msgid "`starknet_getEvents`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:72
+msgid "`starknet_getStorageAt`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:73
+msgid "`starknet_getClassHashAt`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:74
+msgid "`starknet_getClass`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:75
+msgid "`starknet_getClassAt`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:77
+msgid "`starknet_syncing`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:79
+msgid "`starknet_addInvokeTransaction`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:80
+msgid "`starknet_addDeclareTransaction`"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:81
+msgid "`starknet_addDeployAccountTransaction`"
+msgstr ""
 
 #: src/toolchain/katana/reference.md:83
-msgid "##### Custom Methods"
+#, fuzzy
+msgid "Custom Methods"
 msgstr "##### 自定义方法"
 
 #: src/toolchain/katana/reference.md:85
@@ -5730,7 +5860,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--silent`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Don't print anything on startup."
+"     Don't print anything on startup."
 msgstr ""
 "`--silent`  \n"
 " &nbsp;&nbsp;&nbsp;&nbsp; 启动时不打印任何内容"
@@ -5739,8 +5869,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--no-mining`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Disable auto and interval mining, and mine on "
-"demand instead."
+"     Disable auto and interval mining, and mine on demand instead."
 msgstr ""
 "`--no-mining`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 禁用自动采矿和间隔采矿，改为按需采矿"
@@ -5749,7 +5878,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`-b, --block-time <SECONDS>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Block time in seconds for interval mining."
+"     Block time in seconds for interval mining."
 msgstr ""
 "`-b, --block-time <SECONDS>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 以秒为单位的区间挖掘时间"
@@ -5758,10 +5887,9 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--dump-state <PATH>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Dump the state of chain on exit to the given "
-"file.  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; If the value is a directory, the state will be "
-"written to `<PATH>/state.bin`."
+"     Dump the state of chain on exit to the given file.  \n"
+"     If the value is a directory, the state will be written to `<PATH>/state."
+"bin`."
 msgstr ""
 "`--dump-state<PATH>` \n"
 "     将退出时链的状态转存到给定文件。  \n"
@@ -5771,8 +5899,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--load-state <PATH>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Initialize the chain from a previously saved state "
-"snapshot."
+"     Initialize the chain from a previously saved state snapshot."
 msgstr ""
 "`--load-state<PATH>` \n"
 "     从先前保存的状态快照初始化链。"
@@ -5781,7 +5908,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`-h, --help`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Print help (see a summary with '-h')."
+"     Print help (see a summary with '-h')."
 msgstr ""
 "`-h, --help`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 打印帮助（用\"-h \"查看摘要）"
@@ -5790,20 +5917,21 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`-V, --version`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Print version information."
+"     Print version information."
 msgstr ""
 "`-V, --version`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 打印版本信息"
 
 #: src/toolchain/katana/reference.md:131
-msgid "#### Server Options"
+#, fuzzy
+msgid "Server Options"
 msgstr "#### 服务器选项"
 
 #: src/toolchain/katana/reference.md:133
 #, fuzzy
 msgid ""
 "`-p, --port <PORT>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Port number to listen on. [default: 5050]"
+"     Port number to listen on. \\[default: 5050\\]"
 msgstr ""
 "`-p, --port <PORT>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 要监听的端口号[默认：5050］"
@@ -5812,7 +5940,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--host <HOST>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; The IP address the server will listen on."
+"     The IP address the server will listen on."
 msgstr ""
 "`--host <HOST>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 服务器监听的 IP 地址"
@@ -5821,8 +5949,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--seed <SEED>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Specify the seed for randomness of accounts to be "
-"predeployed."
+"     Specify the seed for randomness of accounts to be predeployed."
 msgstr ""
 "`--seed <SEED>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 指定要预先部署的账户随机性种子"
@@ -5831,8 +5958,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--accounts <NUM>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Number of pre-funded accounts to generate. "
-"[default: 10]"
+"     Number of pre-funded accounts to generate. \\[default: 10\\]"
 msgstr ""
 "`--accounts <NUM>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 要生成的预注资账户数 [默认值：10]"
@@ -5841,20 +5967,21 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--disable-fee`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Disable charging fee for transactions."
+"     Disable charging fee for transactions."
 msgstr ""
 "`-V, --version`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 打印版本信息"
 
 #: src/toolchain/katana/reference.md:150
-msgid "#### Environment Options"
+#, fuzzy
+msgid "Environment Options"
 msgstr "#### 环境选项"
 
 #: src/toolchain/katana/reference.md:152
 #, fuzzy
 msgid ""
 "`--chain-id <CHAIN_ID>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; The chain ID. [default: KATANA]"
+"     The chain ID. \\[default: KATANA\\]"
 msgstr ""
 "`--chain-id <CHAIN_ID>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 链 ID [默认值：KATANA］"
@@ -5863,7 +5990,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--gas-price <GAS_PRICE>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; The gas price."
+"     The gas price."
 msgstr ""
 "`--gas-price <GAS_PRICE>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; Gas价格"
@@ -5872,8 +5999,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--validate-max-steps <VALIDATE_MAX_STEPS>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; The maximum number of steps available for the "
-"account validation logic."
+"     The maximum number of steps available for the account validation logic."
 msgstr ""
 "`--validate-max-steps <VALIDATE_MAX_STEPS>` 账户验证逻辑的最大步骤数。\n"
 "     账户验证逻辑的最大步骤数。"
@@ -5882,15 +6008,14 @@ msgstr ""
 #, fuzzy
 msgid ""
 "`--invoke-max-steps <INVOKE_MAX_STEPS>`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; The maximum number of steps available for the "
-"account execution logic."
+"     The maximum number of steps available for the account execution logic."
 msgstr ""
 "Invoke-max-steps <INVOKE_MAX_STEPS> `--invoke-max-steps\n"
 "     账户执行逻辑的最大步数。"
 
 #: src/toolchain/katana/reference.md:164
 #, fuzzy
-msgid "### Shell Completions"
+msgid "Shell Completions"
 msgstr "#### 服务器选项"
 
 #: src/toolchain/katana/reference.md:166
@@ -5909,24 +6034,24 @@ msgid "Supported shells are:"
 msgstr "支持的外壳有"
 
 #: src/toolchain/katana/reference.md:172
-#, fuzzy
-msgid ""
-"-   bash\n"
-"-   elvish\n"
-"-   fish\n"
-"-   powershell\n"
-"-   zsh"
+msgid "bash"
 msgstr ""
-"-   砸\n"
-"-   精灵语\n"
-"-   鱼\n"
-"-   powerhell\n"
-"-   zsh"
 
-#: src/toolchain/katana/reference.md:178
-#, fuzzy
-msgid "#### EXAMPLES"
-msgstr "其他例子"
+#: src/toolchain/katana/reference.md:173
+msgid "elvish"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:174
+msgid "fish"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:175
+msgid "powershell"
+msgstr ""
+
+#: src/toolchain/katana/reference.md:176
+msgid "zsh"
+msgstr ""
 
 #: src/toolchain/katana/reference.md:180
 #, fuzzy
@@ -5948,7 +6073,7 @@ msgstr ""
 
 #: src/toolchain/katana/reference.md:188
 #, fuzzy
-msgid "1. Create 15 dev accounts and disable transaction fee mechanism"
+msgid "Create 15 dev accounts and disable transaction fee mechanism"
 msgstr "1.创建 15 个开发人员账户并禁用交易费机制"
 
 #: src/toolchain/katana/reference.md:190
@@ -5964,7 +6089,7 @@ msgstr ""
 
 #: src/toolchain/katana/reference.md:194
 #, fuzzy
-msgid "2. Set the chain id to `SN_GOERLI` and run the server on port 8545"
+msgid "Set the chain id to `SN_GOERLI` and run the server on port 8545"
 msgstr "2. 设置链 id SN_GOERLI，并在 8545 端口运行服务器"
 
 #: src/toolchain/katana/reference.md:196
@@ -5980,8 +6105,8 @@ msgstr ""
 #: src/toolchain/katana/reference.md:200
 #, fuzzy
 msgid ""
-"3. Load previously stored state and dump the state of this session to a file "
-"on shutdown"
+"Load previously stored state and dump the state of this session to a file on "
+"shutdown"
 msgstr "3.加载先前存储的状态，并在关机时将此会话的状态转储到文件中"
 
 #: src/toolchain/katana/reference.md:202
@@ -5996,7 +6121,8 @@ msgstr ""
 "```"
 
 #: src/toolchain/torii/overview.md:1
-msgid "## Torii - Networking & Indexing"
+#, fuzzy
+msgid "Torii - Networking & Indexing"
 msgstr "## Torii - 网络和索引"
 
 #: src/toolchain/torii/overview.md:3
@@ -6009,7 +6135,7 @@ msgstr ""
 
 #: src/toolchain/torii/overview.md:5
 #, fuzzy
-msgid "### Dojo indexer"
+msgid "Dojo indexer"
 msgstr "### 索引器"
 
 #: src/toolchain/torii/overview.md:7
@@ -6066,12 +6192,9 @@ msgid ""
 "This will install Torii and the required dependencies on your local system."
 msgstr "这将在本地系统中安装 Sozo 和所需的依赖项。"
 
-#: src/toolchain/torii/overview.md:28
+#: src/toolchain/torii/overview.md:30
 #, fuzzy
-msgid ""
-"> 📚 **Reference**\n"
-">\n"
-"> See the [`torii` Reference](./reference.md) for a complete reference."
+msgid "See the [`torii` Reference](./reference.md) for a complete reference."
 msgstr ""
 "> 📚 **参考资料**\n"
 ">\n"
@@ -6080,12 +6203,12 @@ msgstr ""
 
 #: src/toolchain/torii/reference.md:1
 #, fuzzy
-msgid "## torii reference"
+msgid "torii reference"
 msgstr "## 参考文献"
 
 #: src/toolchain/torii/reference.md:3
 #, fuzzy
-msgid "### Name"
+msgid "Name"
 msgstr "### 名称"
 
 #: src/toolchain/torii/reference.md:5
@@ -6129,7 +6252,7 @@ msgstr ""
 
 #: src/toolchain/torii/reference.md:19
 #, fuzzy
-msgid "#### Database URL"
+msgid "Database URL"
 msgstr "#### 数据库 URL"
 
 #: src/toolchain/torii/reference.md:21
@@ -6144,15 +6267,19 @@ msgstr ""
 #: src/toolchain/torii/reference.md:23
 #, fuzzy
 msgid ""
-"- The in-memory database is ephermal and only lasts as long as the indexer "
-"is running. This is a fast and simple option to start the indexer for "
-"development/testing.\n"
-"- Presistent storage should be used in production. It relies on the local "
-"filesystem for storage."
+"The in-memory database is ephermal and only lasts as long as the indexer is "
+"running. This is a fast and simple option to start the indexer for "
+"development/testing."
 msgstr ""
 "- 内存数据库是恒温的，只有索引器运行时才会持续。这是在开发/测试中启动索引器的"
 "快速而简单的选择。\n"
 "- 生产中应使用持久存储。它依赖本地文件系统进行存储。"
+
+#: src/toolchain/torii/reference.md:24
+msgid ""
+"Presistent storage should be used in production. It relies on the local "
+"filesystem for storage."
+msgstr ""
 
 #: src/toolchain/torii/reference.md:26
 #, fuzzy
@@ -6180,9 +6307,7 @@ msgstr ""
 
 #: src/toolchain/torii/reference.md:37
 #, fuzzy
-msgid ""
-"`-w, --world`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Address of the world contract to index"
+msgid "`-w, --world`      Address of the world contract to index"
 msgstr ""
 "`-V, --version`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 打印版本信息"
@@ -6190,9 +6315,7 @@ msgstr ""
 #: src/toolchain/torii/reference.md:40
 #, fuzzy
 msgid ""
-"`--rpc`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Starknet RPC endpoing to use [default: http//"
-"localhost:5050]"
+"`--rpc`      Starknet RPC endpoing to use \\[default: http//localhost:5050\\]"
 msgstr ""
 "`-p, --port <PORT>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 要监听的端口号[默认：5050］"
@@ -6200,8 +6323,7 @@ msgstr ""
 #: src/toolchain/torii/reference.md:43
 #, fuzzy
 msgid ""
-"`-m, --manifest <MANIFEST>`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Specify a local manifest to initialize from"
+"`-m, --manifest <MANIFEST>`      Specify a local manifest to initialize from"
 msgstr ""
 "`-b, --block-time <SECONDS>`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 以秒为单位的区间挖掘时间"
@@ -6209,9 +6331,8 @@ msgstr ""
 #: src/toolchain/torii/reference.md:46
 #, fuzzy
 msgid ""
-"`-d, --database-url <DATABASE_URL>`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Database URL (read more above) [default: sqlite::"
-"memory:]"
+"`-d, --database-url <DATABASE_URL>`      Database URL (read more above) "
+"\\[default: sqlite::memory:\\]"
 msgstr ""
 "`-d，--database-url <DATABASE_URL>`\n"
 "     数据库 URL（更多信息请阅读上文） [默认：sqlite::memory:]"
@@ -6219,34 +6340,26 @@ msgstr ""
 #: src/toolchain/torii/reference.md:49
 #, fuzzy
 msgid ""
-"`-s, --start-block <START_BLOCK>`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Specify a block to start indexing from, ignored if "
-"stored head exists [default: 0]"
+"`-s, --start-block <START_BLOCK>`      Specify a block to start indexing "
+"from, ignored if stored head exists \\[default: 0\\]"
 msgstr ""
 "`-s, --start-block <START_BLOCK>``\n"
 "     指定要从哪个块开始建立索引，如果存在存储头，则忽略 [默认：0]"
 
 #: src/toolchain/torii/reference.md:52
-#, fuzzy
-msgid ""
-"`-h, --help`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Print help"
+msgid "`-h, --help`      Print help"
 msgstr ""
-"`-h, --help`  \n"
-"&nbsp;&nbsp;&nbsp;&nbsp; 打印帮助（用\"-h \"查看摘要）"
 
 #: src/toolchain/torii/reference.md:55
 #, fuzzy
-msgid ""
-"`-V, --version`\n"
-"&nbsp;&nbsp;&nbsp;&nbsp; Print version"
+msgid "`-V, --version`      Print version"
 msgstr ""
 "`-V, --version`  \n"
 "&nbsp;&nbsp;&nbsp;&nbsp; 打印版本信息"
 
 #: src/deployment/locally.md:1
 #, fuzzy
-msgid "## Deploying Locally"
+msgid "Deploying Locally"
 msgstr "## 本地部署"
 
 #: src/deployment/locally.md:3
@@ -6264,7 +6377,7 @@ msgstr ""
 
 #: src/deployment/locally.md:5
 #, fuzzy
-msgid "### Katana Deployments"
+msgid "Katana Deployments"
 msgstr "#### 卡塔纳部署"
 
 #: src/deployment/locally.md:7
@@ -6275,7 +6388,7 @@ msgstr "部署到 Katana 再简单不过了。"
 #: src/deployment/locally.md:9
 #, fuzzy
 msgid ""
-"> This assumes you have followed the [Quick Start](./getting-started/quick-"
+"This assumes you have followed the [Quick Start](./getting-started/quick-"
 "start.md) guide and have a project initialized."
 msgstr ""
 "> 假设您已按照 [快速入门](./getting-started/quick-start.md) 指南进行了操作，"
@@ -6293,7 +6406,7 @@ msgstr "这样就启动了一个本地卡塔纳，您现在可以在上面进行
 
 #: src/deployment/locally.md:19
 #, fuzzy
-msgid "### Deploying to Katana"
+msgid "Deploying to Katana"
 msgstr "### 部署到卡塔纳"
 
 #: src/deployment/locally.md:21
@@ -6310,12 +6423,12 @@ msgstr "注意--只有在编译过合同的情况下才能运行。如果没有�
 
 #: src/deployment/remote.md:1
 #, fuzzy
-msgid "## Deployment to Remote Network"
+msgid "Deployment to Remote Network"
 msgstr "## 部署到远程网络"
 
 #: src/deployment/remote.md:3
 #, fuzzy
-msgid "> *IMPORTANT: Dojo is unaudited. Use at your own risk.*"
+msgid "_IMPORTANT: Dojo is unaudited. Use at your own risk._"
 msgstr "> *重要提示：Dojo 未经审计。使用风险自负。"
 
 #: src/deployment/remote.md:5
@@ -6391,7 +6504,7 @@ msgstr ""
 
 #: src/deployment/remote.md:33
 #, fuzzy
-msgid "### Remote Katana"
+msgid "Remote Katana"
 msgstr "## Katana"
 
 #: src/deployment/remote.md:35
@@ -6403,12 +6516,12 @@ msgstr "Katanas 可以作为远程测试网托管和运行，但不建议用于�
 
 #: src/deployment/remote.md:37
 #, fuzzy
-msgid "__todo__: add instructions for deploying to remote katana"
+msgid "**todo**: add instructions for deploying to remote katana"
 msgstr "__todo__：添加部署到远程 katana 的说明"
 
 #: src/deployment/remote.md:40
 #, fuzzy
-msgid "### Madara "
+msgid "Madara"
 msgstr "## Cairo"
 
 #: src/deployment/remote.md:42
@@ -6461,143 +6574,126 @@ msgstr ""
 
 #: src/deployment/remote.md:59
 #, fuzzy
-msgid "### Starknet "
+msgid "Starknet"
 msgstr "## Starknet合约的属性"
 
 #: src/deployment/remote.md:61
 #, fuzzy
-msgid "__todo__: add instructions for deploying to remote Starknet"
+msgid "**todo**: add instructions for deploying to remote Starknet"
 msgstr "__todo__：添加部署到远程星网的说明"
 
 #: src/tutorial/onchain-chess/index.md:1
-#, fuzzy
-msgid "# Building a Chess Game"
-msgstr "# 构建国际象棋游戏"
+msgid "Building a Chess Game"
+msgstr "制作国际象棋游戏"
 
 #: src/tutorial/onchain-chess/index.md:3
-#, fuzzy
 msgid "_\"I just finished reading The Dojo Book. What should I do next?\"_"
-msgstr "_\"我刚刚读完《道场书》。接下来我该怎么做？"
+msgstr "_“我刚刚读完Dojo Book。接下来我该做什么？”_"
 
 #: src/tutorial/onchain-chess/index.md:5
-#, fuzzy
 msgid ""
 "The answers to this question are always \"Make something!\", sometimes "
 "followed by a list of cool projects. This is a great answer for some people, "
 "but others might be looking for a little more direction."
 msgstr ""
-"对这个问题的回答总是 \"做点什么吧！\"，有时还会列举一些很酷的项目。这对有些人"
-"来说是个不错的答案，但有些人可能需要更多的指导。"
+"对这个问题的回答总是 “做点什么吧！”，有时还会顺带列举一些很酷的项目。这对有些"
+"人来说是个不错的答案，但有些人可能需要更多的指导。"
 
 #: src/tutorial/onchain-chess/index.md:7
-#, fuzzy
 msgid ""
 "This guide is intended to fill the gap between heavily directed beginner "
 "tutorials and working on your projects. The primary goal here is to get you "
 "to write code. The secondary goal is to get you reading documentation."
 msgstr ""
-"本指南旨在填补指导性较强的初学者教程与项目工作之间的空白。这里的主要目标是让"
-"你编写代码。次要目标是让你阅读文档。"
+"本指南旨在填补指导性较强的初学者教程与你自己的项目之间的空白。主要目标是让你"
+"编写代码。次要目标是让你阅读文档。"
 
 #: src/tutorial/onchain-chess/index.md:9
-#, fuzzy
 msgid ""
 "If you haven't read the Dojo Book yet, it is highly encouraged for you to do "
 "so before starting this project."
-msgstr "如果您还没有阅读过《道场手册》，强烈建议您在开始此项目之前先阅读一下。"
+msgstr "如果您还没有阅读过Dojo Book，强烈建议您在开始此项目之前先阅读一下。"
 
 #: src/tutorial/onchain-chess/index.md:11
-#, fuzzy
-msgid "## What are we building?"
-msgstr "## 我们在建造什么？"
+msgid "What are we building?"
+msgstr "我们在制作什么？"
 
 #: src/tutorial/onchain-chess/index.md:13
-#, fuzzy
 msgid ""
 "We're building an on-chain chess game contract that lets you start a new "
 "game and play chess. This guide does not cover every rules of the chess "
 "game. You will build step by step as follows:"
 msgstr ""
-"我们正在构建一个链上国际象棋游戏合约，让您可以开始新游戏并进行国际象棋游戏。"
-"本指南并不涵盖国际象棋游戏的所有规则。您将按照以下步骤逐步构建："
+"我们正在构建一个链上国际象棋游戏合约，让您可以开始新游戏并下棋。本指南并不涵"
+"盖国际象棋游戏的所有规则。您将按照以下步骤逐步构建："
 
 #: src/tutorial/onchain-chess/index.md:15
-#, fuzzy
-msgid ""
-"1. A system to spawn all the chess pieces\n"
-"2. A system to make pieces move\n"
-"3. Add some functions to check a legal move\n"
-"4. Play chess ♟♙ - integration test!"
-msgstr ""
-"1.催生所有棋子的系统\n"
-"2.让棋子移动的系统\n"
-"3.添加一些检查合法棋步的功能\n"
-"4.下棋 ♟♙ - 集成测试！"
+msgid "A system to spawn all the chess pieces"
+msgstr "生成所有棋子的系统"
+
+#: src/tutorial/onchain-chess/index.md:16
+msgid "A system to make pieces move"
+msgstr "让棋子移动的系统"
+
+#: src/tutorial/onchain-chess/index.md:17
+msgid "Add some functions to check a legal move"
+msgstr "加入检查移动合法性的函数"
+
+#: src/tutorial/onchain-chess/index.md:18
+msgid "Play chess ♟♙ - integration test!"
+msgstr "下棋 ♟♙ - 集成测试!"
 
 #: src/tutorial/onchain-chess/index.md:20
-#, fuzzy
 msgid ""
 "The full code of tutorial is based on [this repo](https://github.com/"
 "rkdud007/chess-dojo/tree/tutorialv2)."
 msgstr ""
-"教程的完整代码基于 [this repo](https://github.com/rkdud007/chess-dojo/tree/"
+"教程的完整代码基于 [这个仓库](https://github.com/rkdud007/chess-dojo/tree/"
 "tutorialv2)。"
 
 #: src/tutorial/onchain-chess/index.md:22
-#, fuzzy
 msgid ""
 "If this seems too hard, don't worry! This guide is for beginners. If you "
 "know some basics about Cairo and Dojo, you're good. We won't make a full "
 "chess game with all the rules. We're keeping it simple."
 msgstr ""
-"如果这看起来太难，不用担心！本指南适合初学者。如果你了解开罗和斗城的一些基本"
-"知识，那就没问题了。我们不会制作包含所有规则的完整棋谱。我们将保持简单。"
+"如果这看起来太难，不用担心！本指南适合初学者。如果你了解Cairo和Dojo的一些基本"
+"知识，那就没问题了。我们不会制作包含所有规则的完整游戏。我们将保持简单。"
 
 #: src/tutorial/onchain-chess/index.md:24
-#, fuzzy
-msgid "## What after this guide?"
-msgstr "## 本指南之后是什么？"
+msgid "What after this guide?"
+msgstr "这个教程之后是什么？"
 
 #: src/tutorial/onchain-chess/index.md:26
-#, fuzzy
 msgid ""
 "We're making another guide to help design the frontend. This will make our "
 "chess game complete."
-msgstr "我们正在制作另一份指南，以帮助设计前端。这将使我们的棋局更加完整。"
+msgstr ""
+"我们正在制作另一份指南，来帮助前端设计。这将会让我们的国际象棋游戏更加完整。"
 
 #: src/tutorial/onchain-chess/index.md:28
-#, fuzzy
 msgid ""
 "After you finish all the five chapters, we can move on to the frontend guide."
 msgstr "完成全部五章后，我们就可以继续学习前端指南了。"
 
-#: src/tutorial/onchain-chess/0-setup.md:1
-#, fuzzy
-msgid "# 0. Setup"
-msgstr "设置"
-
 #: src/tutorial/onchain-chess/0-setup.md:3
-#, fuzzy
 msgid ""
 "_Before starting recommend following the [`hello-dojo`](../../cairo/hello-"
 "dojo.md) chapter to gain a basic understanding of the Dojo game._"
 msgstr ""
-"在开始之前，建议阅读 [`hello-dojo`](../../cairo/hello-dojo.md) 一章，以获得"
-"对 Dojo 游戏的基本了解。"
+"_在开始之前，建议阅读 [`hello-dojo`](../../cairo/hello-dojo.md) 一章，以获得"
+"对 Dojo 游戏的基本了解。_"
 
 #: src/tutorial/onchain-chess/0-setup.md:5
-#, fuzzy
-msgid "## Initializing the Project"
-msgstr "## 初始化项目"
+msgid "Initializing the Project"
+msgstr "初始化项目"
 
 #: src/tutorial/onchain-chess/0-setup.md:7
-#, fuzzy
 msgid ""
 "Create a new Dojo project folder. You can name your project what you want."
 msgstr "创建一个新的 Dojo 项目文件夹。您可以随心所欲地为项目命名。"
 
 #: src/tutorial/onchain-chess/0-setup.md:9
-#, fuzzy
 msgid ""
 "```sh\n"
 "mkdir dojo-chess\n"
@@ -6608,12 +6704,10 @@ msgstr ""
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:13
-#, fuzzy
 msgid "Open the project folder."
 msgstr "打开项目文件夹。"
 
 #: src/tutorial/onchain-chess/0-setup.md:15
-#, fuzzy
 msgid ""
 "```sh\n"
 "cd dojo-chess\n"
@@ -6624,70 +6718,60 @@ msgstr ""
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:19
-#, fuzzy
 msgid "And initialize the project using sozo init."
 msgstr "然后使用 sozo init 初始化项目。"
 
 #: src/tutorial/onchain-chess/0-setup.md:25
-#, fuzzy
-msgid "## Cleaning Up the Boilerplate"
-msgstr "## 清理模板"
+msgid "Cleaning Up the Boilerplate"
+msgstr "清理模板代码"
 
 #: src/tutorial/onchain-chess/0-setup.md:27
-#, fuzzy
 msgid ""
 "The project comes with a lot of boilerplate codes. Clear it all. Make sure "
 "both `components.cairo` and `systems.cairo` files are empty."
 msgstr ""
-"该项目带有大量模板代码。全部清除。确保 `components.cairo` 和 `systems.cairo` "
-"文件为空。"
+"项目带有大量模板代码。全部清除。确保 `components.cairo` 和 `systems.cairo` 文"
+"件为空。"
 
 #: src/tutorial/onchain-chess/0-setup.md:29
-#, fuzzy
 msgid "In `lib.cairo`, retain only:"
 msgstr "在`lib.cairo`中，仅保留："
 
 #: src/tutorial/onchain-chess/0-setup.md:31
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "mod components;\n"
 "mod systems;\n"
 "```"
 msgstr ""
-"```防锈，忽略\n"
-"mod 组件；\n"
-"mod 系统；\n"
+"```rust,ignore\n"
+"mod components;\n"
+"mod systems;\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:36
-#, fuzzy
 msgid "Compile your project with:"
-msgstr "用"
+msgstr "用以下命令编译项目："
 
 #: src/tutorial/onchain-chess/0-setup.md:42
-#, fuzzy
-msgid "## Basic components"
-msgstr "## 组件"
+msgid "Basic components"
+msgstr "基本组件"
 
 #: src/tutorial/onchain-chess/0-setup.md:44
-#, fuzzy
 msgid ""
 "While there are many ways to design a chess game using the ECS model, we'll "
 "follow this approach:"
-msgstr "虽然使用 ECS 模型设计棋局有很多种方法，但我们将采用这种方法："
+msgstr "虽然有很多种方法使用 ECS 模型设计象棋游戏，但我们将采用这种方法："
 
 #: src/tutorial/onchain-chess/0-setup.md:46
-#, fuzzy
 msgid ""
-"> Every square of the chess board (e.g., A1) will be treated as an entity. "
-"If a piece exists on a square, the square entity will hold that piece."
+"Every square of the chess board (e.g., A1) will be treated as an entity. If "
+"a piece exists on a square, the square entity will hold that piece."
 msgstr ""
-"> 棋盘上的每个方格（例如 A1）都将被视为一个实体。如果某个方格上有棋子，则该方"
-"格实体将包含该棋子。"
+"棋盘上的每个方格（例如 A1）都将被视为一个实体。如果某个方格上有棋子，则该方格"
+"实体将包含该棋子。"
 
 #: src/tutorial/onchain-chess/0-setup.md:48
-#, fuzzy
 msgid ""
 "First, add this basic component to `components.cairo` file. If you are not "
 "familar with component syntax in Dojo engine, go back to this [chapter]"
@@ -6697,7 +6781,6 @@ msgstr ""
 "的组件语法，请回到本[章节]（.../.../cairo/components.md）。"
 
 #: src/tutorial/onchain-chess/0-setup.md:50
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "#[derive(Component)]\n"
@@ -6727,51 +6810,48 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"``rust,ignore\n"
-"#[派生（组件）]\n"
+"```rust,ignore\n"
+"#[derive(Component)]\n"
 "struct Square {\n"
-"    #[key］\n"
-"    game_id: felt252、\n"
-"    #[key］\n"
-"    x: u32、\n"
-"    #[key］\n"
-"    y: u32、\n"
-"    piece：Option<PieceType> 、\n"
+"    #[key]\n"
+"    game_id: felt252,\n"
+"    #[key]\n"
+"    x: u32,\n"
+"    #[key]\n"
+"    y: u32,\n"
+"    piece: Option<PieceType>,\n"
 "}\n"
 "\n"
-"枚举 PieceType {\n"
-"    白卒\n"
-"    白马\n"
-"    白象\n"
-"    白车\n"
-"    白皇后\n"
-"    白王\n"
-"    黑卒\n"
-"    黑马\n"
-"    黑象\n"
-"    黑车\n"
-"    黑皇后\n"
-"    黑王\n"
+"enum PieceType {\n"
+"    WhitePawn,\n"
+"    WhiteKnight,\n"
+"    WhiteBishop,\n"
+"    WhiteRook,\n"
+"    WhiteQueen,\n"
+"    WhiteKing,\n"
+"    BlackPawn,\n"
+"    BlackKnight,\n"
+"    BlackBishop,\n"
+"    BlackRook,\n"
+"    BlackQueen,\n"
+"    BlackKing,\n"
 "}\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:78
-#, fuzzy
-msgid "## Basic systems"
-msgstr "## 系统"
+msgid "Basic systems"
+msgstr "系统"
 
 #: src/tutorial/onchain-chess/0-setup.md:80
-#, fuzzy
 msgid ""
 "Starting from the next chapter, you will implement `initiate` and `move` "
 "systems one in each chapter. Let's create each system in its own file for "
 "better modularity."
 msgstr ""
-"从下一章节开始，您将在每一章节中实现一个 `initiate` 和 `move` 系统。为了更好"
-"地实现模块化，让我们在自己的文件中创建每个系统。"
+"从下一章节开始，您将在每一章节中依次实现 `initiate` 和 `move` 系统。为了更好"
+"地实现模块化，我们会在单独的文件中创建每个系统。"
 
 #: src/tutorial/onchain-chess/0-setup.md:82
-#, fuzzy
 msgid ""
 "Create a `systems` folder at `src`. Create `initiate.cairo`and `move.cairo` "
 "two files inside the folder. Each file should contain a basic system "
@@ -6781,12 +6861,10 @@ msgstr ""
 "cairo` 两个文件。每个文件都应包含一个基本的系统结构。"
 
 #: src/tutorial/onchain-chess/0-setup.md:84
-#, fuzzy
 msgid "For example, `initiate.cairo` look like this:"
 msgstr "例如，`initiate.cairo` 看起来像这样："
 
 #: src/tutorial/onchain-chess/0-setup.md:86
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "#[system]\n"
@@ -6796,19 +6874,17 @@ msgid ""
 "```"
 msgstr ""
 "```rust,ignore\n"
-"#[系统]\n"
+"#[system]\n"
 "mod initiate_system {\n"
 "\n"
 "}\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:93
-#, fuzzy
 msgid "and in `systems.cairo` we will use `initiate_system` like this:"
 msgstr "在 `systems.cairo` 中，我们将这样使用 `initiate_system`："
 
 #: src/tutorial/onchain-chess/0-setup.md:95
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "mod initiate;\n"
@@ -6817,18 +6893,16 @@ msgid ""
 "```"
 msgstr ""
 "```rust,ignore\n"
-"MOD 启动；\n"
+"mod initiate;\n"
 "\n"
-"使用 initiate::initiate_system；\n"
+"use initiate::initiate_system;\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:101
-#, fuzzy
 msgid "Do the same with the other systems. Update `systems.cairo` to:"
 msgstr "对其他系统执行同样操作。更新 `systems.cairo` 为："
 
 #: src/tutorial/onchain-chess/0-setup.md:103
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "mod initiate;\n"
@@ -6839,44 +6913,39 @@ msgid ""
 "```"
 msgstr ""
 "```rust,ignore\n"
-"mod initiate；\n"
-"模式移动；\n"
+"mod initiate;\n"
+"mod move;\n"
 "\n"
-"使用 initiate::initiate_system；\n"
-"使用 move::move_system；\n"
+"use initiate::initiate_system;\n"
+"use move::move_system;\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:111
-#, fuzzy
-msgid "## Compile your project"
-msgstr "## 编译项目"
+msgid "Compile your project"
+msgstr "编译项目"
 
 #: src/tutorial/onchain-chess/0-setup.md:113
-#, fuzzy
 msgid "Now try `sozo build` to build. Faced some errors?"
 msgstr "现在尝试 `sozo build` 进行构建。遇到错误了吗？"
 
 #: src/tutorial/onchain-chess/0-setup.md:115
 #: src/tutorial/onchain-chess/0-setup.md:179
-#, fuzzy
 msgid ""
 "```sh\n"
 "error: Trait has no implementation in context:\n"
 "```"
 msgstr ""
-"``sh\n"
-"错误：Trait 在上下文中没有实现：\n"
+"```sh\n"
+"error: Trait has no implementation in context:\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:119
-#, fuzzy
 msgid ""
 "You would probably faced some trait implementation errors, which you can "
 "implement as a derive like:"
-msgstr "您可能会面临一些特质实现上的错误，您可以通过派生来实现这些错误："
+msgstr "您可能会遇到一些trait实现上的错误，您可以像这样通过派生来实现："
 
 #: src/tutorial/onchain-chess/0-setup.md:121
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "\n"
@@ -6908,44 +6977,41 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"```防锈，忽略\n"
+"```rust,ignore\n"
 "\n"
-"#[派生（Component、Drop、SerdeLen、Serde）]\n"
+"#[derive(Component, Drop, SerdeLen, Serde)]\n"
 "struct Square {\n"
-"    #[键］\n"
-"    game_id: felt252、\n"
-"    #[键］\n"
-"    x: u32、\n"
-"    #[key］\n"
-"    y: u32、\n"
-"    piece：Option<PieceType> 、\n"
+"    #[key]\n"
+"    game_id: felt252,\n"
+"    #[key]\n"
+"    x: u32,\n"
+"    #[key]\n"
+"    y: u32,\n"
+"    piece: Option<PieceType>,\n"
 "}\n"
 "\n"
-"#[derive(Serde, Drop, Copy, PartialEq)] [派生（Serde、Drop、Copy、"
-"PartialEq)\n"
-"枚举棋子类型 {\n"
-"    白卒\n"
-"    白马\n"
-"    白象\n"
-"    白车\n"
-"    白皇后\n"
-"    白王\n"
-"    黑卒\n"
-"    黑马\n"
-"    黑象\n"
-"    黑车\n"
-"    黑皇后\n"
-"    黑王\n"
+"#[derive(Serde, Drop, Copy, PartialEq)]\n"
+"enum PieceType {\n"
+"    WhitePawn,\n"
+"    WhiteKnight,\n"
+"    WhiteBishop,\n"
+"    WhiteRook,\n"
+"    WhiteQueen,\n"
+"    WhiteKing,\n"
+"    BlackPawn,\n"
+"    BlackKnight,\n"
+"    BlackBishop,\n"
+"    BlackRook,\n"
+"    BlackQueen,\n"
+"    BlackKing,\n"
 "}\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:151
-#, fuzzy
 msgid "Great! then let's solve this error."
 msgstr "很好！那就让我们来解决这个错误吧。"
 
 #: src/tutorial/onchain-chess/0-setup.md:153
-#, fuzzy
 msgid ""
 "```sh\n"
 "error: Trait has no implementation in context: dojo::serde::SerdeLen::<core::"
@@ -6955,26 +7021,24 @@ msgid ""
 "                                                     ^*^\n"
 "```"
 msgstr ""
-"``sh\n"
-"错误：Trait has no implementation in context: dojo::serde::SerdeLen::&lt;"
-"core::option::<dojo_chess::components::PieceType>&gt;\n"
-" --&gt; Square:80:54\n"
-"                dojo::SerdeLen::&lt;Option<PieceType>&gt;::len()\n"
+"```sh\n"
+"error: Trait has no implementation in context: dojo::serde::SerdeLen::<core::"
+"option::Option::<dojo_chess::components::PieceType>>\n"
+" —> Square:80:54\n"
+"                dojo::SerdeLen::<Option<PieceType>>::len()\n"
 "                                                     ^*^\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:160
-#, fuzzy
 msgid ""
 "One thing you have to make sure is, that `<Option<PieceType>>` is the type "
 "that we created. So this type does not implement basic traits like SerdeLen. "
 "You need to define the implementation by your own."
 msgstr ""
-"你必须确定的一点是，`&lt;Option<PieceType>&gt;` 是我们创建的类型。因此，该类"
-"型无法实现 SerdeLen 等基本特性。你需要自己定义实现。"
+"必须明确的一点是，`<Option<PieceType>>` 是我们创建的类型。因此，该类型没有实"
+"现 SerdeLen 等基本traits。你需要自己定义实现。"
 
 #: src/tutorial/onchain-chess/0-setup.md:162
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "impl PieceOptionSerdeLen of dojo::SerdeLen<Option<PieceType>> {\n"
@@ -6985,29 +7049,26 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"``rust,ignore\n"
-"impl PieceOptionSerdeLen of dojo::SerdeLen&lt;Option<PieceType>&gt; {\n"
-"    #[inline(always)\n"
-"    fn len() -&gt; usize {\n"
+"```rust,ignore\n"
+"impl PieceOptionSerdeLen of dojo::SerdeLen<Option<PieceType>> {\n"
+"    #[inline(always)]\n"
+"    fn len() -> usize {\n"
 "        2\n"
 "    }\n"
 "}\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:171
-#, fuzzy
 msgid ""
 "Fix other issues as above, so that you can run the `sozo build` command runs "
 "successfully."
 msgstr "修复上述其他问题，以便成功运行 `sozo build` 命令。"
 
 #: src/tutorial/onchain-chess/0-setup.md:173
-#, fuzzy
-msgid "## Run test"
-msgstr "## 运行测试"
+msgid "Run test"
+msgstr "运行测试"
 
 #: src/tutorial/onchain-chess/0-setup.md:175
-#, fuzzy
 msgid ""
 "Before proceeding to the next chapter, remember that `sozo build` and `sozo "
 "test` are important steps to ensure your code is correct."
@@ -7016,58 +7077,53 @@ msgstr ""
 "步骤。"
 
 #: src/tutorial/onchain-chess/0-setup.md:177
-#, fuzzy
 msgid "Run sozo test. Did you face any errors?"
-msgstr "运行 sozo 测试。出现错误了吗？"
+msgstr "运行 sozo test。出现错误了吗？"
 
 #: src/tutorial/onchain-chess/0-setup.md:183
-#, fuzzy
 msgid ""
 "```sh\n"
 "error: Variable not dropped. Trait has no implementation in context:\n"
 "```"
 msgstr ""
-"``sh\n"
-"错误：变量未删除。属性在上下文中没有执行：\n"
+"```sh\n"
+"error: Variable not dropped. Trait has no implementation in context:\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:187
-#, fuzzy
 msgid ""
 "For the no implementation error, implement the PrintTrait to run sozo test "
 "successfully. For the not dropped error, add the Drop trait. Address other "
 "errors by adding derives or implementing them on a case-by-case basis."
 msgstr ""
-"对于未执行错误，请执行 PrintTrait 以成功运行 sozo 测试。对于未丢弃错误，添加 "
-"Drop 特质。其他错误可通过添加派生或逐一实现来解决。"
+"对于no implementation错误，请实现PrintTrait以成功运行 sozo test。对于not "
+"dropped错误，添加 Drop trait。其他错误可通过添加派生或逐一实现来解决。"
 
 #: src/tutorial/onchain-chess/0-setup.md:189
-#, fuzzy
-msgid "## Add more components"
-msgstr "## 组件"
+msgid "Add more components"
+msgstr "更多组件"
 
 #: src/tutorial/onchain-chess/0-setup.md:191
-#, fuzzy
 msgid ""
 "Before you move on, add more components so we can use them in the next "
 "chapter when creating systems."
 msgstr "在继续之前，请添加更多组件，以便在下一章创建系统时使用。"
 
 #: src/tutorial/onchain-chess/0-setup.md:193
-msgid "### Requirements"
-msgstr "### 要求"
+#: src/tutorial/onchain-chess/1-initiate.md:12
+#: src/tutorial/onchain-chess/2-move.md:9
+msgid "Requirements"
+msgstr "要求"
 
 #: src/tutorial/onchain-chess/0-setup.md:195
-#, fuzzy
-msgid ""
-"- `Color` enum enum with values White and Black\n"
-"- `Game` component:"
-msgstr ""
-"- 具有白色和黑色值的 `Color` 枚举\n"
-"- 游戏 \"组件："
+msgid "`Color` enum enum with values White and Black"
+msgstr "具有白色和黑色值的 `Color` 枚举"
+
+#: src/tutorial/onchain-chess/0-setup.md:196
+msgid "`Game` component:"
+msgstr "`Game` 组件："
 
 #: src/tutorial/onchain-chess/0-setup.md:198
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "    game_id: felt252,\n"
@@ -7076,58 +7132,45 @@ msgid ""
 "    black: ContractAddress\n"
 "```"
 msgstr ""
-"```不信任，忽略\n"
-"    game_id: felt252、\n"
-"    获胜者选项<Color> 、\n"
-"    white：ContractAddress、\n"
-"    黑棋合同地址\n"
+"```rust,ignore\n"
+"    game_id: felt252,\n"
+"    winner: Option<Color>,\n"
+"    white: ContractAddress,\n"
+"    black: ContractAddress\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:205
-#, fuzzy
-msgid "- `GameTurn` component:"
-msgstr "- GameTurn \"组件："
+msgid "`GameTurn` component:"
+msgstr "`GameTurn`组件："
 
 #: src/tutorial/onchain-chess/0-setup.md:207
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "    game_id: felt252,\n"
 "    turn: Color\n"
 "```"
 msgstr ""
-"```不信任，忽略\n"
-"    game_id: felt252、\n"
-"    转颜色\n"
+"```rust,ignore\n"
+"    game_id: felt252,\n"
+"    turn: Color\n"
 "```"
 
 #: src/tutorial/onchain-chess/0-setup.md:212
-#, fuzzy
 msgid ""
-"- We will later set game entity composed of the `Game` and `GameTurn` "
-"components.\n"
-"- Run `sozo build` and `sozo test` and ensure all tests pass."
-msgstr ""
-"- 稍后我们将设置由 `Game` 和 `GameTurn` 组件组成的游戏实体。\n"
-"- 运行 `sozo build` 和 `sozo test` 并确保所有测试通过。"
+"We will later set game entity composed of the `Game` and `GameTurn` "
+"components."
+msgstr " 稍后我们将设置由 `Game` 和 `GameTurn` 组件组成的游戏实体。"
+
+#: src/tutorial/onchain-chess/0-setup.md:213
+msgid "Run `sozo build` and `sozo test` and ensure all tests pass."
+msgstr "运行 `sozo build` 和 `sozo test` 并确保所有测试通过。"
 
 #: src/tutorial/onchain-chess/0-setup.md:215
-#, fuzzy
 msgid ""
 "Try to solve on your own, and before you move on check the answer below."
-msgstr "试着自己解题，在继续解题之前，请查看下面的答案。"
-
-#: src/tutorial/onchain-chess/0-setup.md:217
-#, fuzzy
-msgid ""
-"<details>\n"
-"<summary>Click to see full `components.cairo` code</summary>"
-msgstr ""
-"<details>\n"
-"<summary>点击查看完整的 `components.cairo` 代码</summary>"
+msgstr "试着自己完成，在继续之前，请查看下面的答案。"
 
 #: src/tutorial/onchain-chess/0-setup.md:220
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "use debug::PrintTrait;\n"
@@ -7308,47 +7351,46 @@ msgid ""
 "```"
 msgstr ""
 "```rust,ignore\n"
-"使用 debug::PrintTrait；\n"
-"使用 starknet::ContractAddress；\n"
+"use debug::PrintTrait;\n"
+"use starknet::ContractAddress;\n"
 "\n"
-"#[派生（Component, Drop, SerdeLen, Serde)\n"
+"#[derive(Component, Drop, SerdeLen, Serde)]\n"
 "struct Square {\n"
-"    #[key］\n"
-"    game_id: felt252、\n"
-"    #[键］\n"
-"    x: u32、\n"
-"    #[key］\n"
-"    y: u32、\n"
-"    piece：Option<PieceType> 、\n"
+"    #[key]\n"
+"    game_id: felt252,\n"
+"    #[key]\n"
+"    x: u32,\n"
+"    #[key]\n"
+"    y: u32,\n"
+"    piece: Option<PieceType>,\n"
 "}\n"
 "\n"
-"#[derive(Serde, Drop, Copy, PartialEq)] [派生（Serde、Drop、Copy、"
-"PartialEq)\n"
-"枚举棋子类型 {\n"
-"    白卒\n"
-"    白马\n"
-"    白象\n"
-"    白车\n"
-"    白皇后\n"
-"    白王\n"
-"    黑卒\n"
-"    黑马\n"
-"    黑象\n"
-"    黑车\n"
-"    黑皇后\n"
-"    黑王\n"
+"#[derive(Serde, Drop, Copy, PartialEq)]\n"
+"enum PieceType {\n"
+"    WhitePawn,\n"
+"    WhiteKnight,\n"
+"    WhiteBishop,\n"
+"    WhiteRook,\n"
+"    WhiteQueen,\n"
+"    WhiteKing,\n"
+"    BlackPawn,\n"
+"    BlackKnight,\n"
+"    BlackBishop,\n"
+"    BlackRook,\n"
+"    BlackQueen,\n"
+"    BlackKing,\n"
 "}\n"
 "\n"
-"#[派生（Serde、Drop、Copy、PartialEq）]\n"
-"枚举颜色 {\n"
-"    白色\n"
-"    黑色\n"
+"#[derive(Serde, Drop, Copy, PartialEq)]\n"
+"enum Color {\n"
+"    White,\n"
+"    Black,\n"
 "}\n"
 "\n"
 "\n"
-"impl PieceOptionSerdeLen of dojo::SerdeLen&lt;Option<PieceType>&gt; {\n"
-"    #[内联（始终）]\n"
-"    fn len() -&gt; usize {\n"
+"impl PieceOptionSerdeLen of dojo::SerdeLen<Option<PieceType>> {\n"
+"    #[inline(always)]\n"
+"    fn len() -> usize {\n"
 "        2\n"
 "    }\n"
 "}\n"
@@ -7356,26 +7398,26 @@ msgstr ""
 "impl ColorPrintTrait of PrintTrait<Color> {\n"
 "    #[inline(always)]\n"
 "    fn print(self: Color) {\n"
-"        匹配 self {\n"
-"            Color::White(_) =&gt; {\n"
-"                'White'.print()；\n"
+"        match self {\n"
+"            Color::White(_) => {\n"
+"                'White'.print();\n"
 "            },\n"
-"            颜色::黑色(_) =&gt; {\n"
-"                'Black'.print()；\n"
+"            Color::Black(_) => {\n"
+"                'Black'.print();\n"
 "            },\n"
 "        }\n"
 "    }\n"
 "}\n"
 "\n"
-"impl ColorOptionPrintTrait of PrintTrait&lt;Option<Color>&gt; {\n"
+"impl ColorOptionPrintTrait of PrintTrait<Option<Color>> {\n"
 "    #[inline(always)]\n"
 "    fn print(self: Option<Color>) {\n"
-"        匹配 self {\n"
-"            Option::Some(color) =&gt; {\n"
-"                color.print()；\n"
+"        match self {\n"
+"            Option::Some(color) => {\n"
+"                color.print();\n"
 "            },\n"
-"            Option::None(_) =&gt; {\n"
-"                None'.print()；\n"
+"            Option::None(_) => {\n"
+"                'None'.print();\n"
 "            }\n"
 "        }\n"
 "    }\n"
@@ -7385,22 +7427,22 @@ msgstr ""
 "impl BoardPrintTrait of PrintTrait<(u32, u32)> {\n"
 "    #[inline(always)]\n"
 "    fn print(self: (u32, u32)) {\n"
-"        让 (x, y)：(u32, u32) = self；\n"
-"        x.print()；\n"
-"        y.print()；\n"
+"        let (x, y): (u32, u32) = self;\n"
+"        x.print();\n"
+"        y.print();\n"
 "    }\n"
 "}\n"
 "\n"
 "\n"
-"impl PieceTypeOptionPrintTrait of PrintTrait&lt;Option<PieceType>&gt; {\n"
-"    #[内联（始终）]\n"
+"impl PieceTypeOptionPrintTrait of PrintTrait<Option<PieceType>> {\n"
+"    #[inline(always)]\n"
 "    fn print(self: Option<PieceType>) {\n"
-"        匹配 self {\n"
-"            Option::Some(piece_type) =&gt; {\n"
-"                piece_type.print()；\n"
+"        match self {\n"
+"            Option::Some(piece_type) => {\n"
+"                piece_type.print();\n"
 "            },\n"
-"            Option::None(_) =&gt; {\n"
-"                None'.print()；\n"
+"            Option::None(_) => {\n"
+"                'None'.print();\n"
 "            }\n"
 "        }\n"
 "    }\n"
@@ -7408,47 +7450,44 @@ msgstr ""
 "\n"
 "\n"
 "impl PieceTypePrintTrait of PrintTrait<PieceType> {\n"
-"    #[内联（始终）]\n"
+"    #[inline(always)]\n"
 "    fn print(self: PieceType) {\n"
-"        匹配 self {\n"
-"            PieceType::WhitePawn(_) =&gt; {\n"
-"                'WhitePawn'.print()；\n"
+"        match self {\n"
+"            PieceType::WhitePawn(_) => {\n"
+"                'WhitePawn'.print();\n"
 "            },\n"
-"            PieceType::WhiteKnight(_) =&gt; {\n"
-"                'WhiteKnight'.print()；\n"
+"            PieceType::WhiteKnight(_) => {\n"
+"                'WhiteKnight'.print();\n"
 "            },\n"
-"            PieceType::WhiteBishop(_) =&gt; {\n"
-"                }, PieceType::WhiteBishop(_) =&gt; { 'WhiteBishop'."
-"print()；\n"
+"            PieceType::WhiteBishop(_) => {\n"
+"                'WhiteBishop'.print();\n"
 "            },\n"
-"            PieceType::WhiteRook(_) =&gt; { 'WhiteRook'.print().\n"
-"                }, PieceType::WhiteRook(_) =&gt; { 'WhiteRook'.print()；\n"
+"            PieceType::WhiteRook(_) => {\n"
+"                'WhiteRook'.print();\n"
 "            },\n"
-"            PieceType::WhiteQueen(_) =&gt; {\n"
-"                }, PieceType::WhiteQueen(_) =&gt; { 'WhiteQueen'.print()；\n"
+"            PieceType::WhiteQueen(_) => {\n"
+"                'WhiteQueen'.print();\n"
 "            },\n"
-"            PieceType::WhiteKing(_) =&gt; {\n"
-"                }, PieceType::WhiteKing(_) =&gt; { 'WhiteKing'.print()；\n"
+"            PieceType::WhiteKing(_) => {\n"
+"                'WhiteKing'.print();\n"
 "            },\n"
-"            PieceType::BlackPawn(_) =&gt; {\n"
-"                }, PieceType::BlackPawn(_) =&gt; { 'BlackPawn'.print()；\n"
+"            PieceType::BlackPawn(_) => {\n"
+"                'BlackPawn'.print();\n"
 "            },\n"
-"            PieceType::BlackKnight(_) =&gt; {\n"
-"                }, PieceType::BlackKnight(_) =&gt; { 'BlackKnight'."
-"print()；\n"
+"            PieceType::BlackKnight(_) => {\n"
+"                'BlackKnight'.print();\n"
 "            },\n"
-"            PieceType::BlackBishop(_) =&gt; {\n"
-"                }, PieceType::BlackBishop(_) =&gt; { 'BlackBishop'."
-"print()；\n"
+"            PieceType::BlackBishop(_) => {\n"
+"                'BlackBishop'.print();\n"
 "            },\n"
-"            PieceType::BlackRook(_) =&gt; {\n"
-"                }, PieceType::BlackRook(_) =&gt; { 'BlackRook'.print()；\n"
+"            PieceType::BlackRook(_) => {\n"
+"                'BlackRook'.print();\n"
 "            },\n"
-"            PieceType::BlackQueen(_) =&gt; {\n"
-"                }, PieceType::BlackQueen(_) =&gt; { 'BlackQueen'.print()；\n"
+"            PieceType::BlackQueen(_) => {\n"
+"                'BlackQueen'.print();\n"
 "            },\n"
-"            PieceType::BlackKing(_) =&gt; {\n"
-"                }, PieceType::BlackKing(_) =&gt; { 'BlackKing'.print()；\n"
+"            PieceType::BlackKing(_) => {\n"
+"                'BlackKing'.print();\n"
 "            },\n"
 "        }\n"
 "    }\n"
@@ -7456,154 +7495,136 @@ msgstr ""
 "\n"
 "impl ColorSerdeLen of dojo::SerdeLen<Color> {\n"
 "    #[inline(always)]\n"
-"    fn len() -&gt; usize {\n"
+"    fn len() -> usize {\n"
 "        1\n"
 "    }\n"
 "}\n"
 "\n"
-"#[derive(Component, Drop, SerdeLen, Serde))\n"
+"#[derive(Component, Drop, SerdeLen, Serde)]\n"
 "struct Game {\n"
-"    /// 游戏 ID，计算方法如下 pedersen_hash(player1_address, "
+"    /// game id, computed as follows pedersen_hash(player1_address, "
 "player2_address)\n"
-"    #[key］\n"
-"    game_id: felt252、\n"
-"    winner：Option<Color> 、\n"
-"    White：ContractAddress、\n"
-"    黑棋合同地址\n"
+"    #[key]\n"
+"    game_id: felt252,\n"
+"    winner: Option<Color>,\n"
+"    white: ContractAddress,\n"
+"    black: ContractAddress\n"
 "}\n"
 "\n"
 "\n"
-"#[派生（Component、Drop、SerdeLen、Serde）]\n"
+"#[derive(Component, Drop, SerdeLen, Serde)]\n"
 "struct GameTurn {\n"
-"    #[关键字］\n"
-"    game_id: felt252、\n"
-"    turn：颜色\n"
+"    #[key]\n"
+"    game_id: felt252,\n"
+"    turn: Color,\n"
 "}\n"
 "\n"
-"impl OptionPieceColorSerdeLen of dojo::SerdeLen&lt;Option<Color>&gt; {\n"
-"    #[内联（始终）]\n"
-"    fn len() -&gt; usize {\n"
+"impl OptionPieceColorSerdeLen of dojo::SerdeLen<Option<Color>> {\n"
+"    #[inline(always)]\n"
+"    fn len() -> usize {\n"
 "        1\n"
 "    }\n"
 "}\n"
 "\n"
 "```"
 
-#: src/tutorial/onchain-chess/0-setup.md:397
-#, fuzzy
-msgid "</details>"
-msgstr ""
-"这一行完成了这个小程序的所有工作：将文本打印到屏幕上。这里有四个重要的细节需"
-"要注意。"
-
 #: src/tutorial/onchain-chess/0-setup.md:399
-#, fuzzy
 msgid ""
 "Congratulations! You've completed the basic setup for building an on-chain "
 "chess game 🎉"
 msgstr "恭喜您！您已经完成了构建链上国际象棋游戏的基本设置 🎉"
 
 #: src/tutorial/onchain-chess/1-initiate.md:1
-#, fuzzy
-msgid "# 1. Initiate System"
-msgstr "# 1.启动系统"
+msgid "1. Initiate System"
+msgstr "1.初始化系统"
 
 #: src/tutorial/onchain-chess/1-initiate.md:3
-#, fuzzy
 msgid ""
 "This chapter will address implementing `initiate_system`, which spawns the "
 "game and squares containing pieces."
-msgstr "本章将讨论 \"启动系统 \"的实现，它将生成游戏和包含棋子的方格。"
+msgstr "本章将讨论 “initiate_system” 的实现，它将生成游戏和包含棋子的方格。"
 
 #: src/tutorial/onchain-chess/1-initiate.md:5
-#, fuzzy
-msgid "## What is `initiate_system`?"
-msgstr "## 什么是`initiate_system`？"
+msgid "What is `initiate_system`?"
+msgstr "什么是`initiate_system`？"
 
 #: src/tutorial/onchain-chess/1-initiate.md:7
-#, fuzzy
 msgid ""
 "To play chess, you need to start the game and spawn the pieces. "
 "`initiate_system` will spawn the game entity and then place each piece in "
 "its proper position. Ensure the game status matches the correct piece type, "
 "and the right piece color is in its designated position on the board."
 msgstr ""
-"要下棋，您需要启动游戏并生成棋子。`initiate_system` 会生成游戏实体，然后将每"
+"要下棋，您需要开始游戏并生成棋子。`initiate_system` 会生成游戏实体，然后将每"
 "个棋子放置在适当的位置。确保游戏状态与正确的棋子类型相匹配，并且正确颜色的棋"
 "子位于棋盘上的指定位置。"
 
-#: src/tutorial/onchain-chess/1-initiate.md:9
-#, fuzzy
-msgid ""
-"<p align=\"center\">\n"
-"<img src=\"../../images/board.png\" alt=\"image\" width=\"300\" "
-"height=\"auto\">"
-msgstr ""
-"<p align=\"center\">\n"
-"<img src=\"../../images/board.png\" alt=\"image\" width=\"300\" "
-"height=\"auto\">"
-
-#: src/tutorial/onchain-chess/1-initiate.md:12
-#: src/tutorial/onchain-chess/2-move.md:9
-#, fuzzy
-msgid "## Requirements"
-msgstr "### 要求"
-
 #: src/tutorial/onchain-chess/1-initiate.md:14
-#, fuzzy
 msgid ""
 "_Copy the unit tests below and paste them at the bottom of your `systems/"
 "initiate.cairo` file._"
 msgstr ""
-"复制下面的单元测试，并将其粘贴到 \"systems/initiate.cairo \"文件的底部。"
+"_复制下面的单元测试，并将其粘贴到 \"systems/initiate.cairo \"文件的底部。_"
 
 #: src/tutorial/onchain-chess/1-initiate.md:16
-#, fuzzy
 msgid ""
-"1. Write an `execute` function in the system that accepts the world context, "
-"white address, and black address as input.\n"
-"2. Implement the game entity, comprised of the `Game` component and "
-"`GameTurn` component we created in the previous step.\n"
-"3. Implement square entities by `Square` component, from a1 to h8 containing "
-"the correct `PieceType`.\n"
-"4. Run `sozo test` and pass all the tests."
+"Write an `execute` function in the system that accepts the world context, "
+"white address, and black address as input."
 msgstr ""
-"1.在系统中编写一个 \"执行 \"函数，接受世界背景、白地址和黑地址作为输入。\n"
-"2.实现游戏实体，由上一步创建的 `Game` 组件和 `GameTurn` 组件组成。\n"
-"3.通过包含正确 \"棋子类型 \"的 a1 至 h8 的 \"Square \"组件实现正方形实体。\n"
-"4.运行 `sozo test` 并通过所有测试。"
+"在系统中编写一个 “execute \"函数接受world context， white address， 以及 "
+"black address 作为输入。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:17
+msgid ""
+"Implement the game entity, comprised of the `Game` component and `GameTurn` "
+"component we created in the previous step."
+msgstr "实现由我们上一步骤里创建的 `Game` 和 `GameTurn` 组件组成的游戏实体。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:18
+msgid ""
+"Implement square entities by `Square` component, from a1 to h8 containing "
+"the correct `PieceType`."
+msgstr "在`Square`组件中实现格子实体，从a1到a8并包含正确的`PieceType`。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:19
+msgid "Run `sozo test` and pass all the tests."
+msgstr "运行 `sozo test` 并确保所有测试通过。"
 
 #: src/tutorial/onchain-chess/1-initiate.md:21
 #: src/tutorial/onchain-chess/2-move.md:29
-#, fuzzy
-msgid "## Test Flow"
-msgstr "## 测试流程"
+msgid "Test Flow"
+msgstr "测试流程"
 
 #: src/tutorial/onchain-chess/1-initiate.md:23
-#, fuzzy
 msgid ""
-"- Spawn the test world that imports the components and systems used in "
-"testing.\n"
-"- Execute `initiate_system` by providing white and black player's wallet "
-"addresses as inputs.\n"
-"- Retrieve the game entity and piece entity created during "
-"`initiate_system`.\n"
-"- Ensure the game has been correctly created.\n"
-"- Verify that each `Piece` is located in the correct `Square`."
-msgstr ""
-"- 生成测试世界，导入测试中使用的组件和系统。\n"
-"- 提供白方和黑方棋手的钱包地址作为输入，执行 `initiate_system`。\n"
-"- 读取在 `initiate_system` 中创建的游戏实体和棋子实体。\n"
-"- 确保游戏已正确创建。\n"
-"- 验证每个 \"棋子 \"是否位于正确的 \"方格 \"中。"
+"Spawn the test world that imports the components and systems used in testing."
+msgstr "生成测试世界并导入测试中使用的组件和系统。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:24
+msgid ""
+"Execute `initiate_system` by providing white and black player's wallet "
+"addresses as inputs."
+msgstr "提供黑白玩家的钱包地址作为输入来执行`initiate_system`。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:25
+msgid ""
+"Retrieve the game entity and piece entity created during `initiate_system`."
+msgstr "获取`initiate_system`过程中创建的游戏实体以及棋子实体。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:26
+msgid "Ensure the game has been correctly created."
+msgstr "确保游戏被正确的创建了。"
+
+#: src/tutorial/onchain-chess/1-initiate.md:27
+msgid "Verify that each `Piece` is located in the correct `Square`."
+msgstr "确认每个`Piece` 都放在正确的`Square`上。"
 
 #: src/tutorial/onchain-chess/1-initiate.md:29
 #: src/tutorial/onchain-chess/2-move.md:35
-msgid "## Unit Tests"
-msgstr "## 单元测试"
+msgid "Unit Tests"
+msgstr "单元测试"
 
 #: src/tutorial/onchain-chess/1-initiate.md:31
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "#[cfg(test)]\n"
@@ -7661,57 +7682,57 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"``rust,ignore\n"
+"```rust,ignore\n"
 "#[cfg(test)]\n"
-"mod 测试 {\n"
-"    使用 starknet::ContractAddress；\n"
-"    使用 dojo::test_utils::spawn_test_world；\n"
-"    使用 dojoo_chess::components::{Game, game, GameTurn, game_turn, Square, "
-"square, PieceType}；\n"
+"mod tests {\n"
+"    use starknet::ContractAddress;\n"
+"    use dojo::test_utils::spawn_test_world;\n"
+"    use dojo_chess::components::{Game, game, GameTurn, game_turn, Square, "
+"square, PieceType};\n"
 "\n"
-"    使用 dojoo_chess::systems::initiate_system；\n"
-"    使用 array::ArrayTrait；\n"
-"    使用 core::traits::Into；\n"
-"    使用 dojo::world::IWorldDispatcherTrait；\n"
-"    使用 core::array::SpanTrait；\n"
+"    use dojo_chess::systems::initiate_system;\n"
+"    use array::ArrayTrait;\n"
+"    use core::traits::Into;\n"
+"    use dojo::world::IWorldDispatcherTrait;\n"
+"    use core::array::SpanTrait;\n"
 "\n"
-"    #[测试］\n"
+"    #[test]\n"
 "    #[available_gas(3000000000000000)]\n"
 "    fn test_initiate() {\n"
-"        let white = starknet::contract_address_const::<0x01>()；\n"
-"        let black = starknet::contract_address_const::<0x02>()；\n"
+"        let white = starknet::contract_address_const::<0x01>();\n"
+"        let black = starknet::contract_address_const::<0x02>();\n"
 "\n"
-"        // 组件\n"
-"        let mut components = array::ArrayTrait::new()；\n"
-"        components.append(game::TEST_CLASS_HASH)；\n"
-"        components.append(game_turn::TEST_CLASS_HASH)；\n"
-"        components.append(square::TEST_CLASS_HASH)；\n"
+"        // components\n"
+"        let mut components = array::ArrayTrait::new();\n"
+"        components.append(game::TEST_CLASS_HASH);\n"
+"        components.append(game_turn::TEST_CLASS_HASH);\n"
+"        components.append(square::TEST_CLASS_HASH);\n"
 "\n"
-"        //系统\n"
-"        let mut systems = array::ArrayTrait::new()；\n"
-"        systems.append(inititi_system::TEST_CLASS_HASH)；\n"
-"        让 world = spawn_test_world(组件, 系统)；\n"
+"        //systems\n"
+"        let mut systems = array::ArrayTrait::new();\n"
+"        systems.append(initiate_system::TEST_CLASS_HASH);\n"
+"        let world = spawn_test_world(components, systems);\n"
 "\n"
-"        let mut calldata = array::ArrayTrait::<core::felt252>::new()；\n"
-"        calldata.append(white.into())；\n"
-"        calldata.append(black.into())；\n"
-"        world.execute('initial_system'.into(), calldata)；\n"
+"        let mut calldata = array::ArrayTrait::<core::felt252>::new();\n"
+"        calldata.append(white.into());\n"
+"        calldata.append(black.into());\n"
+"        world.execute(‘initiate_system’.into(), calldata);\n"
 "\n"
-"        let game_id = pedersen(white.into(), black.into())；\n"
+"        let game_id = pedersen(white.into(), black.into());\n"
 "\n"
-"        //获取游戏\n"
-"        let game = get!(world, (game_id), (Game))；\n"
-"        assert(game.white == white, 'white address is incorrect')；\n"
-"        assert(game.black == black, 'black address is incorrect')；\n"
+"        //get game\n"
+"        let game = get!(world, (game_id), (Game));\n"
+"        assert(game.white == white, ‘white address is incorrect’);\n"
+"        assert(game.black == black, ‘black address is incorrect’);\n"
 "\n"
 "        //get a1 square\n"
-"        let a1 = get!(world, (game_id, 0, 0), (Square))；\n"
-"        匹配 a1.piece {\n"
-"            Option::Some(piece) =&gt; {\n"
-"                assert(piece == PieceType::WhiteRook, 'should be White "
-"Rook')；\n"
+"        let a1 = get!(world, (game_id, 0, 0), (Square));\n"
+"        match a1.piece {\n"
+"            Option::Some(piece) => {\n"
+"                assert(piece == PieceType::WhiteRook, ‘should be White "
+"Rook’);\n"
 "            },\n"
-"            Option::None(_) =&gt; assert(false, 'should have piece')、\n"
+"            Option::None(_) => assert(false, ‘should have piece’),\n"
 "        };\n"
 "    }\n"
 "}\n"
@@ -7720,14 +7741,12 @@ msgstr ""
 #: src/tutorial/onchain-chess/1-initiate.md:85
 #: src/tutorial/onchain-chess/2-move.md:108
 #: src/tutorial/onchain-chess/3-legal.md:165
-#, fuzzy
-msgid "## Need help?"
-msgstr "## 需要帮助？"
+msgid "Need help?"
+msgstr "需要帮助？"
 
 #: src/tutorial/onchain-chess/1-initiate.md:87
 #: src/tutorial/onchain-chess/2-move.md:110
 #: src/tutorial/onchain-chess/3-legal.md:167
-#, fuzzy
 msgid ""
 "If you're stuck, don't hesitate to ask questions at the [Dojo community]"
 "(https://discord.gg/akd2yfuRS3)!"
@@ -7735,7 +7754,6 @@ msgstr ""
 "如果您遇到困难，请随时到 [Dojo 社区](https://discord.gg/akd2yfuRS3) 提问！"
 
 #: src/tutorial/onchain-chess/1-initiate.md:89
-#, fuzzy
 msgid ""
 "You can find the [answer](https://github.com/rkdud007/chess-dojo/blob/"
 "tutorialv2/src/systems/initiate.cairo) for chapter 1 here."
@@ -7744,24 +7762,20 @@ msgstr ""
 "tutorialv2/src/systems/initiate.cairo)。"
 
 #: src/tutorial/onchain-chess/2-move.md:1
-#, fuzzy
-msgid "# 2. Move System"
-msgstr "## 系统"
+msgid "2. Move System"
+msgstr "Move 系统"
 
 #: src/tutorial/onchain-chess/2-move.md:3
-#, fuzzy
 msgid ""
 "This chapter will address the implementation of `move_system`, which "
 "relocates a piece on the board."
 msgstr "本章将讨论 \"move_system \"的实现，它用于在棋盘上重新定位棋子。"
 
 #: src/tutorial/onchain-chess/2-move.md:5
-#, fuzzy
-msgid "## What is `move_system`?"
-msgstr "## Dojo 是什么？"
+msgid "What is `move_system`?"
+msgstr "`move_system` 是什么？"
 
 #: src/tutorial/onchain-chess/2-move.md:7
-#, fuzzy
 msgid ""
 "To play chess, one must move the pieces on the board. Since we represent "
 "piece locations with a Square entity, the `move_system` retrieves the "
@@ -7769,24 +7783,21 @@ msgid ""
 "treating the piece in the current position square as the target to be moved "
 "to the next position."
 msgstr ""
-"下棋时，必须移动棋盘上的棋子。由于我们用正方形实体来表示棋子的位置，因此 "
+"下棋时，玩家必须移动棋盘上的棋子。由于我们用Square实体来表示棋子的位置，因此 "
 "`move_system` 会以 (x,y) 的形式获取当前位置。它还会以 (x,y) 的形式获取下一个"
 "位置，并将当前位置方格中的棋子视为要移动到下一个位置的目标。"
 
 #: src/tutorial/onchain-chess/2-move.md:11
-#, fuzzy
 msgid ""
 "_Copy the unit tests below and paste them at the bottom of your `systems/"
 "move.cairo` file._"
-msgstr "复制下面的单元测试，并将其粘贴到 \"systems/move.cairo \"文件的底部。"
+msgstr "_复制下面的单元测试，并将其粘贴到 \"systems/move.cairo \"文件的底部。_"
 
 #: src/tutorial/onchain-chess/2-move.md:13
-#, fuzzy
-msgid "1. Write an `execute` function in the system with the following inputs:"
-msgstr "1.在系统中编写一个 \"执行 \"函数，输入如下内容："
+msgid "Write an `execute` function in the system with the following inputs:"
+msgstr "1.在系统中编写一个 “execute”函数，输入如下内容："
 
 #: src/tutorial/onchain-chess/2-move.md:15
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 " fn execute(\n"
@@ -7798,43 +7809,43 @@ msgid ""
 "    )\n"
 "```"
 msgstr ""
-"``rust,ignore\n"
+"```rust,ignore\n"
 " fn execute(\n"
-"        ctx：上下文、\n"
-"        curr_position: (u32, u32)、\n"
-"        next_position: (u32, u32)、\n"
-"        调用者：ContractAddress、\n"
+"        ctx: Context,\n"
+"        curr_position: (u32, u32),\n"
+"        next_position: (u32, u32),\n"
+"        caller: ContractAddress,\n"
 "        game_id: felt252\n"
 "    )\n"
 "```"
 
 #: src/tutorial/onchain-chess/2-move.md:25
-#, fuzzy
 msgid ""
-"2. Update the Square with the `next_position` to contain the new piece and "
-"ensure the Square with the `curr_position` no longer holds a piece.\n"
-"\n"
-"3. Run `sozo test` and ensure all tests pass."
+"Update the Square with the `next_position` to contain the new piece and "
+"ensure the Square with the `curr_position` no longer holds a piece."
 msgstr ""
-"2.更新带有 `next_position` 的方格，使其包含新棋子，并确保带有 "
-"`curr_position` 的方格不再包含棋子。\n"
-"\n"
-"3.运行 `zo test` 并确保所有测试通过。"
+"更新带有 `next_position` 的方格，使其包含新棋子，并确保带有 `curr_position` "
+"的方格不再包含棋子。"
+
+#: src/tutorial/onchain-chess/2-move.md:27
+msgid "Run `sozo test` and ensure all tests pass."
+msgstr "运行 `sozo test` 并确保所有测试通过。"
 
 #: src/tutorial/onchain-chess/2-move.md:31
-#, fuzzy
+msgid "Follow the same logic as `test_initiate` from the previous chapter."
+msgstr "跟随上一章中`test_initiate`的逻辑。"
+
+#: src/tutorial/onchain-chess/2-move.md:32
+msgid "Move the White Knight from (1,0) to (2,2) using the `move_system`."
+msgstr "通过把`move_system`White Knight从(1,0) 移动到 (2,2)"
+
+#: src/tutorial/onchain-chess/2-move.md:33
 msgid ""
-"- Follow the same logic as `test_initiate` from the previous chapter.\n"
-"- Move the White Knight from (1,0) to (2,2) using the `move_system`.\n"
-"- Retrieve the updated position and verify that the piece has successfully "
+"Retrieve the updated position and verify that the piece has successfully "
 "moved to its new location."
-msgstr ""
-"- 与上一章的 `test_initiate` 逻辑相同。\n"
-"- 使用 `move_system` 将白马从 (1,0) 移到 (2,2)。\n"
-"- 读取更新后的位置并验证棋子是否已成功移动到新位置。"
+msgstr "获取更新之后的位置并且验证棋子成功移动到了新位置。"
 
 #: src/tutorial/onchain-chess/2-move.md:37
-#, fuzzy
 msgid ""
 "```rust,ignore\n"
 "#[cfg(test)]\n"
@@ -7910,110 +7921,109 @@ msgid ""
 "}\n"
 "```"
 msgstr ""
-"``rust,ignore\n"
+"```rust,ignore\n"
 "#[cfg(test)]\n"
-"mod 测试 {\n"
-"    使用 starknet::ContractAddress；\n"
-"    使用 dojo::test_utils::spawn_test_world；\n"
-"    使用 dojoo_chess::components::{Game, game, GameTurn, game_turn, Square, "
-"square, PieceType}；\n"
+"mod tests {\n"
+"    use starknet::ContractAddress;\n"
+"    use dojo::test_utils::spawn_test_world;\n"
+"    use dojo_chess::components::{Game, game, GameTurn, game_turn, Square, "
+"square, PieceType};\n"
 "\n"
-"    使用 dojoo_chess::systems::init_system；\n"
-"    使用 dojo_chess::system::move_system；\n"
-"    使用 array::ArrayTrait；\n"
-"    使用 core::traits::Into；\n"
-"    use dojo::world::IWorldDispatcherTrait；\n"
-"    使用 core::array::SpanTrait；\n"
+"    use dojo_chess::systems::initiate_system;\n"
+"    use dojo_chess::systems::move_system;\n"
+"    use array::ArrayTrait;\n"
+"    use core::traits::Into;\n"
+"    use dojo::world::IWorldDispatcherTrait;\n"
+"    use core::array::SpanTrait;\n"
 "\n"
-"    #[测试］\n"
+"    #[test]\n"
 "    #[available_gas(3000000000000000)]\n"
 "    fn test_move() {\n"
-"        let white = starknet::contract_address_const::<0x01>()；\n"
-"        let black = starknet::contract_address_const::<0x02>()；\n"
+"        let white = starknet::contract_address_const::<0x01>();\n"
+"        let black = starknet::contract_address_const::<0x02>();\n"
 "\n"
-"        // 组件\n"
-"        let mut components = array::ArrayTrait::new()；\n"
-"        components.append(game::TEST_CLASS_HASH)；\n"
-"        components.append(game_turn::TEST_CLASS_HASH)；\n"
-"        components.append(square::TEST_CLASS_HASH)；\n"
+"        // components\n"
+"        let mut components = array::ArrayTrait::new();\n"
+"        components.append(game::TEST_CLASS_HASH);\n"
+"        components.append(game_turn::TEST_CLASS_HASH);\n"
+"        components.append(square::TEST_CLASS_HASH);\n"
 "\n"
-"        //系统\n"
-"        let mut systems = array::ArrayTrait::new()；\n"
-"        systems.append(initiate_system::TEST_CLASS_HASH)；\n"
-"        systems.append(move_system::TEST_CLASS_HASH)；\n"
-"        让 world = spawn_test_world(组件, 系统)；\n"
+"        //systems\n"
+"        let mut systems = array::ArrayTrait::new();\n"
+"        systems.append(initiate_system::TEST_CLASS_HASH);\n"
+"        systems.append(move_system::TEST_CLASS_HASH);\n"
+"        let world = spawn_test_world(components, systems);\n"
 "\n"
-"        // 启动\n"
-"        let mut calldata = array::ArrayTrait::<core::felt252>::new()；\n"
-"        calldata.append(white.into())；\n"
-"        calldata.append(black.into())；\n"
-"        world.execute('initial_system'.into(), calldata)；\n"
+"        // initiate\n"
+"        let mut calldata = array::ArrayTrait::<core::felt252>::new();\n"
+"        calldata.append(white.into());\n"
+"        calldata.append(black.into());\n"
+"        world.execute(‘initiate_system’.into(), calldata);\n"
 "\n"
-"        let game_id = pedersen(white.into(), black.into())；\n"
+"        let game_id = pedersen(white.into(), black.into());\n"
 "\n"
-"         //白骑士位于 (1,0)\n"
-"        let b1 = get!(world, (game_id, 1, 0), (Square))；\n"
-"        匹配 b1.piece {\n"
-"            Option::Some(piece) =&gt; {\n"
-"                assert(piece == PieceType::WhiteKnight, 'should be White "
-"Knight in (1,0)')；\n"
+"         //White Knight is in (1,0)\n"
+"        let b1 = get!(world, (game_id, 1, 0), (Square));\n"
+"        match b1.piece {\n"
+"            Option::Some(piece) => {\n"
+"                assert(piece == PieceType::WhiteKnight, ‘should be White "
+"Knight in (1,0)’);\n"
 "            },\n"
-"            Option::None(_) =&gt; assert(false, 'should have piece in "
-"(1,0)')、\n"
+"            Option::None(_) => assert(false, ‘should have piece in (1,0)’),\n"
 "        };\n"
 "\n"
-"        // 移动白马 (1,0) -&gt; (2,2)\n"
-"        let mut move_calldata = array::ArrayTrait::<core::felt252>::new()；\n"
-"        move_calldata.append(1)；\n"
-"        move_calldata.append(0)；\n"
-"        move_calldata.append(2)；\n"
-"        move_calldata.append(2)；\n"
-"        move_calldata.append(white.into())；\n"
-"        move_calldata.append(game_id)；\n"
-"        world.execute('move_system'.into(), move_calldata)；\n"
+"        // Move White Knight (1,0) -> (2,2)\n"
+"        let mut move_calldata = array::ArrayTrait::<core::felt252>::new();\n"
+"        move_calldata.append(1);\n"
+"        move_calldata.append(0);\n"
+"        move_calldata.append(2);\n"
+"        move_calldata.append(2);\n"
+"        move_calldata.append(white.into());\n"
+"        move_calldata.append(game_id);\n"
+"        world.execute(‘move_system’.into(), move_calldata);\n"
 "\n"
-"        //白骑士在（2,2）\n"
-"        let c3 = get!(world, (game_id, 2, 2), (Square))；\n"
-"        匹配 c3.piece {\n"
-"            Option::Some(piece) =&gt; {\n"
-"                assert(piece == PieceType::WhiteKnight, 'should be White "
-"Knight in (2,2)')；\n"
+"        //White Knight is in (2,2)\n"
+"        let c3 = get!(world, (game_id, 2, 2), (Square));\n"
+"        match c3.piece {\n"
+"            Option::Some(piece) => {\n"
+"                assert(piece == PieceType::WhiteKnight, ‘should be White "
+"Knight in (2,2)’);\n"
 "            },\n"
-"            Option::None(_) =&gt; assert(false, 'should have piece in "
-"(2,2)')、\n"
+"            Option::None(_) => assert(false, ‘should have piece in (2,2)’),\n"
 "        };\n"
 "    }\n"
 "}\n"
 "```"
 
-#: src/tutorial/onchain-chess/3-legal.md:1
-#, fuzzy
-msgid "# 3. Check Legal Move"
-msgstr "# 3.检查合法移动"
-
 #: src/tutorial/onchain-chess/3-legal.md:3
-#, fuzzy
 msgid "In this chapter, we'll make functions to check:"
-msgstr "在本章中，我们将制作用于检查的函数："
+msgstr "在本章中，我们将编写函数来检查："
 
 #: src/tutorial/onchain-chess/3-legal.md:5
-#, fuzzy
-msgid ""
-"- If the next move goes outside the board.\n"
-"- If there's a piece that can be captured.\n"
-"- If the next move is allowed for the type of piece.\n"
-"- If the user can allow to make a action (based on the piece's color).\n"
-"- ... You can also add other custom check functions."
+msgid "If the next move goes outside the board."
+msgstr "下一个位置是否还在棋盘上。"
+
+#: src/tutorial/onchain-chess/3-legal.md:6
+msgid "If there's a piece that can be captured."
 msgstr ""
-"- 如果下一步在棋盘之外。\n"
-"- 是否有棋子可以被吃掉。\n"
-"- 棋子类型是否允许下一步棋。\n"
-"- 用户是否允许进行操作（基于棋子的颜色）。\n"
-"- ...您还可以添加其他自定义校验功能。"
+
+#: src/tutorial/onchain-chess/3-legal.md:7
+#, fuzzy
+msgid "If the next move is allowed for the type of piece."
+msgstr "1.查看下一个位置是否允许移动棋子的类型。"
+
+#: src/tutorial/onchain-chess/3-legal.md:8
+msgid "If the user can allow to make a action (based on the piece's color)."
+msgstr ""
+
+#: src/tutorial/onchain-chess/3-legal.md:9
+#, fuzzy
+msgid "... You can also add other custom check functions."
+msgstr "4.您还可以添加其他检查功能，以额外确保移动是允许的。"
 
 #: src/tutorial/onchain-chess/3-legal.md:11
 #, fuzzy
-msgid "## Make Check Functions"
+msgid "Make Check Functions"
 msgstr "## 检查功能"
 
 #: src/tutorial/onchain-chess/3-legal.md:13
@@ -8027,7 +8037,7 @@ msgstr ""
 
 #: src/tutorial/onchain-chess/3-legal.md:15
 #, fuzzy
-msgid "1. See if the next spot is allowed for the type of piece moving."
+msgid "See if the next spot is allowed for the type of piece moving."
 msgstr "1.查看下一个位置是否允许移动棋子的类型。"
 
 #: src/tutorial/onchain-chess/3-legal.md:17
@@ -8049,7 +8059,7 @@ msgstr ""
 
 #: src/tutorial/onchain-chess/3-legal.md:23
 #, fuzzy
-msgid "2. See if the next spot is still on the board."
+msgid "See if the next spot is still on the board."
 msgstr "2.看看下一个位置是否还在棋盘上。"
 
 #: src/tutorial/onchain-chess/3-legal.md:25
@@ -8066,7 +8076,7 @@ msgstr ""
 #: src/tutorial/onchain-chess/3-legal.md:29
 #, fuzzy
 msgid ""
-"3. See if the person trying the move is doing it at the right time and with "
+"See if the person trying the move is doing it at the right time and with "
 "their piece color."
 msgstr "3.看看尝试这个动作的人是否在正确的时间用正确的颜色做了这个动作。"
 
@@ -8086,8 +8096,7 @@ msgstr ""
 #: src/tutorial/onchain-chess/3-legal.md:35
 #, fuzzy
 msgid ""
-"4. You can also add other check functions to be extra sure the move is "
-"allowed."
+"You can also add other check functions to be extra sure the move is allowed."
 msgstr "4.您还可以添加其他检查功能，以额外确保移动是允许的。"
 
 #: src/tutorial/onchain-chess/3-legal.md:37
@@ -8201,7 +8210,7 @@ msgstr ""
 
 #: src/tutorial/onchain-chess/3-legal.md:85
 #, fuzzy
-msgid "## Testing Each Function"
+msgid "Testing Each Function"
 msgstr "## 测试每个函数"
 
 #: src/tutorial/onchain-chess/3-legal.md:87
@@ -8404,7 +8413,7 @@ msgstr ""
 
 #: src/tutorial/onchain-chess/4-test.md:1
 #, fuzzy
-msgid "# 4. Test Contract"
+msgid "4. Test Contract"
 msgstr "# 4.测试合同"
 
 #: src/tutorial/onchain-chess/4-test.md:3
@@ -8420,23 +8429,32 @@ msgid "Here's what we'll do in our test:"
 msgstr "下面是我们要做的测试："
 
 #: src/tutorial/onchain-chess/4-test.md:7
-#, fuzzy
-msgid ""
-"1. Spawn `white_pawn_1` to (0,1)\n"
-"2. Move `white_pawn_1` to (0,3)\n"
-"3. Move `black_pawn_2` to (1,6)\n"
-"4. Move `white_pawn_1` to (0,4)\n"
-"5. Move `black_pawn_2` to (1,5)\n"
-"6. Move `white_pawn_1` to (1,5)\n"
-"7. Capture `black_pawn_2`"
+msgid "Spawn `white_pawn_1` to (0,1)"
 msgstr ""
-"1.将 `white_pawn_1` 产卵到 (0,1)\n"
-"2.将 `white_pawn_1` 移动到 (0,3)\n"
-"3.移动 `黑卒_2` 到 (1,6)\n"
-"4.移动 `白卒_1` 到 (0,4)\n"
-"5.移动 `黑卒_2` 到 (1,5)\n"
-"6.移动 `白卒_1` 至 (1,5)\n"
-"7.吃掉`黑卒_2"
+
+#: src/tutorial/onchain-chess/4-test.md:8
+msgid "Move `white_pawn_1` to (0,3)"
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:9
+msgid "Move `black_pawn_2` to (1,6)"
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:10
+msgid "Move `white_pawn_1` to (0,4)"
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:11
+msgid "Move `black_pawn_2` to (1,5)"
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:12
+msgid "Move `white_pawn_1` to (1,5)"
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:13
+msgid "Capture `black_pawn_2`"
+msgstr ""
 
 #: src/tutorial/onchain-chess/4-test.md:15
 #, fuzzy
@@ -8455,9 +8473,13 @@ msgstr "在我们开始编写代码之前，请这样设置集成测试："
 
 #: src/tutorial/onchain-chess/4-test.md:19
 #, fuzzy
+msgid "Copy the test below and add it to your `src/tests.cairo` file."
+msgstr "复制下面的单元测试，并将其粘贴到 \"systems/move.cairo \"文件的底部。"
+
+#: src/tutorial/onchain-chess/4-test.md:20
+#, fuzzy
 msgid ""
-"- Copy the test below and add it to your `src/tests.cairo` file.\n"
-"- Make a `test.cairo` in your src and update `lib.cairo` by adding the `mod "
+"Make a `test.cairo` in your src and update `lib.cairo` by adding the `mod "
 "tests;` line."
 msgstr ""
 "- 复制下面的测试并将其添加到你的 `src/tests.cairo` 文件中。\n"
@@ -8466,7 +8488,7 @@ msgstr ""
 
 #: src/tutorial/onchain-chess/4-test.md:22
 #, fuzzy
-msgid "## Full Code"
+msgid "Full Code"
 msgstr "## 完整代码"
 
 #: src/tutorial/onchain-chess/4-test.md:24
@@ -8729,7 +8751,7 @@ msgstr ""
 
 #: src/tutorial/onchain-chess/4-test.md:143
 #, fuzzy
-msgid "## Diving into the Code"
+msgid "Diving into the Code"
 msgstr "## 潜入代码"
 
 #: src/tutorial/onchain-chess/4-test.md:145
@@ -8911,7 +8933,7 @@ msgstr "不断移动棋子，检查它们的位置是否正确。"
 
 #: src/tutorial/onchain-chess/4-test.md:212
 #, fuzzy
-msgid "## Congratulations!"
+msgid "Congratulations!"
 msgstr "## 安装"
 
 #: src/tutorial/onchain-chess/4-test.md:214
@@ -8927,25 +8949,27 @@ msgstr ""
 "国际象棋游戏中做得更多，请尝试这些挑战："
 
 #: src/tutorial/onchain-chess/4-test.md:216
-#, fuzzy
 msgid ""
-"- Make an `initiate_system` that uses lazy init. If you're unsure about lazy "
+"Make an `initiate_system` that uses lazy init. If you're unsure about lazy "
 "init, [read up on it](https://en.wikipedia.org/wiki/Lazy_initialization). "
-"This can help make your game actions more efficient.\n"
-"- Add a checkmate feature. Our game doesn't end now, so decide when it "
-"should!\n"
-"- Include special moves like castling, En Passant Capture, or Pawn "
-"Promotion.\n"
-"- Make your own chess rules! You could even create your own version of the "
+"This can help make your game actions more efficient."
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:217
+msgid ""
+"Add a checkmate feature. Our game doesn't end now, so decide when it should!"
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:218
+msgid ""
+"Include special moves like castling, En Passant Capture, or Pawn Promotion."
+msgstr ""
+
+#: src/tutorial/onchain-chess/4-test.md:219
+msgid ""
+"Make your own chess rules! You could even create your own version of the "
 "[immortal game](https://immortal.game/)"
 msgstr ""
-"- 创建一个使用 lazy init 的`initiate_system`。如果你对 lazy init 不确定，[阅"
-"读一下](https://en.wikipedia.org/wiki/Lazy_initialization)。这有助于提高游戏"
-"操作的效率。\n"
-"- 添加将死功能。我们的游戏现在还没有结束，因此请决定何时应该结束！\n"
-"- 加入特殊的棋步，如投子、吃子或提卒。\n"
-"- 制定自己的国际象棋规则！您甚至可以创建自己版本的 [不朽游戏](https://"
-"immortal.game/)"
 
 #: src/tutorial/onchain-chess/4-test.md:221
 #, fuzzy
@@ -8956,7 +8980,8 @@ msgstr ""
 "最后，与 [Dojo 社区](https://discord.gg/akd2yfuRS3) 中的其他人分享您的项目！"
 
 #: src/misc/contributors.md:1
-msgid "## Contributing to Dojo Book"
+#, fuzzy
+msgid "Contributing to Dojo Book"
 msgstr "## 为《Dojo Book》做贡献"
 
 #: src/misc/contributors.md:3
@@ -8972,7 +8997,8 @@ msgstr ""
 "书仍然是一个相关和有价值的资源。欢迎大家提供帮助！"
 
 #: src/misc/contributors.md:5
-msgid "### The purpose of the book"
+#, fuzzy
+msgid "The purpose of the book"
 msgstr "### 本书的目的"
 
 #: src/misc/contributors.md:7
@@ -8992,17 +9018,17 @@ msgid "The book is split into some major chapters:"
 msgstr "本书分为几个主要章节："
 
 #: src/misc/contributors.md:11
-msgid ""
-"- Framework Theory\n"
-"- Getting Started\n"
-"- Building a World"
+msgid "Framework Theory"
 msgstr ""
-"- 框架理论\n"
-"- 入门\n"
-"- 构建世界"
+
+#: src/misc/contributors.md:13
+#, fuzzy
+msgid "Building a World"
+msgstr "## 从源码构建"
 
 #: src/misc/contributors.md:15
-msgid "### Code of Conduct"
+#, fuzzy
+msgid "Code of Conduct"
 msgstr "### 代码标准"
 
 #: src/misc/contributors.md:17
@@ -9014,11 +9040,13 @@ msgstr ""
 "conduct)。"
 
 #: src/misc/contributors.md:19
-msgid "### Ways to contribute"
+#, fuzzy
+msgid "Ways to contribute"
 msgstr "### 贡献方式"
 
 #: src/misc/contributors.md:21
-msgid "#### Issues"
+#, fuzzy
+msgid "Issues"
 msgstr "#### Issues"
 
 #: src/misc/contributors.md:23
@@ -9047,7 +9075,8 @@ msgstr ""
 "明。"
 
 #: src/misc/contributors.md:29
-msgid "#### Pull requests"
+#, fuzzy
+msgid "Pull requests"
 msgstr "#### Pull requests"
 
 #: src/misc/contributors.md:31
@@ -9066,7 +9095,8 @@ msgid ""
 msgstr "当您的PR开放时，其他贡献者会查看并可能要求你进行一些修正。请不要气馁！"
 
 #: src/misc/contributors.md:35
-msgid "### Writing style"
+#, fuzzy
+msgid "Writing style"
 msgstr "### 写作风格"
 
 #: src/misc/contributors.md:37
@@ -9075,7 +9105,8 @@ msgid ""
 msgstr "本节记录了一些贯穿全书的写作标准。"
 
 #: src/misc/contributors.md:39
-msgid "#### Chapters start with a second level heading"
+#, fuzzy
+msgid "Chapters start with a second level heading"
 msgstr "#### 章节以二级标题开始"
 
 #: src/misc/contributors.md:41
@@ -9106,11 +9137,529 @@ msgstr ""
 "# Some Page\n"
 "```"
 
+#~ msgid "Dojo"
+#~ msgstr "Dojo"
+
+#~ msgid ""
+#~ "- [Quickstart](./getting-started/quick-start.md)\n"
+#~ "- [What is Dojo? ](./theory/what-is-dojo.md)\n"
+#~ "- [Explore the Architecture](./cairo/hello-dojo.md)"
+#~ msgstr ""
+#~ "- [快速入门](./getting-started/quick-start.md)\n"
+#~ "- [什么是 Dojo？](./theory/what-is-dojo.md)\n"
+#~ "- [探索架构](./cairo/hello-dojo.md)"
+
+#~ msgid ""
+#~ "<video controls poster=\"https://"
+#~ "gf326cjag4w6pdpc42qp22enfhxsywmq6sgs7mkxbn6el7aioyxa.arweave.net/"
+#~ "MXevCSA3LeeN4uag_WiNKe8sWZD0jS-xVwt8RfwIdi4\">\n"
+#~ "  <source src=\"https://"
+#~ "sfx25btazqz62pajxecorlp4exskwgokakub44rxmpnsosep5iqa.arweave.net/kW-"
+#~ "uhmDMM-08CbkE6K38JeSrGcoCqB5yN2PbJ0iP6iA\" type=\"video/mp4\">\n"
+#~ "  Your browser does not support the video tag.\n"
+#~ "</video>"
+#~ msgstr ""
+#~ "<video controls poster=\"https://"
+#~ "gf326cjag4w6pdpc42qp22enfhxsywmq6sgs7mkxbn6el7aioyxa.arweave.net/"
+#~ "MXevCSA3LeeN4uag_WiNKe8sWZD0jS-xVwt8RfwIdi4\">\n"
+#~ "  <source src=\"https://"
+#~ "sfx25btazqz62pajxecorlp4exskwgokakub44rxmpnsosep5iqa.arweave.net/kW-"
+#~ "uhmDMM-08CbkE6K38JeSrGcoCqB5yN2PbJ0iP6iA\" type=\"video/mp4\">\n"
+#~ "  您的浏览器不支持视频标记。\n"
+#~ "</video>"
+
+#~ msgid "# What is Dojo?"
+#~ msgstr "# Dojo 是什么？"
+
+#~ msgid "Dojo Sozo Workflow"
+#~ msgstr "Dojo Sozo 工作流程"
+
+#~ msgid ""
+#~ "- [Wired - Autonomous Worlds Primer](https://www.wired.com/story/"
+#~ "autonomous-worlds-aim-to-free-online-games-from-corporate-control/)\n"
+#~ "- [0xParc - Autonomous Worlds (Part 1)](https://0xparc.org/blog/"
+#~ "autonomous-worlds)\n"
+#~ "- [Gubsheep - The Strongest Crypto Gaming Thesis](https://gubsheep."
+#~ "substack.com/p/the-strongest-crypto-gaming-thesis)\n"
+#~ "- [Lattice - MUD: An engine for Autonomous Worlds](https://lattice.xyz/"
+#~ "blog/mud-an-engine-for-autonomous-worlds)\n"
+#~ "- [Guiltygyoza - Game 2.0](https://www.guiltygyoza.xyz/2022/07/game2)\n"
+#~ "- [Guiltygyoza - Composable Engineering](https://www.guiltygyoza."
+#~ "xyz/2023/05/composable-engineering)\n"
+#~ "- [Jay Springett - Wind-up Worlds](https://www.thejaymo.net/2022/05/06/"
+#~ "wind-up-worlds/)\n"
+#~ "- [Are.na collection on Autonomous Worlds](https://www.are.na/sylve-"
+#~ "chevet/on-chain-realities-and-autonomous-worlds)"
+#~ msgstr ""
+#~ "- [Wired - 自主世界入门](https://www.wired.com/story/autonomous-worlds-"
+#~ "aim-to-free-online-games-from-corporate-control/)\n"
+#~ "- [0xParc - 自主世界（第一部分）](https://0xparc.org/blog/autonomous-"
+#~ "worlds)\n"
+#~ "- [Gubsheep - 最强大的加密游戏论文](https://gubsheep.substack.com/p/the-"
+#~ "strongest-crypto-gaming-thesis)\n"
+#~ "- [Lattice - MUD：自主世界的引擎](https://lattice.xyz/blog/mud-an-engine-"
+#~ "for-autonomous-worlds)\n"
+#~ "- [Guiltygyoza - 游戏 2.0](https://www.guiltygyoza.xyz/2022/07/game2)\n"
+#~ "- [Guiltygyoza - 可组合工程](https://www.guiltygyoza.xyz/2023/05/"
+#~ "composable-engineering)\n"
+#~ "- [Jay Springett - 发条世界](https://www.thejaymo.net/2022/05/06/wind-up-"
+#~ "worlds/)\n"
+#~ "- [Are.na 自主世界文集](https://www.are.na/sylve-chevet/on-chain-"
+#~ "realities-and-autonomous-worlds)"
+
+#~ msgid ""
+#~ "- [Cairo book](https://cairo-book.github.io/)\n"
+#~ "- [Awesome Cairo](https://github.com/auditless/awesome-cairo)\n"
+#~ "- [Starknet Book](https://book.starknet.io/)"
+#~ msgstr ""
+#~ "- [Cairo book](https://cairo-book.github.io/)\n"
+#~ "- [Awesome Cairo](https://github.com/auditless/awesome-cairo)\n"
+#~ "- [Starknet Book](https://book.starknet.io/)"
+
+#~ msgid "# FAQs"
+#~ msgstr "# 常见问题"
+
+#~ msgid "## Quick Start"
+#~ msgstr "## 快速启动"
+
+#~ msgid "#### Prerequisites"
+#~ msgstr "#### 先决条件"
+
+#~ msgid "# Development Setup"
+#~ msgstr "# 开发设置"
+
+#~ msgid "### Prerequisites"
+#~ msgstr "### 先决条件"
+
+#~ msgid ""
+#~ "- Rust\n"
+#~ "- Cairo"
+#~ msgstr ""
+#~ "- Rust\n"
+#~ "- Cairo"
+
+#~ msgid "## Get Started"
+#~ msgstr "## 开始"
+
+#~ msgid "# Hello Dojo"
+#~ msgstr "# 你好，Dojo"
+
+#~ msgid ""
+#~ "-   Explained the anatomy of a Dojo project\n"
+#~ "-   Explained the importace of the `#[derive(Component)]` and `#[system]` "
+#~ "attribute\n"
+#~ "-   Explained the `execute` function\n"
+#~ "-   Explained the `Context` struct\n"
+#~ "-   Touched on the `get!` and `set!` commands"
+#~ msgstr ""
+#~ "-   解释了 Dojo 项目的解剖结构\n"
+#~ "-   解释 `#[derive(Component)]`和 `#[system]`属性的含义\n"
+#~ "-   解释了 `execute` 函数\n"
+#~ "-   解释了 `Context` 结构\n"
+#~ "-   介绍了 `get!` 和 `set!` 命令"
+
+#~ msgid ""
+#~ "-   Built a Dojo world\n"
+#~ "-   Deployed the project to Katana\n"
+#~ "-   Ran the spawn system locally\n"
+#~ "-   Indexed the world with Torii"
+#~ msgstr ""
+#~ "-   构建一个 Dojo 世界\n"
+#~ "-   将项目部署到 Katana\n"
+#~ "-   在本地运行生成系统\n"
+#~ "-   用 Torii 索引世界"
+
+#~ msgid "# Config"
+#~ msgstr "# 配置"
+
+#~ msgid "## Components"
+#~ msgstr "## 组件"
+
+#~ msgid ""
+#~ "-   `u8`\n"
+#~ "-   `u16`\n"
+#~ "-   `u32`\n"
+#~ "-   `u64`\n"
+#~ "-   `u128`\n"
+#~ "-   `u256`\n"
+#~ "-   `ContractAddress`"
+#~ msgstr ""
+#~ "-   `u8`\n"
+#~ "-   `u16`\n"
+#~ "-   `u32`\n"
+#~ "-   `u64`\n"
+#~ "-   `u128`\n"
+#~ "-   `u256`\n"
+#~ "-   `ContractAddress`"
+
+#~ msgid "## Systems"
+#~ msgstr "## 系统"
+
+#~ msgid "## Entities"
+#~ msgstr "## 实体"
+
+#~ msgid "## Authorization"
+#~ msgstr "## 授权"
+
+#~ msgid "## Commands"
+#~ msgstr "## 命令"
+
+#~ msgid "## Events"
+#~ msgstr "## 事件"
+
+#~ msgid "## Testing"
+#~ msgstr "## 测试"
+
+#~ msgid "## Dojo Modules"
+#~ msgstr "## Dojo 模块"
+
+#~ msgid "## ERC20"
+#~ msgstr "## ERC20"
+
+#~ msgid "# Overview"
+#~ msgstr "# 概览"
+
+#, fuzzy
+#~ msgid ""
+#~ "- [Dojo-create-react-app](https://github.com/dojoengine/dojo-starter-"
+#~ "react-app)\n"
+#~ "- [Dojo-starter-phaser](https://github.com/dojoengine/dojo-starter-phaser)"
+#~ msgstr ""
+#~ "- [Dojo-create-react-app](https://github.com/dojoengine/dojo-starter-"
+#~ "react-app)\n"
+#~ "- [Dojo-starter-phaser](https://github.com/dojoengine/dojo-starter-phaser)"
+
+#, fuzzy
+#~ msgid "### @dojoengine/core"
+#~ msgstr "### 容器"
+
+#, fuzzy
+#~ msgid ""
+#~ "- World explorers\n"
+#~ "- World deployers\n"
+#~ "- Games\n"
+#~ "- Anaylitics"
+#~ msgstr ""
+#~ "- 世界探索者\n"
+#~ "- 世界部署者\n"
+#~ "- 游戏\n"
+#~ "- 文学"
+
+#, fuzzy
+#~ msgid "### Getting Started"
+#~ msgstr "# 入门"
+
+#, fuzzy
+#~ msgid "## Sozo"
+#~ msgstr "# Sozo"
+
+#~ msgid "## Installation"
+#~ msgstr "## 安装"
+
+#, fuzzy
+#~ msgid "### Project Commands"
+#~ msgstr "## 项目命令"
+
+#, fuzzy
+#~ msgid ""
+#~ "-   [init](./project-commands/init.md)\n"
+#~ "-   [build](./project-commands/build.md)\n"
+#~ "-   [test](./project-commands/test.md)\n"
+#~ "-   [migrate](./project-commands/migrate.md)"
+#~ msgstr ""
+#~ "-   [init](./project-commands/init.md)\n"
+#~ "-   [build](./project-commands/build.md)\n"
+#~ "-   [测试](./project-commands/test.md)\n"
+#~ "-   [迁移](./project-commands/migrate.md)"
+
+#, fuzzy
+#~ msgid "### World Commands"
+#~ msgstr "## 世界命令"
+
+#, fuzzy
+#~ msgid ""
+#~ "-   [execute](./world-commands/execute.md)\n"
+#~ "-   [register](./world-commands/register.md)\n"
+#~ "-   [system](./world-commands/system.md)\n"
+#~ "-   [component](./world-commands/component.md)\n"
+#~ "-   [events](./world-commands/events.md)\n"
+#~ "-   [auth](./world-commands/auth.md)"
+#~ msgstr ""
+#~ "-   [execute](./world-commands/execute.md)\n"
+#~ "-   [register](./world-commands/register.md)\n"
+#~ "-   [系统](./world-commands/system.md)\n"
+#~ "-   [组件](./world-commands/component.md)\n"
+#~ "-   [events](./world-commands/events.md)\n"
+#~ "-   [auth](./world-commands/auth.md)"
+
+#, fuzzy
+#~ msgid ""
+#~ "_`NAME`_  \n"
+#~ " &nbsp;&nbsp;&nbsp;&nbsp;The name of the component"
+#~ msgstr ""
+#~ "`--gas-price <GAS_PRICE>`  \n"
+#~ "&nbsp;&nbsp;&nbsp;&nbsp; Gas价格"
+
+#~ msgid "## Katana"
+#~ msgstr "## Katana"
+
+#~ msgid "### Features"
+#~ msgstr "### 功能"
+
+#~ msgid "### Usage"
+#~ msgstr "### 使用方法"
+
+#~ msgid ""
+#~ "| Type           | Version |\n"
+#~ "| -------------- | ------- |\n"
+#~ "| INVOKE         | 1       |\n"
+#~ "| DECLARE        | 1, 2    |\n"
+#~ "| DEPLOY_ACCOUNT |         |"
+#~ msgstr ""
+#~ "| Type           | Version |\n"
+#~ "| -------------- | ------- |\n"
+#~ "| INVOKE         | 1       |\n"
+#~ "| DECLARE        | 1, 2    |\n"
+#~ "| DEPLOY_ACCOUNT |         |"
+
+#~ msgid ""
+#~ "-   `starknet_blockNumber`\n"
+#~ "-   `starknet_blockHashAndNumber`\n"
+#~ "-   `starknet_getBlockWithTxs`\n"
+#~ "-   `starknet_getBlockWithTxHashes`\n"
+#~ "-   `starknet_getBlockTransactionCount`\n"
+#~ "-   `starknet_getTransactionByHash`\n"
+#~ "-   `starknet_getTransactionByBlockIdAndIndex`\n"
+#~ "-   `starknet_getTransactionReceipt`\n"
+#~ "-   `starknet_pendingTransactions`\n"
+#~ "-   `starknet_getStateUpdate`\n"
+#~ "\n"
+#~ "-   `starknet_call`\n"
+#~ "-   `starknet_estimateFee`\n"
+#~ "\n"
+#~ "-   `starknet_chainId`\n"
+#~ "\n"
+#~ "-   `starknet_getNonce`\n"
+#~ "-   `starknet_getEvents`\n"
+#~ "-   `starknet_getStorageAt`\n"
+#~ "-   `starknet_getClassHashAt`\n"
+#~ "-   `starknet_getClass`\n"
+#~ "-   `starknet_getClassAt`\n"
+#~ "\n"
+#~ "-   `starknet_syncing`\n"
+#~ "\n"
+#~ "-   `starknet_addInvokeTransaction`\n"
+#~ "-   `starknet_addDeclareTransaction`\n"
+#~ "-   `starknet_addDeployAccountTransaction`"
+#~ msgstr ""
+#~ "-   `starknet_blockNumber`\n"
+#~ "-   `starknet_blockHashAndNumber`\n"
+#~ "-   `starknet_getBlockWithTxs`\n"
+#~ "-   `starknet_getBlockWithTxHashes`\n"
+#~ "-   `starknet_getBlockTransactionCount`\n"
+#~ "-   `starknet_getTransactionByHash`\n"
+#~ "-   `starknet_getTransactionByBlockIdAndIndex`\n"
+#~ "-   `starknet_getTransactionReceipt`\n"
+#~ "-   `starknet_pendingTransactions`\n"
+#~ "-   `starknet_getStateUpdate`\n"
+#~ "\n"
+#~ "-   `starknet_call`\n"
+#~ "-   `starknet_estimateFee`\n"
+#~ "\n"
+#~ "-   `starknet_chainId`\n"
+#~ "\n"
+#~ "-   `starknet_getNonce`\n"
+#~ "-   `starknet_getEvents`\n"
+#~ "-   `starknet_getStorageAt`\n"
+#~ "-   `starknet_getClassHashAt`\n"
+#~ "-   `starknet_getClass`\n"
+#~ "-   `starknet_getClassAt`\n"
+#~ "\n"
+#~ "-   `starknet_syncing`\n"
+#~ "\n"
+#~ "-   `starknet_addInvokeTransaction`\n"
+#~ "-   `starknet_addDeclareTransaction`\n"
+#~ "-   `starknet_addDeployAccountTransaction`"
+
+#, fuzzy
+#~ msgid ""
+#~ "-   bash\n"
+#~ "-   elvish\n"
+#~ "-   fish\n"
+#~ "-   powershell\n"
+#~ "-   zsh"
+#~ msgstr ""
+#~ "-   砸\n"
+#~ "-   精灵语\n"
+#~ "-   鱼\n"
+#~ "-   powerhell\n"
+#~ "-   zsh"
+
+#, fuzzy
+#~ msgid "#### EXAMPLES"
+#~ msgstr "其他例子"
+
+#, fuzzy
+#~ msgid ""
+#~ "`-h, --help`\n"
+#~ "&nbsp;&nbsp;&nbsp;&nbsp; Print help"
+#~ msgstr ""
+#~ "`-h, --help`  \n"
+#~ "&nbsp;&nbsp;&nbsp;&nbsp; 打印帮助（用\"-h \"查看摘要）"
+
+#~ msgid ""
+#~ "1. A system to spawn all the chess pieces\n"
+#~ "2. A system to make pieces move\n"
+#~ "3. Add some functions to check a legal move\n"
+#~ "4. Play chess ♟♙ - integration test!"
+#~ msgstr ""
+#~ "1. 创建所有棋子的系统\n"
+#~ "2. 让棋子移动的系统\n"
+#~ "3. 添加一些检查合法棋步的功能\n"
+#~ "4. 下棋 ♟♙ - 集成测试！"
+
+#~ msgid "# 0. Setup"
+#~ msgstr "初始设置"
+
+#~ msgid "### Requirements"
+#~ msgstr "### 要求"
+
+#, fuzzy
+#~ msgid ""
+#~ "<details>\n"
+#~ "<summary>Click to see full `components.cairo` code</summary>"
+#~ msgstr ""
+#~ "<details>\n"
+#~ "<summary>点击查看完整的 `components.cairo` 代码</summary>"
+
+#, fuzzy
+#~ msgid "</details>"
+#~ msgstr ""
+#~ "这一行完成了这个小程序的所有工作：将文本打印到屏幕上。这里有四个重要的细节"
+#~ "需要注意。"
+
+#, fuzzy
+#~ msgid ""
+#~ "<p align=\"center\">\n"
+#~ "<img src=\"../../images/board.png\" alt=\"image\" width=\"300\" "
+#~ "height=\"auto\">"
+#~ msgstr ""
+#~ "<p align=\"center\">\n"
+#~ "<img src=\"../../images/board.png\" alt=\"image\" width=\"300\" "
+#~ "height=\"auto\">"
+
+#, fuzzy
+#~ msgid ""
+#~ "1. Write an `execute` function in the system that accepts the world "
+#~ "context, white address, and black address as input.\n"
+#~ "2. Implement the game entity, comprised of the `Game` component and "
+#~ "`GameTurn` component we created in the previous step.\n"
+#~ "3. Implement square entities by `Square` component, from a1 to h8 "
+#~ "containing the correct `PieceType`.\n"
+#~ "4. Run `sozo test` and pass all the tests."
+#~ msgstr ""
+#~ "1.在系统中编写一个 \"执行 \"函数，接受世界背景、白地址和黑地址作为输入。\n"
+#~ "2.实现游戏实体，由上一步创建的 `Game` 组件和 `GameTurn` 组件组成。\n"
+#~ "3.通过包含正确 \"棋子类型 \"的 a1 至 h8 的 \"Square \"组件实现正方形实"
+#~ "体。\n"
+#~ "4.运行 `sozo test` 并通过所有测试。"
+
+#, fuzzy
+#~ msgid ""
+#~ "- Spawn the test world that imports the components and systems used in "
+#~ "testing.\n"
+#~ "- Execute `initiate_system` by providing white and black player's wallet "
+#~ "addresses as inputs.\n"
+#~ "- Retrieve the game entity and piece entity created during "
+#~ "`initiate_system`.\n"
+#~ "- Ensure the game has been correctly created.\n"
+#~ "- Verify that each `Piece` is located in the correct `Square`."
+#~ msgstr ""
+#~ "- 生成测试世界，导入测试中使用的组件和系统。\n"
+#~ "- 提供白方和黑方棋手的钱包地址作为输入，执行 `initiate_system`。\n"
+#~ "- 读取在 `initiate_system` 中创建的游戏实体和棋子实体。\n"
+#~ "- 确保游戏已正确创建。\n"
+#~ "- 验证每个 \"棋子 \"是否位于正确的 \"方格 \"中。"
+
+#, fuzzy
+#~ msgid ""
+#~ "- Follow the same logic as `test_initiate` from the previous chapter.\n"
+#~ "- Move the White Knight from (1,0) to (2,2) using the `move_system`.\n"
+#~ "- Retrieve the updated position and verify that the piece has "
+#~ "successfully moved to its new location."
+#~ msgstr ""
+#~ "- 与上一章的 `test_initiate` 逻辑相同。\n"
+#~ "- 使用 `move_system` 将白马从 (1,0) 移到 (2,2)。\n"
+#~ "- 读取更新后的位置并验证棋子是否已成功移动到新位置。"
+
+#, fuzzy
+#~ msgid "# 3. Check Legal Move"
+#~ msgstr "# 3.检查合法移动"
+
+#, fuzzy
+#~ msgid ""
+#~ "- If the next move goes outside the board.\n"
+#~ "- If there's a piece that can be captured.\n"
+#~ "- If the next move is allowed for the type of piece.\n"
+#~ "- If the user can allow to make a action (based on the piece's color).\n"
+#~ "- ... You can also add other custom check functions."
+#~ msgstr ""
+#~ "- 如果下一步在棋盘之外。\n"
+#~ "- 是否有棋子可以被吃掉。\n"
+#~ "- 棋子类型是否允许下一步棋。\n"
+#~ "- 用户是否允许进行操作（基于棋子的颜色）。\n"
+#~ "- ...您还可以添加其他自定义校验功能。"
+
+#, fuzzy
+#~ msgid ""
+#~ "1. Spawn `white_pawn_1` to (0,1)\n"
+#~ "2. Move `white_pawn_1` to (0,3)\n"
+#~ "3. Move `black_pawn_2` to (1,6)\n"
+#~ "4. Move `white_pawn_1` to (0,4)\n"
+#~ "5. Move `black_pawn_2` to (1,5)\n"
+#~ "6. Move `white_pawn_1` to (1,5)\n"
+#~ "7. Capture `black_pawn_2`"
+#~ msgstr ""
+#~ "1.将 `white_pawn_1` 产卵到 (0,1)\n"
+#~ "2.将 `white_pawn_1` 移动到 (0,3)\n"
+#~ "3.移动 `黑卒_2` 到 (1,6)\n"
+#~ "4.移动 `白卒_1` 到 (0,4)\n"
+#~ "5.移动 `黑卒_2` 到 (1,5)\n"
+#~ "6.移动 `白卒_1` 至 (1,5)\n"
+#~ "7.吃掉`黑卒_2"
+
+#, fuzzy
+#~ msgid ""
+#~ "- Make an `initiate_system` that uses lazy init. If you're unsure about "
+#~ "lazy init, [read up on it](https://en.wikipedia.org/wiki/"
+#~ "Lazy_initialization). This can help make your game actions more "
+#~ "efficient.\n"
+#~ "- Add a checkmate feature. Our game doesn't end now, so decide when it "
+#~ "should!\n"
+#~ "- Include special moves like castling, En Passant Capture, or Pawn "
+#~ "Promotion.\n"
+#~ "- Make your own chess rules! You could even create your own version of "
+#~ "the [immortal game](https://immortal.game/)"
+#~ msgstr ""
+#~ "- 创建一个使用 lazy init 的`initiate_system`。如果你对 lazy init 不确定，"
+#~ "[阅读一下](https://en.wikipedia.org/wiki/Lazy_initialization)。这有助于提"
+#~ "高游戏操作的效率。\n"
+#~ "- 添加将死功能。我们的游戏现在还没有结束，因此请决定何时应该结束！\n"
+#~ "- 加入特殊的棋步，如投子、吃子或提卒。\n"
+#~ "- 制定自己的国际象棋规则！您甚至可以创建自己版本的 [不朽游戏](https://"
+#~ "immortal.game/)"
+
+#~ msgid ""
+#~ "- Framework Theory\n"
+#~ "- Getting Started\n"
+#~ "- Building a World"
+#~ msgstr ""
+#~ "- 框架理论\n"
+#~ "- 入门\n"
+#~ "- 构建世界"
+
 #~ msgid "Introduction"
 #~ msgstr "介绍"
-
-#~ msgid "Installation"
-#~ msgstr "安装"
 
 #~ msgid "Dojo Engine"
 #~ msgstr "Dojo引擎"
@@ -9126,12 +9675,6 @@ msgstr ""
 
 #~ msgid "sozo Commands"
 #~ msgstr "sozo中的命令"
-
-#~ msgid "Project Commands"
-#~ msgstr "项目命令"
-
-#~ msgid "World Commands"
-#~ msgstr "世界命令"
 
 #~ msgid ""
 #~ "Dojo is a provable game engine with an integrated toolchain, designed for "
@@ -9203,9 +9746,6 @@ msgstr ""
 #~ "This README guides you through the process of setting up your local "
 #~ "development environment for Dojo."
 #~ msgstr "本 README 将指导您为 Dojo 设置本地开发环境。"
-
-#~ msgid "## Prerequisites"
-#~ msgstr "## 先决条件"
 
 #~ msgid "## Clone the Repository"
 #~ msgstr "## 克隆Repository"
