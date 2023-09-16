@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Building Autonomous Worlds with Dojo\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2023-09-15 22:53+0800\n"
+"PO-Revision-Date: 2023-09-16 11:23+0800\n"
 "Last-Translator: y-bi <cryptonerdcn@gmail.com>\n"
 "Language-Team: Language zh-cn\n"
 "Language: zh_CN\n"
@@ -6778,7 +6778,7 @@ msgid ""
 "(../../cairo/components.md)."
 msgstr ""
 "首先，将这个基本组件添加到`components.cairo`文件中。如果你不熟悉 Dojo 引擎中"
-"的组件语法，请回到本[章节]（.../.../cairo/components.md）。"
+"的组件语法，请回到本 [章节](/…/cairo/components.md)。"
 
 #: src/tutorial/onchain-chess/0-setup.md:50
 msgid ""
@@ -7073,8 +7073,7 @@ msgid ""
 "Before proceeding to the next chapter, remember that `sozo build` and `sozo "
 "test` are important steps to ensure your code is correct."
 msgstr ""
-"在进入下一章之前，请记住 \"sozo build \"和 \"sozo test \"是确保代码正确的重要"
-"步骤。"
+"在进入下一章之前，请记住 `sozo build`和`sozo test`是确保代码正确的重要步骤。"
 
 #: src/tutorial/onchain-chess/0-setup.md:177
 msgid "Run sozo test. Did you face any errors?"
@@ -7097,7 +7096,7 @@ msgid ""
 "errors by adding derives or implementing them on a case-by-case basis."
 msgstr ""
 "对于no implementation错误，请实现PrintTrait以成功运行 sozo test。对于not "
-"dropped错误，添加 Drop trait。其他错误可通过添加派生或逐一实现来解决。"
+"dropped错误，添加 Drop trait。其他错误可通过添加派生或实现来逐一解决。"
 
 #: src/tutorial/onchain-chess/0-setup.md:189
 msgid "Add more components"
@@ -7542,7 +7541,7 @@ msgstr "1.初始化系统"
 msgid ""
 "This chapter will address implementing `initiate_system`, which spawns the "
 "game and squares containing pieces."
-msgstr "本章将讨论 “initiate_system” 的实现，它将生成游戏和包含棋子的方格。"
+msgstr "本章将讨论`initiate_system`的实现，它将生成游戏和包含棋子的方格。"
 
 #: src/tutorial/onchain-chess/1-initiate.md:5
 msgid "What is `initiate_system`?"
@@ -7563,16 +7562,15 @@ msgstr ""
 msgid ""
 "_Copy the unit tests below and paste them at the bottom of your `systems/"
 "initiate.cairo` file._"
-msgstr ""
-"_复制下面的单元测试，并将其粘贴到 \"systems/initiate.cairo \"文件的底部。_"
+msgstr "_复制下面的单元测试，并将其粘贴到`systems/initiate.cairo`文件的底部。_"
 
 #: src/tutorial/onchain-chess/1-initiate.md:16
 msgid ""
 "Write an `execute` function in the system that accepts the world context, "
 "white address, and black address as input."
 msgstr ""
-"在系统中编写一个 “execute \"函数接受world context， white address， 以及 "
-"black address 作为输入。"
+"在系统中编写一个 `execute`函数接受world context， white address， 以及 black "
+"address 作为输入。"
 
 #: src/tutorial/onchain-chess/1-initiate.md:17
 msgid ""
@@ -7584,7 +7582,7 @@ msgstr "实现由我们上一步骤里创建的 `Game` 和 `GameTurn` 组件组�
 msgid ""
 "Implement square entities by `Square` component, from a1 to h8 containing "
 "the correct `PieceType`."
-msgstr "在`Square`组件中实现格子实体，从a1到a8并包含正确的`PieceType`。"
+msgstr "在`Square`组件中实现方格实体，从a1到a8并包含正确的`PieceType`。"
 
 #: src/tutorial/onchain-chess/1-initiate.md:19
 msgid "Run `sozo test` and pass all the tests."
@@ -7769,7 +7767,7 @@ msgstr "Move 系统"
 msgid ""
 "This chapter will address the implementation of `move_system`, which "
 "relocates a piece on the board."
-msgstr "本章将讨论 \"move_system \"的实现，它用于在棋盘上重新定位棋子。"
+msgstr "本章将讨论`move_system`的实现，它用于在棋盘上重新定位棋子。"
 
 #: src/tutorial/onchain-chess/2-move.md:5
 msgid "What is `move_system`?"
@@ -7791,11 +7789,11 @@ msgstr ""
 msgid ""
 "_Copy the unit tests below and paste them at the bottom of your `systems/"
 "move.cairo` file._"
-msgstr "_复制下面的单元测试，并将其粘贴到 \"systems/move.cairo \"文件的底部。_"
+msgstr "_复制下面的单元测试，并将其粘贴到`systems/move.cairo`文件的底部。_"
 
 #: src/tutorial/onchain-chess/2-move.md:13
 msgid "Write an `execute` function in the system with the following inputs:"
-msgstr "1.在系统中编写一个 “execute”函数，输入如下内容："
+msgstr "1.在系统中编写一个`execute`函数，输入如下内容："
 
 #: src/tutorial/onchain-chess/2-move.md:15
 msgid ""
